@@ -1,0 +1,75 @@
+{
+  "reviewed_test_placeholders": [
+    {
+      "path": "tests/science-n2.test.ts",
+      "kind": "URL-credentials",
+      "line": 107,
+      "reason": "Reviewed negative-test placeholders, not actual credentials"
+    },
+    {
+      "path": "tests/nasa-n3.test.ts",
+      "kind": "URL-credentials",
+      "line": 96,
+      "reason": "Reviewed negative-test placeholders, not actual credentials"
+    },
+    {
+      "path": "reference/backend/tests/test_nasa.py",
+      "kind": "URL-credentials",
+      "line": 115,
+      "reason": "Reviewed negative-test placeholders, not actual credentials"
+    },
+    {
+      "path": "docs/history/pre-next/3C_TEST_RESULTS.xml",
+      "kind": "URL-credentials",
+      "line": 1,
+      "reason": "Reviewed negative-test placeholders, not actual credentials"
+    },
+    {
+      "path": "docs/N2_PYTHON_TESTS.xml",
+      "kind": "URL-credentials",
+      "line": 1,
+      "reason": "Reviewed negative-test placeholders, not actual credentials"
+    },
+    {
+      "path": "docs/N1_PYTHON_TESTS.xml",
+      "kind": "URL-credentials",
+      "line": 1,
+      "reason": "Reviewed negative-test placeholders, not actual credentials"
+    }
+  ],
+  "indexed_files": 462,
+  "reachable_commits": 0,
+  "unique_blobs_scanned": 424,
+  "bytes_scanned": 22440437,
+  "forbidden_paths": [],
+  "high_confidence_findings": [],
+  "literal_candidates": [],
+  "oversized_files": [],
+  "ignore_checks": [
+    {
+      "path": ".env",
+      "ignored": true
+    },
+    {
+      "path": ".env.local",
+      "ignored": true
+    },
+    {
+      "path": "node_modules/next/package.json",
+      "ignored": true
+    },
+    {
+      "path": ".next/BUILD_ID",
+      "ignored": true
+    },
+    {
+      "path": ".integration-check/package.json",
+      "ignored": true
+    },
+    {
+      "path": ".cache/nasa-n3/test.json",
+      "ignored": true
+    }
+  ],
+  "scan_outputs_contain_secret_values": false
+}

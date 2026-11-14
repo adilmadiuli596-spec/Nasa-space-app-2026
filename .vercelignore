@@ -1,0 +1,8 @@
+reference/
+docs/
+.env*
+
+.cache/
+.integration-check/
+.next/
+node_modules/

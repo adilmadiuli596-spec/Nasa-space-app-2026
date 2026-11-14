@@ -1,0 +1,6 @@
+{
+  "error": {
+    "code": "nasa_transport_error",
+    "message": "NASA HTTPS request failed; TLS verification remains enabled"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "baseline_files": 63,
+  "changed_existing_files": [
+    "src/frontend/map/MapView.tsx",
+    "src/frontend/styles/n4a1.css"
+  ],
+  "backend_api_science_shared_dependencies_unchanged": true,
+  "cost_KZT": 0
+}

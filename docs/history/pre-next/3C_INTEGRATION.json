@@ -1,0 +1,182 @@
+{
+  "stage": "3C",
+  "initial_cache_entries": 506,
+  "transport": "real HTTP loopback FastAPI -> real CMR/OPeNDAP HTTPS",
+  "cold_benchmark_is_fresh": false,
+  "checks": {
+    "pavlodar_T2M": {
+      "http_status": 200,
+      "total_ms": 929.1125999880023,
+      "cell": {
+        "latitude": 52.5,
+        "longitude": 76.875,
+        "latitude_index": 285,
+        "longitude_index": 411,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "trend": {
+        "status": "estimated",
+        "slope_per_decade": 0.09179457757906843,
+        "standard_error_per_decade": 0.13878951970391315,
+        "p_value_two_sided": 0.5129513990556182,
+        "ci95_per_decade": {
+          "lower": -0.1905748233841892,
+          "upper": 0.3741639785423261
+        },
+        "significant": false,
+        "alpha": 0.05,
+        "r_squared": 0.00906153949466637,
+        "n_years": 35,
+        "residual_degrees_of_freedom": 33,
+        "hac_maxlags": 3,
+        "multiple_testing_correction": "none"
+      },
+      "timings_ms": {
+        "catalog": 30.545399989932775,
+        "source_total": 843.8002000038978,
+        "statistical_calculation": 24.32639998733066
+      },
+      "cache_hits": 420,
+      "cache_misses": 0,
+      "network_used": false,
+      "etalon_matches": true
+    },
+    "pavlodar_QV2M": {
+      "http_status": 200,
+      "total_ms": 789.6629000024404,
+      "cell": {
+        "latitude": 52.5,
+        "longitude": 76.875,
+        "latitude_index": 285,
+        "longitude_index": 411,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "trend": {
+        "status": "estimated",
+        "slope_per_decade": 0.17981239344380076,
+        "standard_error_per_decade": 0.05464052951629007,
+        "p_value_two_sided": 0.0023834887902114427,
+        "ci95_per_decade": {
+          "lower": 0.06864540028217651,
+          "upper": 0.290979386605425
+        },
+        "significant": true,
+        "alpha": 0.05,
+        "r_squared": 0.42104348710726136,
+        "n_years": 35,
+        "residual_degrees_of_freedom": 33,
+        "hac_maxlags": 3,
+        "multiple_testing_correction": "none"
+      },
+      "timings_ms": {
+        "catalog": 14.502200006972998,
+        "source_total": 762.5375000061467,
+        "statistical_calculation": 21.758199989562854
+      },
+      "cache_hits": 420,
+      "cache_misses": 0,
+      "network_used": false,
+      "etalon_matches": true
+    },
+    "pavlodar_repeat": {
+      "http_status": 200,
+      "total_ms": 757.9528999922331,
+      "cache_hits": 420,
+      "network_used": false,
+      "identical": true
+    },
+    "berlin_T2M": {
+      "http_status": 200,
+      "total_ms": 163310.2712999971,
+      "cell": {
+        "latitude": 52.5,
+        "longitude": 13.125,
+        "latitude_index": 285,
+        "longitude_index": 309,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "trend": {
+        "status": "estimated",
+        "slope_per_decade": 0.5909734927735855,
+        "standard_error_per_decade": 0.09946220750042545,
+        "p_value_two_sided": 1.1452797118958998e-06,
+        "ci95_per_decade": {
+          "lower": 0.3886161100958896,
+          "upper": 0.7933308754512813
+        },
+        "significant": true,
+        "alpha": 0.05,
+        "r_squared": 0.3965437214025419,
+        "n_years": 35,
+        "residual_degrees_of_freedom": 33,
+        "hac_maxlags": 3,
+        "multiple_testing_correction": "none"
+      },
+      "timings_ms": {
+        "catalog": 11.360500007867813,
+        "source_total": 163267.57280001766,
+        "statistical_calculation": 36.080699996091425
+      },
+      "cache_hits": 85,
+      "cache_misses": 335,
+      "network_used": true,
+      "etalon_matches": null
+    },
+    "berlin_QV2M": {
+      "http_status": 200,
+      "total_ms": 4257.970299979206,
+      "cell": {
+        "latitude": 52.5,
+        "longitude": 13.125,
+        "latitude_index": 285,
+        "longitude_index": 309,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "trend": {
+        "status": "estimated",
+        "slope_per_decade": 0.2185026813732438,
+        "standard_error_per_decade": 0.030973356189460392,
+        "p_value_two_sided": 4.4961594103913643e-08,
+        "ci95_per_decade": {
+          "lower": 0.1554869143924395,
+          "upper": 0.2815184483540481
+        },
+        "significant": true,
+        "alpha": 0.05,
+        "r_squared": 0.4832927645265934,
+        "n_years": 35,
+        "residual_degrees_of_freedom": 33,
+        "hac_maxlags": 3,
+        "multiple_testing_correction": "none"
+      },
+      "timings_ms": {
+        "catalog": 18.288199993548915,
+        "source_total": 4217.802499973914,
+        "statistical_calculation": 33.58449999359436
+      },
+      "cache_hits": 420,
+      "cache_misses": 0,
+      "network_used": false,
+      "etalon_matches": null
+    },
+    "berlin_repeat": {
+      "http_status": 200,
+      "total_ms": 1210.083999991184,
+      "cache_hits": 420,
+      "network_used": false,
+      "identical": true
+    },
+    "invalid_coordinates": {
+      "http_status": 422
+    },
+    "real_anonymous_request": {
+      "code": "nasa_auth_required",
+      "http_status": 503
+    }
+  },
+  "all_checks_passed": true
+}

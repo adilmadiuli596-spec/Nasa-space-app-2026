@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "fields": [
+    "requested",
+    "actual_cell",
+    "source_unit",
+    "unit",
+    "trend_unit",
+    "monthly_series",
+    "annual_series",
+    "trend",
+    "quality",
+    "method",
+    "warnings"
+  ],
+  "comparison": "Final camera-fixed build fresh Berlin science fields exactly equal to the full Python-verified N4A result; current provenance/cache/timings intentionally independent"
+}

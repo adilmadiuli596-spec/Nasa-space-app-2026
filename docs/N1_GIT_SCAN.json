@@ -1,0 +1,6 @@
+{
+  "candidate_files": 262,
+  "forbidden_files": [],
+  "high_confidence_secret_matches": [],
+  "limitations": "Heuristic review; no claim to detect every possible secret. Known credentials files, environments and runtime caches were excluded at copy selection."
+}

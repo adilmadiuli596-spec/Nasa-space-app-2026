@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-14",
+  "mode": "local_authorized",
+  "fresh_NASA_verified": true,
+  "requests": [
+    {
+      "id": "PAVLODAR_T2M",
+      "status": 200,
+      "duration_ms": 151879.9199,
+      "response_bytes": 173497,
+      "cache_hits": 0,
+      "cache_misses": 420,
+      "network_used": true,
+      "timings_ms": {
+        "catalog": 1195.0972000000002,
+        "source_total": 151767.9086,
+        "statistical_calculation": 15.861100000009174
+      }
+    },
+    {
+      "id": "PAVLODAR_QV2M",
+      "status": 200,
+      "duration_ms": 80.01149999999325,
+      "response_bytes": 172332,
+      "cache_hits": 420,
+      "cache_misses": 0,
+      "network_used": false,
+      "timings_ms": {
+        "catalog": 4.687300000019604,
+        "source_total": 24.47750000000815,
+        "statistical_calculation": 7.8914999999979045
+      }
+    },
+    {
+      "id": "BERLIN_T2M",
+      "status": 200,
+      "duration_ms": 156230.95669999998,
+      "response_bytes": 173363,
+      "cache_hits": 0,
+      "cache_misses": 420,
+      "network_used": true,
+      "timings_ms": {
+        "catalog": 4.700799999991432,
+        "source_total": 156190.73220000003,
+        "statistical_calculation": 6.173000000009779
+      }
+    },
+    {
+      "id": "BERLIN_QV2M",
+      "status": 200,
+      "duration_ms": 65.29829999996582,
+      "response_bytes": 172164,
+      "cache_hits": 420,
+      "cache_misses": 0,
+      "network_used": false,
+      "timings_ms": {
+        "catalog": 4.427499999990687,
+        "source_total": 19.815999999991618,
+        "statistical_calculation": 5.058399999979883
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "PAVLODAR_T2M",
+      "passed": true,
+      "errors": [],
+      "slope": 0.09179457757906836,
+      "p": 0.5129513990556195,
+      "ci": {
+        "lower": -0.19057482338418938,
+        "upper": 0.3741639785423261
+      },
+      "provenance_note": "Current transport/cache/hashes/timings are measured anew, not substituted from the historical oracle"
+    },
+    {
+      "id": "PAVLODAR_QV2M",
+      "passed": true,
+      "errors": [],
+      "slope": 0.17981239344380087,
+      "p": 0.002383488790211441,
+      "ci": {
+        "lower": 0.06864540028217674,
+        "upper": 0.290979386605425
+      },
+      "provenance_note": "Current transport/cache/hashes/timings are measured anew, not substituted from the historical oracle"
+    },
+    {
+      "id": "BERLIN_T2M",
+      "passed": true,
+      "errors": [],
+      "slope": 0.5909734927735857,
+      "p": 0.0000011452797118958437,
+      "ci": {
+        "lower": 0.38861611009589037,
+        "upper": 0.793330875451281
+      },
+      "provenance_note": "Current transport/cache/hashes/timings are measured anew, not substituted from the historical oracle"
+    },
+    {
+      "id": "BERLIN_QV2M",
+      "passed": true,
+      "errors": [],
+      "slope": 0.2185026813732437,
+      "p": 4.49615941039136e-8,
+      "ci": {
+        "lower": 0.15548691439243942,
+        "upper": 0.28151844835404793
+      },
+      "provenance_note": "Current transport/cache/hashes/timings are measured anew, not substituted from the historical oracle"
+    }
+  ],
+  "third_cell": {
+    "requested": {
+      "latitude": 35.68,
+      "longitude": 139.69,
+      "variable": "T2M",
+      "start_year": 1991,
+      "end_year": 2025
+    },
+    "status": 200,
+    "duration_ms": 157654.08789999998,
+    "actual_cell": {
+      "latitude": 35.5,
+      "longitude": 140,
+      "latitude_index": 251,
+      "longitude_index": 512,
+      "latitude_spacing": 0.5,
+      "longitude_spacing": 0.625
+    },
+    "monthly_count": 420,
+    "slope": 0.32345996704485114,
+    "cache_hits": 0,
+    "cache_misses": 420
+  },
+  "health": {
+    "status": "ok",
+    "stage": "N3",
+    "mode": "local",
+    "nasa_network": "not_checked",
+    "earthdata_auth": "configured_not_verified",
+    "dynamic_nasa_enabled": true,
+    "public_dynamic_access_confirmed": false,
+    "cache": "memory",
+    "analysis": "local_authorized_adapter"
+  },
+  "repeat": {
+    "status": 200,
+    "duration_ms": 60.34429999999702,
+    "cache_hits": 420,
+    "cache_misses": 0,
+    "network_used": false
+  },
+  "parallel": {
+    "duration_ms": 76.58090000000084,
+    "results": [
+      {
+        "id": "PAVLODAR_T2M",
+        "status": 200,
+        "cache_hits": 420,
+        "network_used": false
+      },
+      {
+        "id": "PAVLODAR_QV2M",
+        "status": 200,
+        "cache_hits": 420,
+        "network_used": false
+      }
+    ]
+  }
+}

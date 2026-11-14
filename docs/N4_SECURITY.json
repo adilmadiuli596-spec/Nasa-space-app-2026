@@ -1,0 +1,13 @@
+{
+  "env_ignored": true,
+  "env_untracked": true,
+  "env_contents_read": false,
+  "git_candidate_text_files_scanned": 263,
+  "forbidden_candidate_files": [],
+  "high_confidence_secret_pattern_paths": [],
+  "client_chunks_scanned": 26,
+  "server_secret_configuration_in_client": [],
+  "new_dependencies": false,
+  "push_or_deploy_performed": false,
+  "cost_KZT": 0
+}

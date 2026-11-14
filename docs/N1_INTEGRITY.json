@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-14",
+  "copied_files": 514,
+  "scientific_files": 445,
+  "source_changed": [],
+  "copied_changed": [],
+  "ui_css_identical": true,
+  "expected_months": 420,
+  "actual_months": 420,
+  "missing_months": 0,
+  "monthly_json_sha256": "df88b6f8cdffe9794568ddab1bce4e680af41cfd1cf4bff846b4808be0b495ea",
+  "netcdf_files": 420,
+  "historical_reports": 32
+}

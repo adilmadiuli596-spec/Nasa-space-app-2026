@@ -1,0 +1,59 @@
+{
+  "stage": "3C",
+  "cell_name": "Berlin",
+  "initial_month_entries": 0,
+  "period": "1991-2025",
+  "expected_months": 420,
+  "transport": "FastAPI ASGI endpoint to NASA CMR and authenticated GES DISC OPeNDAP",
+  "cold_request": {
+    "http_status": 200,
+    "total_ms": 194824.1057000123,
+    "timings_ms": {
+      "catalog": 1085.7994000252802,
+      "source_total": 194761.9048000197,
+      "statistical_calculation": 52.18210001476109
+    },
+    "cache_hits": 0,
+    "cache_misses": 420,
+    "network_used": true,
+    "cell": {
+      "latitude": 52.5,
+      "longitude": 13.125,
+      "latitude_index": 285,
+      "longitude_index": 309,
+      "latitude_spacing": 0.5,
+      "longitude_spacing": 0.625
+    },
+    "trend": {
+      "status": "estimated",
+      "slope_per_decade": 0.5909734927735855,
+      "standard_error_per_decade": 0.09946220750042545,
+      "p_value_two_sided": 1.1452797118958998e-06,
+      "ci95_per_decade": {
+        "lower": 0.3886161100958896,
+        "upper": 0.7933308754512813
+      },
+      "significant": true,
+      "alpha": 0.05,
+      "r_squared": 0.3965437214025419,
+      "n_years": 35,
+      "residual_degrees_of_freedom": 33,
+      "hac_maxlags": 3,
+      "multiple_testing_correction": "none"
+    }
+  },
+  "repeat_request": {
+    "http_status": 200,
+    "total_ms": 6211.48080000421,
+    "timings_ms": {
+      "catalog": 56.71330000041053,
+      "source_total": 6141.763799998444,
+      "statistical_calculation": 62.29079997865483
+    },
+    "cache_hits": 420,
+    "cache_misses": 0,
+    "network_used": false,
+    "identical_to_cold": true
+  },
+  "all_checks_passed": true
+}

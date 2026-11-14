@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "source": "real local NASA API after UI period change",
+  "request": {
+    "latitude": 52.52,
+    "longitude": 13.405,
+    "variable": "T2M",
+    "start_year": 2000,
+    "end_year": 2025
+  },
+  "months": 312,
+  "years": 26,
+  "network_used": true,
+  "cache_hits": 312
+}

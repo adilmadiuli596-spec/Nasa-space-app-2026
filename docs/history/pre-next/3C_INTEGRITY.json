@@ -1,0 +1,11 @@
+{
+  "scope": "All files in previous protected SHA-256 snapshot, including all .data-check NASA NetCDF cache files and original root NetCDF",
+  "date": "2026-11-14",
+  "stage": "3C",
+  "protected_files_checked": 446,
+  "changed": [],
+  "added": [],
+  "all_unchanged": true,
+  "reference_snapshot": "3B_INTEGRITY.json",
+  "missing": []
+}

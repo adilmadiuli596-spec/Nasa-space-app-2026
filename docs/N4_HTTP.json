@@ -1,0 +1,270 @@
+{
+  "date": "2026-11-14",
+  "deployment_tested": false,
+  "nasa_network_used": false,
+  "modes": [
+    {
+      "mode": "demo",
+      "health": {
+        "status": "ok",
+        "stage": "N3",
+        "mode": "demo",
+        "nasa_network": "not_checked",
+        "earthdata_auth": "not_required",
+        "dynamic_nasa_enabled": false,
+        "public_dynamic_access_confirmed": false,
+        "cache": "memory",
+        "analysis": "two_cell_demonstration"
+      },
+      "variables": {
+        "variables": [
+          {
+            "id": "T2M",
+            "name": "Температура воздуха",
+            "source_unit": "K",
+            "unit": "°C",
+            "trend_unit": "°C/decade"
+          },
+          {
+            "id": "QV2M",
+            "name": "Удельная влажность",
+            "source_unit": "kg kg-1",
+            "unit": "g/kg",
+            "trend_unit": "(g/kg)/decade"
+          }
+        ],
+        "supported_period": {
+          "start_year": 1991,
+          "end_year": 2025,
+          "minimum_complete_years": 5
+        },
+        "source_mode": "offline_verified_demo",
+        "dynamic_nasa_enabled": false,
+        "available_cells": [
+          {
+            "latitude": 52.5,
+            "longitude": 76.875
+          },
+          {
+            "latitude": 52.5,
+            "longitude": 13.125
+          }
+        ],
+        "coverage": "Two saved NASA grid cells only; not global dynamic analysis",
+        "coordinate_policy": "Nearest MERRA-2 cell; ties choose smaller array index; longitude wraps at 180 degrees",
+        "public_dynamic_access_confirmed": false
+      }
+    }
+  ],
+  "responses": [
+    {
+      "id": "PAVLODAR_T2M",
+      "status": 200,
+      "response_bytes": 179805
+    },
+    {
+      "id": "PAVLODAR_QV2M",
+      "status": 200,
+      "response_bytes": 179476
+    },
+    {
+      "id": "BERLIN_T2M",
+      "status": 200,
+      "response_bytes": 179668
+    },
+    {
+      "id": "BERLIN_QV2M",
+      "status": 200,
+      "response_bytes": 179309
+    },
+    {
+      "id": "bad_json",
+      "status": 400,
+      "error": "invalid_json"
+    },
+    {
+      "id": "coordinates",
+      "status": 422,
+      "error": "invalid_request"
+    },
+    {
+      "id": "unexpected_url",
+      "status": 422,
+      "error": "invalid_request"
+    },
+    {
+      "id": "other_cell",
+      "status": 404,
+      "error": "demo_cell_unavailable"
+    },
+    {
+      "id": "oversize",
+      "status": 413,
+      "error": "too_large"
+    },
+    {
+      "id": "parallel_demo",
+      "statuses": [
+        200,
+        200
+      ]
+    },
+    {
+      "id": "public_dynamic_blocked",
+      "status": 503,
+      "error": "public_access_unconfirmed"
+    },
+    {
+      "id": "local_missing_token",
+      "status": 503,
+      "error": "nasa_auth_required"
+    },
+    {
+      "id": "cross_origin",
+      "status": 403
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "PAVLODAR_T2M",
+      "status": "passed",
+      "p": 0.5129513990556195,
+      "slope": 0.09179457757906836,
+      "ci": {
+        "lower": -0.19057482338418938,
+        "upper": 0.3741639785423261
+      },
+      "metadata": "NASA product/cell/units checked; runtime provenance honestly labels offline demo"
+    },
+    {
+      "id": "PAVLODAR_QV2M",
+      "status": "passed",
+      "p": 0.002383488790211441,
+      "slope": 0.17981239344380087,
+      "ci": {
+        "lower": 0.06864540028217674,
+        "upper": 0.290979386605425
+      },
+      "metadata": "NASA product/cell/units checked; runtime provenance honestly labels offline demo"
+    },
+    {
+      "id": "BERLIN_T2M",
+      "status": "passed",
+      "p": 0.0000011452797118958437,
+      "slope": 0.5909734927735857,
+      "ci": {
+        "lower": 0.38861611009589037,
+        "upper": 0.793330875451281
+      },
+      "metadata": "NASA product/cell/units checked; runtime provenance honestly labels offline demo"
+    },
+    {
+      "id": "BERLIN_QV2M",
+      "status": "passed",
+      "p": 4.49615941039136e-8,
+      "slope": 0.2185026813732437,
+      "ci": {
+        "lower": 0.15548691439243942,
+        "upper": 0.28151844835404793
+      },
+      "metadata": "NASA product/cell/units checked; runtime provenance honestly labels offline demo"
+    }
+  ],
+  "demo_timings": [
+    {
+      "id": "PAVLODAR_T2M",
+      "phase": "first",
+      "duration_ms": 51.977100000000064
+    },
+    {
+      "id": "PAVLODAR_T2M",
+      "phase": "repeat_no_NASA_cache_claim",
+      "duration_ms": 18.43489999999997
+    },
+    {
+      "id": "PAVLODAR_QV2M",
+      "phase": "first",
+      "duration_ms": 14.293100000000095
+    },
+    {
+      "id": "PAVLODAR_QV2M",
+      "phase": "repeat_no_NASA_cache_claim",
+      "duration_ms": 11.979900000000043
+    },
+    {
+      "id": "BERLIN_T2M",
+      "phase": "first",
+      "duration_ms": 13.4217000000001
+    },
+    {
+      "id": "BERLIN_T2M",
+      "phase": "repeat_no_NASA_cache_claim",
+      "duration_ms": 12.324200000000019
+    },
+    {
+      "id": "BERLIN_QV2M",
+      "phase": "first",
+      "duration_ms": 12.59030000000007
+    },
+    {
+      "id": "BERLIN_QV2M",
+      "phase": "repeat_no_NASA_cache_claim",
+      "duration_ms": 13.034799999999905
+    }
+  ],
+  "memory": [
+    {
+      "mode": "demo",
+      "phase": "before",
+      "Id": 17616,
+      "WorkingSet64": 113569792,
+      "PeakWorkingSet64": 114876416
+    },
+    {
+      "mode": "demo",
+      "phase": "after",
+      "Id": 17616,
+      "WorkingSet64": 142123008,
+      "PeakWorkingSet64": 146165760
+    },
+    {
+      "mode": "blocked",
+      "phase": "before",
+      "Id": 27052,
+      "WorkingSet64": 113311744,
+      "PeakWorkingSet64": 114491392
+    },
+    {
+      "mode": "blocked",
+      "phase": "after",
+      "Id": 27052,
+      "WorkingSet64": 115937280,
+      "PeakWorkingSet64": 115937280
+    },
+    {
+      "mode": "local",
+      "phase": "before",
+      "Id": 23344,
+      "WorkingSet64": 113602560,
+      "PeakWorkingSet64": 114900992
+    },
+    {
+      "mode": "local",
+      "phase": "after",
+      "Id": 23344,
+      "WorkingSet64": 116531200,
+      "PeakWorkingSet64": 116531200
+    }
+  ],
+  "local_trace": {
+    "files": 117,
+    "bytes": 6784011,
+    "hdf5_assets": [
+      "node_modules\\h5wasm\\dist\\esm\\hdf5_hl.js",
+      "node_modules\\h5wasm\\dist\\esm\\hdf5_util.js",
+      "node_modules\\h5wasm\\package.json",
+      "node_modules\\h5wasm\\LICENSE.txt"
+    ],
+    "unexpected_sources": []
+  }
+}

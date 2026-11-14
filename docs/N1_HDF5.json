@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-14",
+  "source": "reference/data/MERRA2_100.tavgM_2d_slv_Nx.199101.nc4",
+  "sha256": "da3e5fc0a4eda8f847bf7ec373728dc6b50f5290ff26013040f29f0a43b652af",
+  "magic": "894844460d0a1a0a",
+  "T2M": {
+    "value": 259.11444091796875,
+    "shape": [
+      1,
+      361,
+      576
+    ],
+    "units": "K",
+    "equals_python": true
+  },
+  "QV2M": {
+    "value": 0.0012164824875071645,
+    "shape": [
+      1,
+      361,
+      576
+    ],
+    "units": "kg kg-1",
+    "equals_python": true
+  },
+  "status": "passed"
+}

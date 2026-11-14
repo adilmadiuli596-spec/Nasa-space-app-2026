@@ -1,0 +1,642 @@
+[
+  {
+    "df": 1,
+    "t": 0,
+    "p": 1.0,
+    "reference_p": 1.0,
+    "reference_source": "analytic Cauchy identity",
+    "critical95": 12.706204736174694
+  },
+  {
+    "df": 1,
+    "t": 1e-08,
+    "p": 0.9999999905136262,
+    "reference_p": 0.9999999936338023,
+    "reference_source": "analytic Cauchy identity",
+    "critical95": 12.706204736174694
+  },
+  {
+    "df": 1,
+    "t": 0.1,
+    "p": 0.936548965138893,
+    "reference_p": 0.9365489651388929,
+    "reference_source": "analytic Cauchy identity",
+    "critical95": 12.706204736174694
+  },
+  {
+    "df": 1,
+    "t": 0.66,
+    "p": 0.62861320908218,
+    "reference_p": 0.6286132090821799,
+    "reference_source": "analytic Cauchy identity",
+    "critical95": 12.706204736174694
+  },
+  {
+    "df": 1,
+    "t": 1,
+    "p": 0.5000000000000001,
+    "reference_p": 0.5,
+    "reference_source": "analytic Cauchy identity",
+    "critical95": 12.706204736174694
+  },
+  {
+    "df": 1,
+    "t": 2,
+    "p": 0.2951672353008665,
+    "reference_p": 0.2951672353008665,
+    "reference_source": "analytic Cauchy identity",
+    "critical95": 12.706204736174694
+  },
+  {
+    "df": 1,
+    "t": 5,
+    "p": 0.1256659163780024,
+    "reference_p": 0.12566591637800228,
+    "reference_source": "analytic Cauchy identity",
+    "critical95": 12.706204736174694
+  },
+  {
+    "df": 1,
+    "t": 10,
+    "p": 0.06345103486110713,
+    "reference_p": 0.06345103486110704,
+    "reference_source": "analytic Cauchy identity",
+    "critical95": 12.706204736174694
+  },
+  {
+    "df": 1,
+    "t": 50,
+    "p": 0.012730698201945594,
+    "reference_p": 0.012730698201945612,
+    "reference_source": "analytic Cauchy identity",
+    "critical95": 12.706204736174694
+  },
+  {
+    "df": 1,
+    "t": 10000.0,
+    "p": 6.366197702455154e-05,
+    "reference_p": 6.3661977024565e-05,
+    "reference_source": "analytic Cauchy identity",
+    "critical95": 12.706204736174694
+  },
+  {
+    "df": 2,
+    "t": 0,
+    "p": 1.0,
+    "reference_p": 1.0,
+    "reference_source": "SciPy Student t",
+    "critical95": 4.302652729749462
+  },
+  {
+    "df": 2,
+    "t": 1e-08,
+    "p": 0.9999999929289322,
+    "reference_p": 0.9999999929289322,
+    "reference_source": "SciPy Student t",
+    "critical95": 4.302652729749462
+  },
+  {
+    "df": 2,
+    "t": 0.1,
+    "p": 0.9294654384141402,
+    "reference_p": 0.9294654384141402,
+    "reference_source": "SciPy Student t",
+    "critical95": 4.302652729749462
+  },
+  {
+    "df": 2,
+    "t": 0.66,
+    "p": 0.5770968180182754,
+    "reference_p": 0.5770968180182754,
+    "reference_source": "SciPy Student t",
+    "critical95": 4.302652729749462
+  },
+  {
+    "df": 2,
+    "t": 1,
+    "p": 0.42264973081037416,
+    "reference_p": 0.42264973081037416,
+    "reference_source": "SciPy Student t",
+    "critical95": 4.302652729749462
+  },
+  {
+    "df": 2,
+    "t": 2,
+    "p": 0.18350341907227397,
+    "reference_p": 0.18350341907227397,
+    "reference_source": "SciPy Student t",
+    "critical95": 4.302652729749462
+  },
+  {
+    "df": 2,
+    "t": 5,
+    "p": 0.037749551350623724,
+    "reference_p": 0.037749551350623724,
+    "reference_source": "SciPy Student t",
+    "critical95": 4.302652729749462
+  },
+  {
+    "df": 2,
+    "t": 10,
+    "p": 0.00985245702332569,
+    "reference_p": 0.00985245702332569,
+    "reference_source": "SciPy Student t",
+    "critical95": 4.302652729749462
+  },
+  {
+    "df": 2,
+    "t": 50,
+    "p": 0.0003997601598880805,
+    "reference_p": 0.0003997601598880805,
+    "reference_source": "SciPy Student t",
+    "critical95": 4.302652729749462
+  },
+  {
+    "df": 2,
+    "t": 10000.0,
+    "p": 9.999999850000001e-09,
+    "reference_p": 9.999999850000001e-09,
+    "reference_source": "SciPy Student t",
+    "critical95": 4.302652729749462
+  },
+  {
+    "df": 3,
+    "t": 0,
+    "p": 1.0,
+    "reference_p": 1.0,
+    "reference_source": "SciPy Student t",
+    "critical95": 3.1824463052837078
+  },
+  {
+    "df": 3,
+    "t": 1e-08,
+    "p": 0.999999992648948,
+    "reference_p": 0.999999992648948,
+    "reference_source": "SciPy Student t",
+    "critical95": 3.1824463052837078
+  },
+  {
+    "df": 3,
+    "t": 0.1,
+    "p": 0.9266523488008059,
+    "reference_p": 0.9266523488008059,
+    "reference_source": "SciPy Student t",
+    "critical95": 3.1824463052837078
+  },
+  {
+    "df": 3,
+    "t": 0.66,
+    "p": 0.5564014977842201,
+    "reference_p": 0.5564014977842201,
+    "reference_source": "SciPy Student t",
+    "critical95": 3.1824463052837078
+  },
+  {
+    "df": 3,
+    "t": 1,
+    "p": 0.3910022189557705,
+    "reference_p": 0.3910022189557705,
+    "reference_source": "SciPy Student t",
+    "critical95": 3.1824463052837078
+  },
+  {
+    "df": 3,
+    "t": 2,
+    "p": 0.13932596855884305,
+    "reference_p": 0.13932596855884305,
+    "reference_source": "SciPy Student t",
+    "critical95": 3.1824463052837078
+  },
+  {
+    "df": 3,
+    "t": 5,
+    "p": 0.015392438073302294,
+    "reference_p": 0.015392438073302294,
+    "reference_source": "SciPy Student t",
+    "critical95": 3.1824463052837078
+  },
+  {
+    "df": 3,
+    "t": 10,
+    "p": 0.0021283990584141503,
+    "reference_p": 0.0021283990584141503,
+    "reference_source": "SciPy Student t",
+    "critical95": 3.1824463052837078
+  },
+  {
+    "df": 3,
+    "t": 50,
+    "p": 1.761715204127197e-05,
+    "reference_p": 1.761715204127197e-05,
+    "reference_source": "SciPy Student t",
+    "critical95": 3.1824463052837078
+  },
+  {
+    "df": 3,
+    "t": 10000.0,
+    "p": 2.20531550229581e-12,
+    "reference_p": 2.20531550229581e-12,
+    "reference_source": "SciPy Student t",
+    "critical95": 3.1824463052837078
+  },
+  {
+    "df": 4,
+    "t": 0,
+    "p": 1.0,
+    "reference_p": 1.0,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.7764451051977934
+  },
+  {
+    "df": 4,
+    "t": 1e-08,
+    "p": 0.9999999925,
+    "reference_p": 0.9999999925,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.7764451051977934
+  },
+  {
+    "df": 4,
+    "t": 0.1,
+    "p": 0.9251558409394532,
+    "reference_p": 0.9251558409394532,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.7764451051977934
+  },
+  {
+    "df": 4,
+    "t": 0.66,
+    "p": 0.5453215023278405,
+    "reference_p": 0.5453215023278405,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.7764451051977934
+  },
+  {
+    "df": 4,
+    "t": 1,
+    "p": 0.37390096630005887,
+    "reference_p": 0.37390096630005887,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.7764451051977934
+  },
+  {
+    "df": 4,
+    "t": 2,
+    "p": 0.11611652351681556,
+    "reference_p": 0.11611652351681556,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.7764451051977934
+  },
+  {
+    "df": 4,
+    "t": 5,
+    "p": 0.007490433881274525,
+    "reference_p": 0.007490433881274525,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.7764451051977934
+  },
+  {
+    "df": 4,
+    "t": 10,
+    "p": 0.000562003622715991,
+    "reference_p": 0.000562003622715991,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.7764451051977934
+  },
+  {
+    "df": 4,
+    "t": 50,
+    "p": 9.57445365696969e-07,
+    "reference_p": 9.57445365696969e-07,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.7764451051977934
+  },
+  {
+    "df": 4,
+    "t": 10000.0,
+    "p": 5.999999600000023e-16,
+    "reference_p": 5.999999600000023e-16,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.7764451051977934
+  },
+  {
+    "df": 8,
+    "t": 0,
+    "p": 1.0,
+    "reference_p": 1.0,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.306004135204166
+  },
+  {
+    "df": 8,
+    "t": 1e-08,
+    "p": 0.9999999922660195,
+    "reference_p": 0.9999999922660195,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.306004135204166
+  },
+  {
+    "df": 8,
+    "t": 0.1,
+    "p": 0.922804909430597,
+    "reference_p": 0.922804909430597,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.306004135204166
+  },
+  {
+    "df": 8,
+    "t": 0.66,
+    "p": 0.527794466947291,
+    "reference_p": 0.527794466947291,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.306004135204166
+  },
+  {
+    "df": 8,
+    "t": 1,
+    "p": 0.34659350708733416,
+    "reference_p": 0.34659350708733416,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.306004135204166
+  },
+  {
+    "df": 8,
+    "t": 2,
+    "p": 0.08051623795726262,
+    "reference_p": 0.08051623795726262,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.306004135204166
+  },
+  {
+    "df": 8,
+    "t": 5,
+    "p": 0.0010528257933665399,
+    "reference_p": 0.0010528257933665399,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.306004135204166
+  },
+  {
+    "df": 8,
+    "t": 10,
+    "p": 8.488181527628489e-06,
+    "reference_p": 8.488181527628489e-06,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.306004135204166
+  },
+  {
+    "df": 8,
+    "t": 50,
+    "p": 2.8344106450917847e-11,
+    "reference_p": 2.8344106450917847e-11,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.306004135204166
+  },
+  {
+    "df": 8,
+    "t": 10000.0,
+    "p": 1.119999677440059e-29,
+    "reference_p": 1.119999677440059e-29,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.306004135204166
+  },
+  {
+    "df": 18,
+    "t": 0,
+    "p": 1.0,
+    "reference_p": 1.0,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.1009220402410382
+  },
+  {
+    "df": 18,
+    "t": 1e-08,
+    "p": 0.9999999921311497,
+    "reference_p": 0.9999999921311497,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.1009220402410382
+  },
+  {
+    "df": 18,
+    "t": 0.1,
+    "p": 0.9214496882429104,
+    "reference_p": 0.9214496882429104,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.1009220402410382
+  },
+  {
+    "df": 18,
+    "t": 0.66,
+    "p": 0.5176108745513217,
+    "reference_p": 0.5176108745513217,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.1009220402410382
+  },
+  {
+    "df": 18,
+    "t": 1,
+    "p": 0.3305649312781842,
+    "reference_p": 0.3305649312781842,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.1009220402410382
+  },
+  {
+    "df": 18,
+    "t": 2,
+    "p": 0.060821465669332435,
+    "reference_p": 0.060821465669332435,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.1009220402410382
+  },
+  {
+    "df": 18,
+    "t": 5,
+    "p": 9.28414255737681e-05,
+    "reference_p": 9.28414255737681e-05,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.1009220402410382
+  },
+  {
+    "df": 18,
+    "t": 10,
+    "p": 8.930946909956929e-09,
+    "reference_p": 8.930946909956929e-09,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.1009220402410382
+  },
+  {
+    "df": 18,
+    "t": 50,
+    "p": 9.070425994133567e-21,
+    "reference_p": 9.070425994133567e-21,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.1009220402410382
+  },
+  {
+    "df": 18,
+    "t": 10000.0,
+    "p": 3.6789756222675083e-62,
+    "reference_p": 3.6789756222675083e-62,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.1009220402410382
+  },
+  {
+    "df": 33,
+    "t": 0,
+    "p": 1.0,
+    "reference_p": 1.0,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.0345152974493383
+  },
+  {
+    "df": 33,
+    "t": 1e-08,
+    "p": 0.9999999920813626,
+    "reference_p": 0.9999999920813626,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.0345152974493383
+  },
+  {
+    "df": 33,
+    "t": 0.1,
+    "p": 0.920949380765666,
+    "reference_p": 0.920949380765666,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.0345152974493383
+  },
+  {
+    "df": 33,
+    "t": 0.66,
+    "p": 0.5138343593856798,
+    "reference_p": 0.5138343593856798,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.0345152974493383
+  },
+  {
+    "df": 33,
+    "t": 1,
+    "p": 0.3245871274888513,
+    "reference_p": 0.3245871274888513,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.0345152974493383
+  },
+  {
+    "df": 33,
+    "t": 2,
+    "p": 0.05378623188254613,
+    "reference_p": 0.05378623188254613,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.0345152974493383
+  },
+  {
+    "df": 33,
+    "t": 5,
+    "p": 1.8446971682512527e-05,
+    "reference_p": 1.8446971682512527e-05,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.0345152974493383
+  },
+  {
+    "df": 33,
+    "t": 10,
+    "p": 1.6189714670573377e-11,
+    "reference_p": 1.6189714670573377e-11,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.0345152974493383
+  },
+  {
+    "df": 33,
+    "t": 50,
+    "p": 1.0903773084469135e-32,
+    "reference_p": 1.0903773084469135e-32,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.0345152974493383
+  },
+  {
+    "df": 33,
+    "t": 10000.0,
+    "p": 1.5662864672550805e-108,
+    "reference_p": 1.5662864672550805e-108,
+    "reference_source": "SciPy Student t",
+    "critical95": 2.0345152974493383
+  },
+  {
+    "df": 100,
+    "t": 0,
+    "p": 1.0,
+    "reference_p": 1.0,
+    "reference_source": "SciPy Student t",
+    "critical95": 1.983971518523552
+  },
+  {
+    "df": 100,
+    "t": 1e-08,
+    "p": 0.9999999920410763,
+    "reference_p": 0.9999999920410763,
+    "reference_source": "SciPy Student t",
+    "critical95": 1.983971518523552
+  },
+  {
+    "df": 100,
+    "t": 0.1,
+    "p": 0.9205445310958512,
+    "reference_p": 0.9205445310958512,
+    "reference_source": "SciPy Student t",
+    "critical95": 1.983971518523552
+  },
+  {
+    "df": 100,
+    "t": 0.66,
+    "p": 0.5107711383071853,
+    "reference_p": 0.5107711383071853,
+    "reference_source": "SciPy Student t",
+    "critical95": 1.983971518523552
+  },
+  {
+    "df": 100,
+    "t": 1,
+    "p": 0.31972415578412333,
+    "reference_p": 0.31972415578412333,
+    "reference_source": "SciPy Student t",
+    "critical95": 1.983971518523552
+  },
+  {
+    "df": 100,
+    "t": 2,
+    "p": 0.04821217873113368,
+    "reference_p": 0.04821217873113368,
+    "reference_source": "SciPy Student t",
+    "critical95": 1.983971518523552
+  },
+  {
+    "df": 100,
+    "t": 5,
+    "p": 2.450173413503802e-06,
+    "reference_p": 2.450173413503802e-06,
+    "reference_source": "SciPy Student t",
+    "critical95": 1.983971518523552
+  },
+  {
+    "df": 100,
+    "t": 10,
+    "p": 9.90168898459413e-17,
+    "reference_p": 9.90168898459413e-17,
+    "reference_source": "SciPy Student t",
+    "critical95": 1.983971518523552
+  },
+  {
+    "df": 100,
+    "t": 50,
+    "p": 1.4472163679761465e-72,
+    "reference_p": 1.4472163679761465e-72,
+    "reference_source": "SciPy Student t",
+    "critical95": 1.983971518523552
+  },
+  {
+    "df": 100,
+    "t": 10000.0,
+    "p": 7.958529703915527e-302,
+    "reference_p": 7.958529703915527e-302,
+    "reference_source": "SciPy Student t",
+    "critical95": 1.983971518523552
+  }
+]

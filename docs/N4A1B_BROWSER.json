@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "desktop: compact centered header, unified radii, no outer scroll",
+    "desktop: native info trigger, keyboard, readable credit links, Escape",
+    "mobile: header, tabs, dropdown and layout stay inside viewport",
+    "mobile: attribution opens above panel and preserves all source links",
+    "mobile: collapsed panel keeps attribution available",
+    "no browser errors"
+  ],
+  "errors": [],
+  "analysis_requests_to_backend": 1,
+  "desktop_header": {
+    "x": 130,
+    "y": 14,
+    "width": 1180,
+    "height": 66
+  }
+}

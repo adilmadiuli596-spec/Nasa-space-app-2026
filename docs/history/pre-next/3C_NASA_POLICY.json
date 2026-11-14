@@ -1,0 +1,179 @@
+{
+  "ShortName": "M2TMNXSLV",
+  "Version": "5.12.4",
+  "UseConstraints": {
+    "Description": "The Earth Observing System Data and Information System (EOSDIS) data use and citation guidance for NASA data can be accessed at https://earthdata.nasa.gov/engage/open-data-services-software-policies/data-use-guidance. For information on how to properly cite and acknowledge data from the NASA GES DISC, refer to https://disc.gsfc.nasa.gov/data-guidelines."
+  },
+  "CollectionDataType": "SCIENCE_QUALITY",
+  "CollectionCitations": [
+    {
+      "SeriesName": "M2TMNXSLV",
+      "Creator": "Global Modeling and Assimilation Office (GMAO)",
+      "ReleasePlace": "Greenbelt, MD, USA",
+      "Title": "MERRA-2 tavgM_2d_slv_Nx: 2d,Monthly mean,Time-Averaged,Single-Level,Assimilation,Single-Level Diagnostics V5.12.4",
+      "OnlineResource": {
+        "Linkage": "https://disc.gsfc.nasa.gov/datacollection/M2TMNXSLV_5.12.4.html"
+      },
+      "Publisher": "Goddard Earth Sciences Data and Information Services Center (GES DISC)",
+      "ReleaseDate": "2015-06-30T00:00:00.000Z",
+      "DataPresentationForm": "Digital Science Data",
+      "Version": "5.12.4"
+    }
+  ],
+  "DataCenters": [
+    {
+      "Roles": [
+        "ARCHIVER"
+      ],
+      "ShortName": "NASA/GSFC/SED/ESD/TISL/GESDISC",
+      "LongName": "Goddard Earth Sciences Data and Information Services Center (formerly Goddard DAAC), Terrestrial Information Systems Laboratory, Earth Sciences Division, Science and Exploration Directorate, Goddard Space Flight Center, NASA",
+      "ContactInformation": {
+        "RelatedUrls": [
+          {
+            "URLContentType": "DataCenterURL",
+            "Type": "HOME PAGE",
+            "URL": "https://disc.gsfc.nasa.gov/",
+            "Description": "NASA GES DISC Website"
+          }
+        ]
+      },
+      "ContactGroups": [
+        {
+          "Roles": [
+            "Data Center Contact"
+          ],
+          "GroupName": "GES DISC HELP DESK SUPPORT GROUP",
+          "ContactInformation": {
+            "Addresses": [
+              {
+                "StreetAddresses": [
+                  "Goddard Earth Sciences Data and Information Services Center",
+                  "Code 610.2",
+                  "NASA Goddard Space Flight Center"
+                ],
+                "City": "Greenbelt",
+                "StateProvince": "MD",
+                "PostalCode": "20771",
+                "Country": "USA"
+              }
+            ],
+            "ContactMechanisms": [
+              {
+                "Type": "Telephone",
+                "Value": "301-614-5224"
+              },
+              {
+                "Type": "Fax",
+                "Value": "301-614-5268"
+              },
+              {
+                "Type": "Email",
+                "Value": "gsfc-dl-help-disc@mail.nasa.gov"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "RelatedUrls": [
+    {
+      "Description": "M2TMNXSLV variable",
+      "URL": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/Images/M2TMNXSLV_5.12.4.png",
+      "URLContentType": "VisualizationURL",
+      "Type": "GET RELATED VISUALIZATION"
+    },
+    {
+      "Description": "How to read and plot the data.",
+      "URL": "https://disc.gsfc.nasa.gov/information/howto?tags=MERRA",
+      "Subtype": "HOW-TO",
+      "Type": "VIEW RELATED INFORMATION",
+      "URLContentType": "PublicationURL"
+    },
+    {
+      "Description": "Access the dataset landing page from the GES DISC website.",
+      "URL": "https://www.earthdata.nasa.gov/data/catalog/ges-disc-gpm-3gprofnoaa21atms-day-07",
+      "Type": "DATA SET LANDING PAGE",
+      "URLContentType": "CollectionURL"
+    },
+    {
+      "Description": "Access the data via HTTPS.",
+      "URL": "https://goldsmr4.gesdisc.eosdis.nasa.gov/data/MERRA2_MONTHLY/M2TMNXSLV.5.12.4/",
+      "Subtype": "DATA TREE",
+      "Type": "GET DATA",
+      "URLContentType": "DistributionURL"
+    },
+    {
+      "Description": "The GES-DISC Interactive Online Visualization ANd aNalysis Interface (Giovanni) is a web-based tool that allows users to interactively visualize and analyze data.",
+      "URL": "https://giovanni.gsfc.nasa.gov/giovanni/#dataKeyword=M2TMNXSLV",
+      "Subtype": "GIOVANNI",
+      "Type": "GET RELATED VISUALIZATION",
+      "URLContentType": "VisualizationURL"
+    },
+    {
+      "Description": "Earthdata Search allows users to search, discover, visualize, refine, and access NASA Earth Observation data.",
+      "URL": "https://search.earthdata.nasa.gov/search/granules?p=C1276812859-GES_DISC",
+      "Subtype": "Earthdata Search",
+      "Type": "GET DATA",
+      "URLContentType": "DistributionURL"
+    },
+    {
+      "Description": "Access the data via the OPeNDAP protocol.",
+      "URL": "https://cmr.earthdata.nasa.gov/virtual-directory/collections/C1276812859-GES_DISC",
+      "Subtype": "OPENDAP DATA",
+      "Type": "USE SERVICE API",
+      "URLContentType": "DistributionURL"
+    },
+    {
+      "Description": "The GMAO MERRA-2 documentation and FAQs",
+      "URL": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/documentation_merra-2/",
+      "Type": "PROJECT HOME PAGE",
+      "URLContentType": "CollectionURL"
+    },
+    {
+      "Description": "MERRA-2 File Specification Document",
+      "URL": "https://gmao.gsfc.nasa.gov/media/publications/zbly36ziNFDFbmYmvhQeVqPhUo/Bosilovich785.pdf",
+      "Subtype": "PI DOCUMENTATION",
+      "Type": "VIEW RELATED INFORMATION",
+      "URLContentType": "PublicationURL"
+    },
+    {
+      "Description": "README Document",
+      "URL": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MERRA/MERRA2.README.pdf",
+      "Subtype": "READ-ME",
+      "Type": "VIEW RELATED INFORMATION",
+      "URLContentType": "PublicationURL"
+    },
+    {
+      "Description": "MERRA-2 Data Access – Quick Start Guide",
+      "URL": "https://disc.gsfc.nasa.gov/information/mission-project?title=MERRA-2",
+      "Subtype": "GENERAL DOCUMENTATION",
+      "Type": "VIEW RELATED INFORMATION",
+      "URLContentType": "PublicationURL"
+    },
+    {
+      "Description": "Records of MERRA-2 Data Reprocessing and Service Changes",
+      "URL": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/MERRA/Records_MERRA-2_Data_Reprocessing_and_Service_Changes.pdf",
+      "Subtype": "IMPORTANT NOTICE",
+      "Type": "VIEW RELATED INFORMATION",
+      "URLContentType": "PublicationURL"
+    },
+    {
+      "Description": "FAQs about MERRA-2 data access",
+      "URL": "https://disc.gsfc.nasa.gov/information/faqs?keywords=MERRA-2&page=1",
+      "Subtype": "GENERAL DOCUMENTATION",
+      "Type": "VIEW RELATED INFORMATION",
+      "URLContentType": "PublicationURL"
+    },
+    {
+      "URL": "https://worldview.earthdata.nasa.gov/?l=Reference_Labels_15m(hidden),Reference_Features_15m(hidden),Coastlines_15m,MERRA2_Surface_Skin_Temperature_Monthly,MERRA2_2m_Air_Temperature_Monthly,OCI_PACE_True_Color(hidden),VIIRS_NOAA21_CorrectedReflectance_TrueColor(hidden),VIIRS_NOAA20_CorrectedReflectance_TrueColor(hidden),VIIRS_SNPP_CorrectedReflectance_TrueColor(hidden),MODIS_Aqua_CorrectedReflectance_TrueColor(hidden),MODIS_Terra_CorrectedReflectance_TrueColor&lg=true&t=2026-03-16-T14%3A43%3A41Z",
+      "Description": "Variable layers in Worldview for the dataset: Surface Skin Temperature (Monthly), 2-meter Air Temperature (Monthly)",
+      "Subtype": "WORLDVIEW",
+      "Type": "GET RELATED VISUALIZATION",
+      "URLContentType": "VisualizationURL"
+    }
+  ],
+  "source": "https://cmr.earthdata.nasa.gov/search/concepts/C1276812859-GES_DISC.umm_json",
+  "retrieved_date": "2026-11-14",
+  "response_sha256": "aa861aadbc439fc62957c778c01d53dc437c16bb241a2dbe622b62b701f025c8"
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-14",
+  "source_files_checked": 514,
+  "source_changed": [],
+  "preserved_copies_changed": [],
+  "science_frontend_shared_and_prior_evidence_changed": [],
+  "scientific_formula_changes": false,
+  "core_and_frontend_unchanged": true,
+  "raw_demo_snapshot_sha256": "5c5ce269141b885e1cb8f084e189a0ef10bb32ae3a2317880c71648d1d533e57",
+  "real_hdf_fixture_sha256": "134385bd44a438edd2c6aee732ee376095b4a1f74bfc4ba95a9436b33387567b",
+  "credentials_file_read_by_this_audit": false,
+  "new_installed_package_names_or_versions": false,
+  "dependency_role_change": "Existing h5wasm 0.10.3 promoted dev -> runtime; original NIST/HDF5 notice retained"
+}

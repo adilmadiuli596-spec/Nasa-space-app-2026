@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-14",
+  "cloud_deploy_tested": false,
+  "kind": "Local Windows traced-package smoke, not a Vercel artifact",
+  "checks": [
+    {
+      "name": "self-contained public demo, API and worker asset",
+      "passed": true
+    },
+    {
+      "name": "Vercel forces private local mode blocked",
+      "passed": true
+    },
+    {
+      "name": "no env/reference/permanent cache copied or generated",
+      "passed": true
+    }
+  ],
+  "runtime_files": 2710,
+  "runtime_bytes": 148158498,
+  "trace_count": 8,
+  "boot_trace_warnings": 135,
+  "analysis_trace": {
+    "files": 117,
+    "bytes": 6784007,
+    "hdf5_assets": [
+      "node_modules\\h5wasm\\dist\\esm\\hdf5_hl.js",
+      "node_modules\\h5wasm\\dist\\esm\\hdf5_util.js",
+      "node_modules\\h5wasm\\package.json",
+      "node_modules\\h5wasm\\LICENSE.txt"
+    ]
+  },
+  "build_without_cache_bytes": 55351378,
+  "health": {
+    "status": "ok",
+    "stage": "N3",
+    "mode": "demo",
+    "nasa_network": "not_checked",
+    "earthdata_auth": "not_required",
+    "dynamic_nasa_enabled": false,
+    "public_dynamic_access_confirmed": false,
+    "cache": "memory",
+    "analysis": "two_cell_demonstration"
+  },
+  "package_engine_only_pin_and_original_CRLF": true
+}

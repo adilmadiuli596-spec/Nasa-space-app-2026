@@ -1,0 +1,733 @@
+{
+  "mode": "demo_browser_and_explicit_HTTP_mocks",
+  "checks": [
+    {
+      "name": "desktop homepage and honest source mode",
+      "passed": true
+    },
+    {
+      "name": "initial phone panel collapsed and homepage fits",
+      "passed": true
+    },
+    {
+      "name": "real Photon search is manual and selecting Berlin clears previous result",
+      "passed": true
+    },
+    {
+      "name": "panel close/reopen preserves result and does not POST",
+      "passed": true
+    },
+    {
+      "name": "variable and custom period changes invalidate stale result",
+      "passed": true
+    },
+    {
+      "name": "all scientific sections fit without scroll 1440",
+      "passed": true
+    },
+    {
+      "name": "all scientific sections fit without scroll 768",
+      "passed": true
+    },
+    {
+      "name": "all scientific sections fit without scroll 390",
+      "passed": true
+    },
+    {
+      "name": "phone keyboard-size viewport keeps header usable and result retained",
+      "passed": true
+    },
+    {
+      "name": "rapid phone analysis keeps the selected marker above bottom panel",
+      "passed": true
+    },
+    {
+      "name": "planned N4B/N4C layers never pretend to be rendered",
+      "passed": true
+    },
+    {
+      "name": "Tokyo unavailable in demo is explicit with no substituted cell",
+      "passed": true
+    },
+    {
+      "name": "duplicate submit blocked, map remains usable, elapsed and cancellation work",
+      "passed": true
+    },
+    {
+      "name": "out-of-order response cannot replace latest point result",
+      "passed": true
+    },
+    {
+      "name": "safe NASA error nasa_auth_rejected",
+      "passed": true
+    },
+    {
+      "name": "safe NASA error nasa_timeout",
+      "passed": true
+    },
+    {
+      "name": "safe NASA error nasa_transport_error",
+      "passed": true
+    },
+    {
+      "name": "safe NASA error analysis_busy",
+      "passed": true
+    },
+    {
+      "name": "search provider failure keeps coordinate fallback working",
+      "passed": true
+    },
+    {
+      "name": "local without credentials is honest and phone collapsed",
+      "passed": true
+    },
+    {
+      "name": "blocked without credentials is honest and phone collapsed",
+      "passed": true
+    },
+    {
+      "name": "no unhandled browser or SSR errors",
+      "passed": true
+    }
+  ],
+  "page_errors": [],
+  "layouts": [
+    {
+      "label": "home desktop",
+      "w": 1440,
+      "h": 900,
+      "docW": 1440,
+      "docH": 900,
+      "bodyW": 1440,
+      "bodyH": 900,
+      "body": {
+        "h": 509,
+        "scroll": 509
+      },
+      "content": null,
+      "panel": {
+        "x": 936,
+        "y": 108,
+        "width": 488,
+        "height": 776,
+        "top": 108,
+        "right": 1424,
+        "bottom": 884,
+        "left": 936
+      }
+    },
+    {
+      "label": "home phone",
+      "w": 390,
+      "h": 844,
+      "docW": 390,
+      "docH": 844,
+      "bodyW": 390,
+      "bodyH": 844,
+      "body": null,
+      "content": null
+    },
+    {
+      "label": "1440 Обзор",
+      "w": 1440,
+      "h": 900,
+      "docW": 1440,
+      "docH": 900,
+      "bodyW": 1440,
+      "bodyH": 900,
+      "body": {
+        "h": 509,
+        "scroll": 509
+      },
+      "content": {
+        "h": 493,
+        "scroll": 493
+      },
+      "panel": {
+        "x": 936,
+        "y": 108,
+        "width": 488,
+        "height": 776,
+        "top": 108,
+        "right": 1424,
+        "bottom": 884,
+        "left": 936
+      }
+    },
+    {
+      "label": "1440 Графики",
+      "w": 1440,
+      "h": 900,
+      "docW": 1440,
+      "docH": 900,
+      "bodyW": 1440,
+      "bodyH": 900,
+      "body": {
+        "h": 509,
+        "scroll": 509
+      },
+      "content": {
+        "h": 493,
+        "scroll": 493
+      },
+      "panel": {
+        "x": 936,
+        "y": 108,
+        "width": 488,
+        "height": 776,
+        "top": 108,
+        "right": 1424,
+        "bottom": 884,
+        "left": 936
+      }
+    },
+    {
+      "label": "1440 method Расчёт",
+      "w": 1440,
+      "h": 900,
+      "docW": 1440,
+      "docH": 900,
+      "bodyW": 1440,
+      "bodyH": 900,
+      "body": {
+        "h": 509,
+        "scroll": 509
+      },
+      "content": {
+        "h": 493,
+        "scroll": 493
+      },
+      "panel": {
+        "x": 936,
+        "y": 108,
+        "width": 488,
+        "height": 776,
+        "top": 108,
+        "right": 1424,
+        "bottom": 884,
+        "left": 936
+      }
+    },
+    {
+      "label": "1440 method Источник",
+      "w": 1440,
+      "h": 900,
+      "docW": 1440,
+      "docH": 900,
+      "bodyW": 1440,
+      "bodyH": 900,
+      "body": {
+        "h": 509,
+        "scroll": 509
+      },
+      "content": {
+        "h": 493,
+        "scroll": 493
+      },
+      "panel": {
+        "x": 936,
+        "y": 108,
+        "width": 488,
+        "height": 776,
+        "top": 108,
+        "right": 1424,
+        "bottom": 884,
+        "left": 936
+      }
+    },
+    {
+      "label": "1440 method Ограничения",
+      "w": 1440,
+      "h": 900,
+      "docW": 1440,
+      "docH": 900,
+      "bodyW": 1440,
+      "bodyH": 900,
+      "body": {
+        "h": 509,
+        "scroll": 509
+      },
+      "content": {
+        "h": 493,
+        "scroll": 493
+      },
+      "panel": {
+        "x": 936,
+        "y": 108,
+        "width": 488,
+        "height": 776,
+        "top": 108,
+        "right": 1424,
+        "bottom": 884,
+        "left": 936
+      }
+    },
+    {
+      "label": "768 Обзор",
+      "w": 768,
+      "h": 1024,
+      "docW": 768,
+      "docH": 1024,
+      "bodyW": 768,
+      "bodyH": 1024,
+      "body": {
+        "h": 582,
+        "scroll": 582
+      },
+      "content": {
+        "h": 566,
+        "scroll": 566
+      },
+      "panel": {
+        "x": 416,
+        "y": 151,
+        "width": 340,
+        "height": 857,
+        "top": 151,
+        "right": 756,
+        "bottom": 1008,
+        "left": 416
+      }
+    },
+    {
+      "label": "768 Графики",
+      "w": 768,
+      "h": 1024,
+      "docW": 768,
+      "docH": 1024,
+      "bodyW": 768,
+      "bodyH": 1024,
+      "body": {
+        "h": 582,
+        "scroll": 582
+      },
+      "content": {
+        "h": 566,
+        "scroll": 566
+      },
+      "panel": {
+        "x": 416,
+        "y": 151,
+        "width": 340,
+        "height": 857,
+        "top": 151,
+        "right": 756,
+        "bottom": 1008,
+        "left": 416
+      }
+    },
+    {
+      "label": "768 method Расчёт",
+      "w": 768,
+      "h": 1024,
+      "docW": 768,
+      "docH": 1024,
+      "bodyW": 768,
+      "bodyH": 1024,
+      "body": {
+        "h": 582,
+        "scroll": 582
+      },
+      "content": {
+        "h": 566,
+        "scroll": 566
+      },
+      "panel": {
+        "x": 416,
+        "y": 151,
+        "width": 340,
+        "height": 857,
+        "top": 151,
+        "right": 756,
+        "bottom": 1008,
+        "left": 416
+      }
+    },
+    {
+      "label": "768 method Источник",
+      "w": 768,
+      "h": 1024,
+      "docW": 768,
+      "docH": 1024,
+      "bodyW": 768,
+      "bodyH": 1024,
+      "body": {
+        "h": 582,
+        "scroll": 582
+      },
+      "content": {
+        "h": 566,
+        "scroll": 566
+      },
+      "panel": {
+        "x": 416,
+        "y": 151,
+        "width": 340,
+        "height": 857,
+        "top": 151,
+        "right": 756,
+        "bottom": 1008,
+        "left": 416
+      }
+    },
+    {
+      "label": "768 method Ограничения",
+      "w": 768,
+      "h": 1024,
+      "docW": 768,
+      "docH": 1024,
+      "bodyW": 768,
+      "bodyH": 1024,
+      "body": {
+        "h": 582,
+        "scroll": 582
+      },
+      "content": {
+        "h": 566,
+        "scroll": 566
+      },
+      "panel": {
+        "x": 416,
+        "y": 151,
+        "width": 340,
+        "height": 857,
+        "top": 151,
+        "right": 756,
+        "bottom": 1008,
+        "left": 416
+      }
+    },
+    {
+      "label": "390 Обзор",
+      "w": 390,
+      "h": 844,
+      "docW": 390,
+      "docH": 844,
+      "bodyW": 390,
+      "bodyH": 844,
+      "body": {
+        "h": 315,
+        "scroll": 315
+      },
+      "content": {
+        "h": 305,
+        "scroll": 305
+      },
+      "panel": {
+        "x": 0,
+        "y": 304,
+        "width": 390,
+        "height": 540,
+        "top": 304,
+        "right": 390,
+        "bottom": 844,
+        "left": 0
+      }
+    },
+    {
+      "label": "390 Графики",
+      "w": 390,
+      "h": 844,
+      "docW": 390,
+      "docH": 844,
+      "bodyW": 390,
+      "bodyH": 844,
+      "body": {
+        "h": 315,
+        "scroll": 315
+      },
+      "content": {
+        "h": 305,
+        "scroll": 305
+      },
+      "panel": {
+        "x": 0,
+        "y": 304,
+        "width": 390,
+        "height": 540,
+        "top": 304,
+        "right": 390,
+        "bottom": 844,
+        "left": 0
+      }
+    },
+    {
+      "label": "390 method Расчёт",
+      "w": 390,
+      "h": 844,
+      "docW": 390,
+      "docH": 844,
+      "bodyW": 390,
+      "bodyH": 844,
+      "body": {
+        "h": 315,
+        "scroll": 315
+      },
+      "content": {
+        "h": 305,
+        "scroll": 305
+      },
+      "panel": {
+        "x": 0,
+        "y": 304,
+        "width": 390,
+        "height": 540,
+        "top": 304,
+        "right": 390,
+        "bottom": 844,
+        "left": 0
+      }
+    },
+    {
+      "label": "390 method Источник",
+      "w": 390,
+      "h": 844,
+      "docW": 390,
+      "docH": 844,
+      "bodyW": 390,
+      "bodyH": 844,
+      "body": {
+        "h": 315,
+        "scroll": 315
+      },
+      "content": {
+        "h": 305,
+        "scroll": 305
+      },
+      "panel": {
+        "x": 0,
+        "y": 304,
+        "width": 390,
+        "height": 540,
+        "top": 304,
+        "right": 390,
+        "bottom": 844,
+        "left": 0
+      }
+    },
+    {
+      "label": "390 method Ограничения",
+      "w": 390,
+      "h": 844,
+      "docW": 390,
+      "docH": 844,
+      "bodyW": 390,
+      "bodyH": 844,
+      "body": {
+        "h": 315,
+        "scroll": 315
+      },
+      "content": {
+        "h": 305,
+        "scroll": 305
+      },
+      "panel": {
+        "x": 0,
+        "y": 304,
+        "width": 390,
+        "height": 540,
+        "top": 304,
+        "right": 390,
+        "bottom": 844,
+        "left": 0
+      }
+    },
+    {
+      "label": "restored after keyboard-size viewport",
+      "w": 390,
+      "h": 844,
+      "docW": 390,
+      "docH": 844,
+      "bodyW": 390,
+      "bodyH": 844,
+      "body": {
+        "h": 315,
+        "scroll": 315
+      },
+      "content": {
+        "h": 305,
+        "scroll": 305
+      },
+      "panel": {
+        "x": 0,
+        "y": 304,
+        "width": 390,
+        "height": 540,
+        "top": 304,
+        "right": 390,
+        "bottom": 844,
+        "left": 0
+      }
+    },
+    {
+      "label": "noauth local",
+      "w": 390,
+      "h": 844,
+      "docW": 390,
+      "docH": 844,
+      "bodyW": 390,
+      "bodyH": 844,
+      "body": {
+        "h": 315,
+        "scroll": 315
+      },
+      "content": null,
+      "panel": {
+        "x": 0,
+        "y": 304,
+        "width": 390,
+        "height": 540,
+        "top": 304,
+        "right": 390,
+        "bottom": 844,
+        "left": 0
+      }
+    },
+    {
+      "label": "noauth blocked",
+      "w": 390,
+      "h": 844,
+      "docW": 390,
+      "docH": 844,
+      "bodyW": 390,
+      "bodyH": 844,
+      "body": {
+        "h": 315,
+        "scroll": 315
+      },
+      "content": null,
+      "panel": {
+        "x": 0,
+        "y": 304,
+        "width": 390,
+        "height": 540,
+        "top": 304,
+        "right": 390,
+        "bottom": 844,
+        "left": 0
+      }
+    }
+  ],
+  "responses": [
+    {
+      "id": "BERLIN_SEARCH_T2M",
+      "requested": {
+        "latitude": 52.5173885,
+        "longitude": 13.3951309,
+        "variable": "T2M",
+        "start_year": 1991,
+        "end_year": 2025
+      },
+      "cell": {
+        "latitude": 52.5,
+        "longitude": 13.125,
+        "latitude_index": 285,
+        "longitude_index": 309,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "source": "offline_verified_demo",
+      "network_used": false
+    },
+    {
+      "id": "BERLIN_QV2M",
+      "requested": {
+        "latitude": 52.5173885,
+        "longitude": 13.3951309,
+        "variable": "QV2M",
+        "start_year": 1991,
+        "end_year": 2025
+      },
+      "cell": {
+        "latitude": 52.5,
+        "longitude": 13.125,
+        "latitude_index": 285,
+        "longitude_index": 309,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "source": "offline_verified_demo",
+      "network_used": false
+    },
+    {
+      "id": "BERLIN_QV2M_2000",
+      "requested": {
+        "latitude": 52.5173885,
+        "longitude": 13.3951309,
+        "variable": "QV2M",
+        "start_year": 2000,
+        "end_year": 2025
+      },
+      "cell": {
+        "latitude": 52.5,
+        "longitude": 13.125,
+        "latitude_index": 285,
+        "longitude_index": 309,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "source": "offline_verified_demo",
+      "network_used": false
+    },
+    {
+      "id": "BERLIN_T2M",
+      "requested": {
+        "latitude": 52.5173885,
+        "longitude": 13.3951309,
+        "variable": "T2M",
+        "start_year": 1991,
+        "end_year": 2025
+      },
+      "cell": {
+        "latitude": 52.5,
+        "longitude": 13.125,
+        "latitude_index": 285,
+        "longitude_index": 309,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "source": "offline_verified_demo",
+      "network_used": false
+    },
+    {
+      "id": "BERLIN_FINAL",
+      "requested": {
+        "latitude": 52.52,
+        "longitude": 13.405,
+        "variable": "T2M",
+        "start_year": 1991,
+        "end_year": 2025
+      },
+      "cell": {
+        "latitude": 52.5,
+        "longitude": 13.125,
+        "latitude_index": 285,
+        "longitude_index": 309,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "source": "offline_verified_demo",
+      "network_used": false
+    },
+    {
+      "id": "BERLIN_RAPID_PHONE",
+      "requested": {
+        "latitude": 52.52,
+        "longitude": 13.405,
+        "variable": "T2M",
+        "start_year": 1991,
+        "end_year": 2025
+      },
+      "cell": {
+        "latitude": 52.5,
+        "longitude": 13.125,
+        "latitude_index": 285,
+        "longitude_index": 309,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "source": "offline_verified_demo",
+      "network_used": false
+    }
+  ]
+}

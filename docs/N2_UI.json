@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-14",
+  "page_errors": [],
+  "tiles": 10,
+  "desktop": true,
+  "mobile": true,
+  "pending_analysis": true,
+  "tile_delivery": "observed",
+  "full_map_rendering": "not_verified_external_requests_intermittent"
+}

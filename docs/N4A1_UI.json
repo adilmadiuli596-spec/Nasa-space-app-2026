@@ -1,0 +1,248 @@
+{
+  "checks": [
+    {
+      "name": "original logo, favicon and full brand text",
+      "passed": true
+    },
+    {
+      "name": "settings in panel, real display controls and disabled future slots",
+      "passed": true
+    },
+    {
+      "name": "T2M/QV2M native radio keyboard and period custom keyboard/Escape",
+      "passed": true
+    },
+    {
+      "name": "one genuine offline NASA analysis and exact final-year point card",
+      "passed": true
+    },
+    {
+      "name": "marker tip follows library projection across zoom; no scale or rectangle tools",
+      "passed": true
+    },
+    {
+      "name": "desktop panel, dropdown bounds, attribution and current screenshot",
+      "passed": true
+    },
+    {
+      "name": "phone tabs, dropdown, collapsed point card and panel return without POST",
+      "passed": true
+    },
+    {
+      "name": "new selected point clears the old result and card",
+      "passed": true
+    },
+    {
+      "name": "no console errors, no page errors, NASA credentials not used",
+      "passed": true
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "analysis_posts": 1,
+  "nasa_network_used": false,
+  "analysis": {
+    "requested": {
+      "latitude": 52.52,
+      "longitude": 13.405,
+      "variable": "T2M",
+      "start_year": 2000,
+      "end_year": 2020
+    },
+    "year": 2020,
+    "value": 10.734701421352055,
+    "source": "offline_verified_demo"
+  },
+  "desktop": {
+    "w": 1440,
+    "h": 900,
+    "docW": 1440,
+    "docH": 900,
+    "panel": {
+      "x": 952,
+      "y": 102,
+      "width": 472,
+      "height": 782,
+      "top": 102,
+      "right": 1424,
+      "bottom": 884,
+      "left": 952
+    },
+    "body": {
+      "h": 391,
+      "s": 391
+    },
+    "content": {
+      "h": 379,
+      "s": 379
+    }
+  },
+  "phone Обзор": {
+    "w": 390,
+    "h": 844,
+    "docW": 390,
+    "docH": 844,
+    "panel": {
+      "x": 0,
+      "y": 244,
+      "width": 390,
+      "height": 600,
+      "top": 244,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "body": {
+      "h": 247,
+      "s": 247
+    },
+    "content": {
+      "h": 237,
+      "s": 237
+    }
+  },
+  "phone Графики": {
+    "w": 390,
+    "h": 844,
+    "docW": 390,
+    "docH": 844,
+    "panel": {
+      "x": 0,
+      "y": 244,
+      "width": 390,
+      "height": 600,
+      "top": 244,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "body": {
+      "h": 247,
+      "s": 247
+    },
+    "content": {
+      "h": 237,
+      "s": 237
+    }
+  },
+  "phone Методика": {
+    "w": 390,
+    "h": 844,
+    "docW": 390,
+    "docH": 844,
+    "panel": {
+      "x": 0,
+      "y": 244,
+      "width": 390,
+      "height": 600,
+      "top": 244,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "body": {
+      "h": 247,
+      "s": 247
+    },
+    "content": {
+      "h": 237,
+      "s": 237
+    }
+  },
+  "phone Method Источник": {
+    "w": 390,
+    "h": 844,
+    "docW": 390,
+    "docH": 844,
+    "panel": {
+      "x": 0,
+      "y": 244,
+      "width": 390,
+      "height": 600,
+      "top": 244,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "body": {
+      "h": 247,
+      "s": 247
+    },
+    "content": {
+      "h": 237,
+      "s": 237
+    }
+  },
+  "phone Method Ограничения": {
+    "w": 390,
+    "h": 844,
+    "docW": 390,
+    "docH": 844,
+    "panel": {
+      "x": 0,
+      "y": 244,
+      "width": 390,
+      "height": 600,
+      "top": 244,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "body": {
+      "h": 247,
+      "s": 247
+    },
+    "content": {
+      "h": 237,
+      "s": 237
+    }
+  },
+  "phone Method Расчёт": {
+    "w": 390,
+    "h": 844,
+    "docW": 390,
+    "docH": 844,
+    "panel": {
+      "x": 0,
+      "y": 244,
+      "width": 390,
+      "height": 600,
+      "top": 244,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "body": {
+      "h": 247,
+      "s": 247
+    },
+    "content": {
+      "h": 237,
+      "s": 237
+    }
+  },
+  "phone final": {
+    "w": 390,
+    "h": 844,
+    "docW": 390,
+    "docH": 844,
+    "panel": {
+      "x": 0,
+      "y": 244,
+      "width": 390,
+      "height": 600,
+      "top": 244,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    },
+    "body": {
+      "h": 247,
+      "s": 247
+    },
+    "content": {
+      "h": 237,
+      "s": 237
+    }
+  }
+}

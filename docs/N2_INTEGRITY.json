@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-14",
+  "original_manifest_files_checked": 514,
+  "original_source_changed": [],
+  "preserved_copies_changed": [],
+  "berlin_scientific_source_records_checked": 420,
+  "berlin_source_changed": [],
+  "protected_N1_frontend_api_adapter_history_changes": [],
+  "dependencies_unchanged": true,
+  "frontend_unchanged": true,
+  "api_handlers_unchanged": true,
+  "new_science_modules": [
+    "src/backend/science/aggregation.ts",
+    "src/backend/science/calendar.ts",
+    "src/backend/science/coordinates.ts",
+    "src/backend/science/errors.ts",
+    "src/backend/science/hac.ts",
+    "src/backend/science/index.ts",
+    "src/backend/science/inference.ts",
+    "src/backend/science/interpretation.ts",
+    "src/backend/science/numeric.ts",
+    "src/backend/science/ols.ts",
+    "src/backend/science/result.ts",
+    "src/backend/science/series.ts",
+    "src/backend/science/student.ts",
+    "src/backend/science/units.ts"
+  ],
+  "fixtures_sha256": {
+    "all-periods.json": "a524f33ca16c32e48782359068dd8b44fd440b97ac78257186c79a3ee0a084c8",
+    "extraction.json": "76f003a910d5831be77563ab777e13a6ae873f363143078838e3b9a741aed0c8",
+    "numerical.json": "b8bc64cca11933c035a92c01cd83060f10f79130c1f6b1ab8c46acff9bf6a7d1",
+    "real-cases.json": "e1954e9a8072c0bc954db8b8d391d12f20ec9cd75f13261086b44f4d3c729e3c",
+    "student.json": "dc7b7c2de633dbaf38f60bbc1dd411444d45e27cbf925f96e0786a37fd2652f3"
+  }
+}

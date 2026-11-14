@@ -1,0 +1,22 @@
+{
+  "T2M_C": {
+    "slope_per_decade": 0.09179457757906871,
+    "standard_error_per_decade": 0.1387895197039132,
+    "p_value_two_sided": 0.5129513990556169,
+    "ci95_per_decade": [
+      -0.19057482338418907,
+      0.3741639785423265
+    ],
+    "matches_statsmodels": true
+  },
+  "QV2M_g_kg": {
+    "slope_per_decade": 0.17981239344380076,
+    "standard_error_per_decade": 0.05464052951629002,
+    "p_value_two_sided": 0.0023834887902114232,
+    "ci95_per_decade": [
+      0.06864540028217662,
+      0.2909793866054249
+    ],
+    "matches_statsmodels": true
+  }
+}

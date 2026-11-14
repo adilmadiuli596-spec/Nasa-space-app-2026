@@ -1,0 +1,45 @@
+{
+  "lat": {
+    "dtype": "float64",
+    "warnings": [],
+    "raw_nonfinite_count": 0,
+    "raw_fill_count": 0,
+    "min_excluding_fill": -90.0,
+    "max_excluding_fill": 90.0
+  },
+  "lon": {
+    "dtype": "float64",
+    "warnings": [],
+    "raw_nonfinite_count": 0,
+    "raw_fill_count": 0,
+    "min_excluding_fill": -180.0,
+    "max_excluding_fill": 179.375
+  },
+  "time": {
+    "dtype": "int32",
+    "warnings": [
+      "invalid value encountered in cast",
+      "WARNING: valid_range not used since it\ncannot be safely cast to variable data type"
+    ],
+    "raw_nonfinite_count": 0,
+    "raw_fill_count": 0,
+    "min_excluding_fill": 0.0,
+    "max_excluding_fill": 0.0
+  },
+  "T2M": {
+    "dtype": "float32",
+    "warnings": [],
+    "raw_nonfinite_count": 0,
+    "raw_fill_count": 0,
+    "min_excluding_fill": 230.49949645996094,
+    "max_excluding_fill": 309.6335754394531
+  },
+  "QV2M": {
+    "dtype": "float32",
+    "warnings": [],
+    "raw_nonfinite_count": 0,
+    "raw_fill_count": 0,
+    "min_excluding_fill": 9.67843589023687e-05,
+    "max_excluding_fill": 0.021067742258310318
+  }
+}

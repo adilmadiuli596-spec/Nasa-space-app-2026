@@ -1,0 +1,348 @@
+{
+  "mode": "fresh_local_NASA",
+  "checks": [
+    {
+      "name": "search and manual coordinates do not trigger analysis",
+      "passed": true
+    },
+    {
+      "name": "PAVLODAR T2M genuine browser → NASA → chart",
+      "passed": true
+    },
+    {
+      "name": "PAVLODAR QV2M from actual same-cell month cache",
+      "passed": true
+    },
+    {
+      "name": "BERLIN T2M genuine browser → NASA → chart",
+      "passed": true
+    },
+    {
+      "name": "BERLIN QV2M from actual same-cell month cache",
+      "passed": true
+    },
+    {
+      "name": "TOKYO T2M genuine browser → NASA → chart",
+      "passed": false,
+      "error": "{\"code\":\"nasa_transport_error\",\"message\":\"NASA HTTPS request failed; TLS verification remains enabled\"}\n\n502 !== 200\n"
+    }
+  ],
+  "page_errors": [],
+  "responses": [
+    {
+      "id": "PAVLODAR_T2M",
+      "status": 200,
+      "duration_ms": 82.6447999999998,
+      "requested": {
+        "latitude": 52.27601,
+        "longitude": 76.96881,
+        "variable": "T2M",
+        "start_year": 1991,
+        "end_year": 2025
+      },
+      "actual_cell": {
+        "latitude": 52.5,
+        "longitude": 76.875,
+        "latitude_index": 285,
+        "longitude_index": 411,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "network_used": false,
+      "cache_hits": 420,
+      "cache_misses": 0,
+      "trend": {
+        "fitted_values": [
+          3.315276305665458,
+          3.324455763423365,
+          3.333635221181272,
+          3.342814678939179,
+          3.3519941366970856,
+          3.3611735944549923,
+          3.3703530522128995,
+          3.3795325099708062,
+          3.388711967728713,
+          3.3978914254866197,
+          3.4070708832445264,
+          3.4162503410024336,
+          3.4254297987603404,
+          3.434609256518247,
+          3.443788714276154,
+          3.452968172034061,
+          3.4621476297919678,
+          3.4713270875498745,
+          3.4805065453077813,
+          3.489686003065688,
+          3.498865460823595,
+          3.508044918581502,
+          3.5172243763394087,
+          3.5264038340973154,
+          3.5355832918552226,
+          3.5447627496131293,
+          3.553942207371036,
+          3.563121665128943,
+          3.5723011228868495,
+          3.5814805806447567,
+          3.5906600384026635,
+          3.59983949616057,
+          3.609018953918477,
+          3.618198411676384,
+          3.627377869434291
+        ],
+        "status": "estimated",
+        "slope_per_decade": 0.09179457757906836,
+        "standard_error_per_decade": 0.1387895197039132,
+        "p_value_two_sided": 0.5129513990556195,
+        "ci95_per_decade": {
+          "lower": -0.19057482338418938,
+          "upper": 0.3741639785423261
+        },
+        "significant": false,
+        "alpha": 0.05,
+        "r_squared": 0.009061539494666593,
+        "n_years": 35,
+        "residual_degrees_of_freedom": 33,
+        "hac_maxlags": 3,
+        "multiple_testing_correction": "none"
+      }
+    },
+    {
+      "id": "PAVLODAR_QV2M",
+      "status": 200,
+      "duration_ms": 117.88019999999983,
+      "requested": {
+        "latitude": 52.27601,
+        "longitude": 76.96881,
+        "variable": "QV2M",
+        "start_year": 1991,
+        "end_year": 2025
+      },
+      "actual_cell": {
+        "latitude": 52.5,
+        "longitude": 76.875,
+        "latitude_index": 285,
+        "longitude_index": 411,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "network_used": false,
+      "cache_hits": 420,
+      "cache_misses": 0,
+      "trend": {
+        "fitted_values": [
+          3.714451457437991,
+          3.732432696782371,
+          3.7504139361267512,
+          3.7683951754711313,
+          3.7863764148155115,
+          3.8043576541598916,
+          3.8223388935042717,
+          3.840320132848652,
+          3.858301372193032,
+          3.876282611537412,
+          3.894263850881792,
+          3.912245090226172,
+          3.930226329570552,
+          3.948207568914932,
+          3.966188808259312,
+          3.9841700476036923,
+          4.002151286948073,
+          4.0201325262924525,
+          4.038113765636832,
+          4.056095004981213,
+          4.0740762443255925,
+          4.092057483669973,
+          4.110038723014353,
+          4.128019962358733,
+          4.146001201703113,
+          4.1639824410474935,
+          4.181963680391873,
+          4.199944919736254,
+          4.217926159080633,
+          4.235907398425014,
+          4.253888637769394,
+          4.271869877113774,
+          4.289851116458154,
+          4.3078323558025335,
+          4.325813595146914
+        ],
+        "status": "estimated",
+        "slope_per_decade": 0.17981239344380087,
+        "standard_error_per_decade": 0.05464052951629003,
+        "p_value_two_sided": 0.002383488790211441,
+        "ci95_per_decade": {
+          "lower": 0.06864540028217674,
+          "upper": 0.290979386605425
+        },
+        "significant": true,
+        "alpha": 0.05,
+        "r_squared": 0.42104348710726114,
+        "n_years": 35,
+        "residual_degrees_of_freedom": 33,
+        "hac_maxlags": 3,
+        "multiple_testing_correction": "none"
+      }
+    },
+    {
+      "id": "BERLIN_T2M",
+      "status": 200,
+      "duration_ms": 87253.9452,
+      "requested": {
+        "latitude": 52.52,
+        "longitude": 13.405,
+        "variable": "T2M",
+        "start_year": 1991,
+        "end_year": 2025
+      },
+      "actual_cell": {
+        "latitude": 52.5,
+        "longitude": 13.125,
+        "latitude_index": 285,
+        "longitude_index": 309,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "network_used": true,
+      "cache_hits": 242,
+      "cache_misses": 178,
+      "trend": {
+        "fitted_values": [
+          8.639827016486764,
+          8.698924365764123,
+          8.758021715041481,
+          8.81711906431884,
+          8.876216413596199,
+          8.935313762873557,
+          8.994411112150916,
+          9.053508461428274,
+          9.112605810705633,
+          9.171703159982991,
+          9.23080050926035,
+          9.289897858537708,
+          9.348995207815067,
+          9.408092557092425,
+          9.467189906369784,
+          9.526287255647143,
+          9.585384604924501,
+          9.64448195420186,
+          9.703579303479218,
+          9.762676652756577,
+          9.821774002033935,
+          9.880871351311294,
+          9.939968700588652,
+          9.99906604986601,
+          10.05816339914337,
+          10.117260748420728,
+          10.176358097698087,
+          10.235455446975445,
+          10.294552796252804,
+          10.353650145530162,
+          10.41274749480752,
+          10.47184484408488,
+          10.530942193362238,
+          10.590039542639596,
+          10.649136891916955
+        ],
+        "status": "estimated",
+        "slope_per_decade": 0.5909734927735857,
+        "standard_error_per_decade": 0.09946220750042518,
+        "p_value_two_sided": 0.0000011452797118958437,
+        "ci95_per_decade": {
+          "lower": 0.38861611009589037,
+          "upper": 0.793330875451281
+        },
+        "significant": true,
+        "alpha": 0.05,
+        "r_squared": 0.3965437214025421,
+        "n_years": 35,
+        "residual_degrees_of_freedom": 33,
+        "hac_maxlags": 3,
+        "multiple_testing_correction": "none"
+      }
+    },
+    {
+      "id": "BERLIN_QV2M",
+      "status": 200,
+      "duration_ms": 192.02099999999336,
+      "requested": {
+        "latitude": 52.52,
+        "longitude": 13.405,
+        "variable": "QV2M",
+        "start_year": 1991,
+        "end_year": 2025
+      },
+      "actual_cell": {
+        "latitude": 52.5,
+        "longitude": 13.125,
+        "latitude_index": 285,
+        "longitude_index": 309,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "network_used": false,
+      "cache_hits": 420,
+      "cache_misses": 0,
+      "trend": {
+        "fitted_values": [
+          5.741519414649386,
+          5.763369682786711,
+          5.785219950924035,
+          5.80707021906136,
+          5.828920487198684,
+          5.850770755336009,
+          5.872621023473332,
+          5.894471291610657,
+          5.916321559747981,
+          5.938171827885306,
+          5.96002209602263,
+          5.981872364159955,
+          6.003722632297279,
+          6.025572900434604,
+          6.047423168571927,
+          6.069273436709252,
+          6.091123704846576,
+          6.112973972983901,
+          6.134824241121225,
+          6.15667450925855,
+          6.178524777395874,
+          6.200375045533198,
+          6.222225313670522,
+          6.244075581807847,
+          6.265925849945171,
+          6.287776118082496,
+          6.30962638621982,
+          6.331476654357145,
+          6.353326922494469,
+          6.375177190631793,
+          6.397027458769117,
+          6.418877726906442,
+          6.440727995043766,
+          6.462578263181091,
+          6.484428531318415
+        ],
+        "status": "estimated",
+        "slope_per_decade": 0.2185026813732437,
+        "standard_error_per_decade": 0.03097335618946038,
+        "p_value_two_sided": 4.49615941039136e-8,
+        "ci95_per_decade": {
+          "lower": 0.15548691439243942,
+          "upper": 0.28151844835404793
+        },
+        "significant": true,
+        "alpha": 0.05,
+        "r_squared": 0.4832927645265934,
+        "n_years": 35,
+        "residual_degrees_of_freedom": 33,
+        "hac_maxlags": 3,
+        "multiple_testing_correction": "none"
+      }
+    },
+    {
+      "id": "TOKYO_T2M",
+      "status": 502,
+      "duration_ms": 52024.27689999998,
+      "error": "nasa_transport_error"
+    }
+  ],
+  "run_error": "{\"code\":\"nasa_transport_error\",\"message\":\"NASA HTTPS request failed; TLS verification remains enabled\"}\n\n502 !== 200\n"
+}

@@ -1,0 +1,24 @@
+*{box-sizing:border-box}
+:root{font:14px/1.45 Inter,"Segoe UI",sans-serif;color:#111;background:#f7f8fa}
+body{overflow:hidden}main{height:100dvh;position:relative}button,input,select{font:inherit;color:inherit}button,select{cursor:pointer}button{border:1px solid #dfe3e8;background:white;border-radius:9px;padding:7px 12px}button:hover{background:#eff2f5}button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #507697;outline-offset:2px}
+.header{position:absolute;z-index:3;top:14px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:16px;padding:9px 12px;background:white;border:1px solid #e1e5ea;border-radius:14px;box-shadow:0 3px 16px #10274415;max-width:calc(100% - 24px)}
+.brand{display:flex;align-items:center;gap:8px;font-size:18px;font-weight:700;letter-spacing:-.8px;white-space:nowrap;color:#102744}.logo{background:#102744;color:white;border-radius:9px;width:34px;height:34px;display:grid;place-items:center;font-size:26px}
+.fields{display:flex;gap:7px}.fields label{display:grid;font-size:10px;color:#58636d;gap:1px}.fields input,.fields select{background:#f7f8fa;color:#111;border:1px solid #dce1e5;border-radius:5px;width:94px;padding:3px 5px;font-size:13px}.fields label:nth-child(n+3)>*{width:72px}.primary{background:#102744;color:white;border:0;font-weight:600}.primary:hover{background:#234568}.primary:disabled{opacity:.5}
+.workspace{height:100%;display:flex}.mapwrap{flex:1;min-width:0;position:relative;background:#e5eaf0}.map{position:absolute;inset:0}.maplibregl-ctrl-top-left{top:87px}.presets{position:absolute;top:174px;left:10px;display:grid;gap:3px}.presets button{font-size:11px;padding:5px 8px;text-align:left}
+.point,.cell{border-radius:50%;pointer-events:none}.point{width:12px;height:12px;background:#102744;border:2px solid white;box-shadow:0 0 0 1px #102744}.cell{width:24px;height:24px;border:2px dashed #456580}
+.mapIssue{position:absolute;bottom:42px;left:10px;padding:4px;background:white;max-width:80%}
+aside{width:min(400px,38vw);margin:90px 12px 12px 0;background:white;border-radius:16px;border:1px solid #e0e5e9;display:flex;flex-direction:column;min-height:0;box-shadow:0 4px 18px #1027440d}.inside{overflow:auto;padding:20px}.panelhead{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e5e8ec;padding:12px 18px;color:#102744}.panelhead button,.reopen{border-radius:50%;width:34px;height:34px;display:grid;place-items:center;padding:0;font-size:22px}.reopen{position:absolute;right:14px;top:94px}
+h1{font-size:26px;letter-spacing:-1px;line-height:1.12;margin:5px 0}h2{font-size:15px;margin:0 0 10px}p{overflow-wrap:anywhere}.subtitle,.kicker,.legend,dt{color:#536272}.kicker{font-size:12px;font-weight:600;margin:0}.subtitle{margin:8px 0 16px}section{padding:16px 0;border-top:1px solid #e5e8eb}section p:last-child{margin-bottom:0}.slope{font-size:31px;color:#102744}.chart{height:180px;font-size:11px}.legend{display:flex;gap:16px;font-size:11px}.legend span:before{content:'';display:inline-block;width:16px;border-top:2px solid #102744;vertical-align:middle;margin-right:4px}.legend span+span:before{border-top:2px dashed #657f93}dl{display:grid;grid-template-columns:1fr auto;gap:8px;font-size:12px}dd{margin:0}a{color:#102744}
+@media(max-width:800px){.header{width:calc(100% - 16px);top:8px;display:grid;grid-template-columns:1fr auto;gap:5px;padding:7px 10px}.fields{grid-column:1/-1;grid-row:2;display:grid;grid-template-columns:1.2fr 1.2fr 1fr 1fr 1fr;gap:4px}.fields input,.fields select,.fields label:nth-child(n+3)>*{width:100%;min-width:0}.fields label{min-width:0}.brand{font-size:16px}.logo{width:25px;height:25px;font-size:20px}.maplibregl-ctrl-top-left{top:97px}.presets{top:180px}.reopen{top:112px}aside{margin-top:106px}}
+@media(max-width:600px){.workspace{flex-direction:column}.mapwrap{min-height:0}aside{width:100%;height:45%;margin:0;border-radius:14px 14px 0 0}.inside{padding:14px}.panelhead{padding:6px 14px}.chart{height:145px}.presets{display:flex;top:108px;left:52px}}
+.inside{overscroll-behavior:contain}
+.compact .inside p:last-child{margin-bottom:0}
+@media(min-width:601px){aside.compact{position:absolute;right:0;top:0;max-height:calc(100% - 120px)}}
+@media(max-width:600px){
+ aside.compact{height:auto;max-height:45%;flex-shrink:0}
+ aside.results{height:min(66%,570px)}
+ .results section{padding:10px 0}
+ .results .subtitle{margin-bottom:9px}
+ .results .chart{height:130px}
+ .reopen{top:auto;bottom:60px}
+}

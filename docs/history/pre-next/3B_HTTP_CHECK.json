@@ -1,0 +1,59 @@
+{
+  "transport": "real HTTP, Uvicorn, loopback only",
+  "startup_ms": 8562.3,
+  "offline_request_ms": {
+    "T2M": 62.484,
+    "QV2M": 55.652
+  },
+  "statuses": {
+    "health": 200,
+    "variables": 200,
+    "T2M": 200,
+    "QV2M": 200,
+    "other_cell": 404
+  },
+  "health": {
+    "status": "ok",
+    "stage": "3B",
+    "local_reference": "verified",
+    "nasa_network": "not_checked",
+    "dynamic_nasa_enabled": false
+  },
+  "results": {
+    "T2M": {
+      "status": "estimated",
+      "slope_per_decade": 0.09179457757906843,
+      "standard_error_per_decade": 0.13878951970391315,
+      "p_value_two_sided": 0.5129513990556182,
+      "ci95_per_decade": {
+        "lower": -0.1905748233841892,
+        "upper": 0.3741639785423261
+      },
+      "significant": false,
+      "alpha": 0.05,
+      "r_squared": 0.00906153949466637,
+      "n_years": 35,
+      "residual_degrees_of_freedom": 33,
+      "hac_maxlags": 3,
+      "multiple_testing_correction": "none"
+    },
+    "QV2M": {
+      "status": "estimated",
+      "slope_per_decade": 0.17981239344380076,
+      "standard_error_per_decade": 0.05464052951629007,
+      "p_value_two_sided": 0.0023834887902114427,
+      "ci95_per_decade": {
+        "lower": 0.06864540028217651,
+        "upper": 0.290979386605425
+      },
+      "significant": true,
+      "alpha": 0.05,
+      "r_squared": 0.42104348710726136,
+      "n_years": 35,
+      "residual_degrees_of_freedom": 33,
+      "hac_maxlags": 3,
+      "multiple_testing_correction": "none"
+    }
+  },
+  "server_stopped_after_check": true
+}

@@ -1,0 +1,8 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {spawn} from 'node:child_process';
+import assert from 'node:assert/strict';
+const pack=process.argv[2],code=`import * as h from 'h5wasm';let parts=[];for await(const b of process.stdin)parts.push(b);await h.ready;h.FS.writeFile('/subset.nc4',Buffer.concat(parts));const f=new h.File('/subset.nc4','r');try{let out={};for(const name of ['T2M','QV2M']){const d=f.get(name);out[name]={value:Array.from(d.value)[0],units:d.attrs.units.value,shape:d.shape};}console.log(JSON.stringify(out));}finally{f.close();h.FS.unlink('/subset.nc4');}`;
+const bytes=await readFile('reference/.data-check/granules/1991-02.nc4');
+const child=spawn(process.execPath,['--input-type=module','-e',code],{cwd:pack,stdio:['pipe','pipe','pipe'],windowsHide:true});let output='',errors='';child.stdout.on('data',b=>output+=b);child.stderr.on('data',b=>errors+=b);child.stdin.end(bytes);const exit=await new Promise(r=>child.once('close',r));assert.equal(exit,0,errors);const actual=JSON.parse(output),cases=JSON.parse(await readFile('tests/fixtures/n2/real-cases.json','utf8'));for(const name of ['T2M','QV2M']){const c=cases.find(c=>c.id==='PAVLODAR_'+name);assert.equal(actual[name].value,c.loaded.records.find(r=>r.month==='1991-02').value);assert.equal(actual[name].units,c.loaded.source_unit);}
+const report={passed:true,kind:'Copied browser/MEMFS h5wasm assets decoded HDF5 bytes supplied as test input on stdin',external_runtime_files_read:false,input_bytes:bytes.length,values:actual,cloud_runtime_tested:false};await writeFile('docs/N4_WASM_PACKAGE.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));
+

@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-14",
+  "source_files_checked": 514,
+  "source_changed": [],
+  "preserved_copies_changed": [],
+  "before_snapshot_files": 766,
+  "changed_from_N3": [
+    "src/frontend/api.ts",
+    "src/shared/types/api.ts",
+    "src/frontend/analysis/Panel.tsx",
+    "src/frontend/components/App.tsx",
+    "src/frontend/components/ClientApp.tsx",
+    "src/frontend/map/MapView.tsx",
+    "src/frontend/styles/style.css",
+    "docs/ARCHITECTURE.md",
+    "docs/COST_POLICY.md",
+    "docs/DESIGN.md",
+    "docs/MIGRATION_PLAN.md",
+    "docs/NASA_COMPLIANCE.md",
+    "docs/PROGRESS.md",
+    "docs/PROJECT.md",
+    "docs/THIRD_PARTY.md",
+    "docs/VERCEL_LIMITATIONS.md",
+    "AGENTS.md",
+    "package.json",
+    "package-lock.json"
+  ],
+  "unexpected_changes": [],
+  "protected_backend_reference_fixtures_files": 521,
+  "protected_changed": [],
+  "package_and_lock_only_engine_pin_changed": {
+    "package.json": true,
+    "package-lock.json": true
+  },
+  "credentials_read_by_audit": false
+}

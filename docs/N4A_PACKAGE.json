@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-14",
+  "cloud_deploy_tested": false,
+  "kind": "Local Windows traced-package smoke, not a Vercel artifact",
+  "checks": [
+    {
+      "name": "packaged geography route validates input without upstream",
+      "passed": true
+    },
+    {
+      "name": "self-contained public demo, API and worker asset",
+      "passed": true
+    },
+    {
+      "name": "Vercel forces private local mode blocked",
+      "passed": true
+    },
+    {
+      "name": "no env/reference/permanent cache copied or generated",
+      "passed": true
+    }
+  ],
+  "runtime_files": 2720,
+  "runtime_bytes": 148233757,
+  "trace_count": 9,
+  "boot_trace_warnings": 135,
+  "analysis_trace": {
+    "files": 117,
+    "bytes": 6785443,
+    "hdf5_assets": [
+      "node_modules\\h5wasm\\dist\\esm\\hdf5_hl.js",
+      "node_modules\\h5wasm\\dist\\esm\\hdf5_util.js",
+      "node_modules\\h5wasm\\package.json",
+      "node_modules\\h5wasm\\LICENSE.txt"
+    ]
+  },
+  "build_without_cache_bytes": 56639383,
+  "health": {
+    "status": "ok",
+    "stage": "N3",
+    "mode": "demo",
+    "nasa_network": "not_checked",
+    "earthdata_auth": "not_required",
+    "dynamic_nasa_enabled": false,
+    "public_dynamic_access_confirmed": false,
+    "cache": "memory",
+    "analysis": "two_cell_demonstration"
+  }
+}

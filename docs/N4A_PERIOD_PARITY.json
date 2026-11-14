@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "request": {
+    "latitude": 52.52,
+    "longitude": 13.405,
+    "variable": "T2M",
+    "start_year": 2000,
+    "end_year": 2025
+  },
+  "python_raw_source": "unchanged N2 Berlin raw records restricted to 2000\u20132025",
+  "numeric_leaves": 467,
+  "max_absolute_error": 5.329070518200751e-15,
+  "errors": []
+}

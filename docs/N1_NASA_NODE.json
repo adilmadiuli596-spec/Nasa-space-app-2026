@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-14",
+  "runtime": "v24.22.1",
+  "cmr": {
+    "status": "passed",
+    "id": "G1278026149-GES_DISC",
+    "filename": "MERRA2_100.tavgM_2d_slv_Nx.199101.nc4",
+    "opendap": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_100.tavgM_2d_slv_Nx.199101.nc4"
+  },
+  "authenticated": "not_tested_no_process_token",
+  "credentials_configured": false
+}

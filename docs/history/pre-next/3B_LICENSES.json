@@ -1,0 +1,443 @@
+{
+  "date": "2026-11-14",
+  "source": "Official PyPI distribution metadata; wheel license files must remain installed",
+  "packages": [
+    {
+      "name": "annotated-doc",
+      "version": "0.0.6",
+      "license_expression": "MIT",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/annotated-doc/0.0.6/",
+      "installed_notice_files": [
+        "annotated_doc-0.0.6.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "license_expression": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "license_summary": "",
+      "source": "https://pypi.org/project/annotated-types/0.8.0/",
+      "installed_notice_files": [
+        "annotated_types-0.8.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "anyio",
+      "version": "4.16.0",
+      "license_expression": "MIT",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/anyio/4.16.0/",
+      "installed_notice_files": [
+        "anyio-4.16.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "click",
+      "version": "8.5.1",
+      "license_expression": "BSD-3-Clause",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/click/8.5.1/",
+      "installed_notice_files": [
+        "click-8.5.1.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.6",
+      "license_expression": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "license_summary": "",
+      "source": "https://pypi.org/project/colorama/0.4.6/",
+      "installed_notice_files": [
+        "colorama-0.4.6.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "fastapi",
+      "version": "0.162.7",
+      "license_expression": "MIT",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/fastapi/0.162.7/",
+      "installed_notice_files": [
+        "fastapi-0.162.7.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "formulaic",
+      "version": "1.2.2",
+      "license_expression": "MIT",
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "license_summary": "",
+      "source": "https://pypi.org/project/formulaic/1.2.2/",
+      "installed_notice_files": [
+        "formulaic-1.2.2.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "license_expression": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "license_summary": "MIT",
+      "source": "https://pypi.org/project/h11/0.16.0/",
+      "installed_notice_files": [
+        "h11-0.16.0.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "httpcore2",
+      "version": "2.16.0",
+      "license_expression": "BSD-3-Clause",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "license_summary": "",
+      "source": "https://pypi.org/project/httpcore2/2.16.0/",
+      "installed_notice_files": [
+        "httpcore2-2.16.0.dist-info/licenses/LICENSE.md"
+      ]
+    },
+    {
+      "name": "httpx2",
+      "version": "2.16.0",
+      "license_expression": "BSD-3-Clause",
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "license_summary": "",
+      "source": "https://pypi.org/project/httpx2/2.16.0/",
+      "installed_notice_files": [
+        "httpx2-2.16.0.dist-info/licenses/LICENSE.md"
+      ]
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "license_expression": "BSD-3-Clause",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/idna/3.20/",
+      "installed_notice_files": [
+        "idna-3.20.dist-info/licenses/LICENSE.md"
+      ]
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.1",
+      "license_expression": "MIT",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/iniconfig/2.3.1/",
+      "installed_notice_files": [
+        "iniconfig-2.3.1.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "interface-meta",
+      "version": "2.0.1",
+      "license_expression": null,
+      "license_classifiers": [],
+      "license_summary": "MIT",
+      "source": "https://pypi.org/project/interface-meta/2.0.1/",
+      "installed_notice_files": [
+        "interface_meta-2.0.1.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "narwhals",
+      "version": "2.28.0",
+      "license_expression": "MIT",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/narwhals/2.28.0/",
+      "installed_notice_files": [
+        "narwhals-2.28.0.dist-info/licenses/LICENSE.md"
+      ]
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.4",
+      "license_expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/numpy/2.5.4/",
+      "installed_notice_files": [
+        "numpy-2.5.4.dist-info/licenses/LICENSE.txt",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+        "numpy-2.5.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+        "numpy-2.5.4.dist-info/licenses/numpy/ma/LICENSE",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+        "numpy-2.5.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+        "numpy/_core/include/numpy/random/LICENSE.txt",
+        "numpy/ma/LICENSE",
+        "numpy/random/LICENSE.md"
+      ]
+    },
+    {
+      "name": "opentelemetry-api",
+      "version": "1.45.2",
+      "license_expression": "Apache-2.0",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/opentelemetry-api/1.45.2/",
+      "installed_notice_files": [
+        "opentelemetry_api-1.45.2.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "license_expression": "Apache-2.0 OR BSD-2-Clause",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/packaging/26.3/",
+      "installed_notice_files": [
+        "packaging-26.3.dist-info/licenses/LICENSE",
+        "packaging-26.3.dist-info/licenses/LICENSE.APACHE",
+        "packaging-26.3.dist-info/licenses/LICENSE.BSD"
+      ]
+    },
+    {
+      "name": "pandas",
+      "version": "3.1.1",
+      "license_expression": "BSD-3-Clause",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/pandas/3.1.1/",
+      "installed_notice_files": [
+        "pandas-3.1.1.dist-info/licenses/LICENSE",
+        "pandas-3.1.1.dist-info/licenses/LICENSES/DATEUTIL_LICENSE",
+        "pandas-3.1.1.dist-info/licenses/LICENSES/HAVEN_LICENSE",
+        "pandas-3.1.1.dist-info/licenses/LICENSES/KLIB_LICENSE",
+        "pandas-3.1.1.dist-info/licenses/LICENSES/MUSL_LICENSE",
+        "pandas-3.1.1.dist-info/licenses/LICENSES/NUMPY_LICENSE",
+        "pandas-3.1.1.dist-info/licenses/LICENSES/PACKAGING_LICENSE",
+        "pandas-3.1.1.dist-info/licenses/LICENSES/PSF_LICENSE",
+        "pandas-3.1.1.dist-info/licenses/LICENSES/PYPERCLIP_LICENSE",
+        "pandas-3.1.1.dist-info/licenses/LICENSES/PYUPGRADE_LICENSE",
+        "pandas-3.1.1.dist-info/licenses/LICENSES/SAS7BDAT_LICENSE",
+        "pandas-3.1.1.dist-info/licenses/LICENSES/STATSBASE_JL_LICENSE",
+        "pandas-3.1.1.dist-info/licenses/LICENSES/ULTRAJSON_LICENSE",
+        "pandas-3.1.1.dist-info/licenses/LICENSES/XSIMD_LICENSE",
+        "pandas-3.1.1.dist-info/licenses/subprojects/fast_float-8.2.10/LICENSE-APACHE",
+        "pandas-3.1.1.dist-info/licenses/subprojects/fast_float-8.2.10/LICENSE-BOOST",
+        "pandas-3.1.1.dist-info/licenses/subprojects/fast_float-8.2.10/LICENSE-MIT"
+      ]
+    },
+    {
+      "name": "patsy",
+      "version": "1.0.3",
+      "license_expression": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "license_summary": "2-clause BSD",
+      "source": "https://pypi.org/project/patsy/1.0.3/",
+      "installed_notice_files": [
+        "patsy-1.0.3.dist-info/licenses/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pluggy",
+      "version": "1.7.0",
+      "license_expression": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "license_summary": "MIT",
+      "source": "https://pypi.org/project/pluggy/1.7.0/",
+      "installed_notice_files": [
+        "pluggy-1.7.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pydantic",
+      "version": "2.14.3",
+      "license_expression": "MIT",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/pydantic/2.14.3/",
+      "installed_notice_files": [
+        "pydantic-2.14.3.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pydantic-core",
+      "version": "2.50.4",
+      "license_expression": "MIT",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/pydantic-core/2.50.4/",
+      "installed_notice_files": [
+        "pydantic_core-2.50.4.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pygments",
+      "version": "2.21.0",
+      "license_expression": "BSD-2-Clause",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/pygments/2.21.0/",
+      "installed_notice_files": [
+        "pygments-2.21.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "pytest",
+      "version": "9.2.0",
+      "license_expression": "MIT",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/pytest/9.2.0/",
+      "installed_notice_files": [
+        "pytest-9.2.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "4.0.0",
+      "license_expression": "BSD-3-Clause",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/python-dateutil/4.0.0/",
+      "installed_notice_files": [
+        "python_dateutil-4.0.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1",
+      "license_expression": null,
+      "license_classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "license_summary": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.\n         All rights reserved.\n         \n         Redistribution and use in source and binary forms, with or without\n         modification, are permitted provided that the following conditions\n         are met:\n         \n         1. Redistributions of source code must retain the above c",
+      "source": "https://pypi.org/project/scipy/1.18.1/",
+      "installed_notice_files": [
+        "scipy-1.18.1.dist-info/LICENSE.txt",
+        "scipy/_lib/_uarray/LICENSE",
+        "scipy/fft/_duccfft/LICENSE.md",
+        "scipy/integrate/LICENSE_DOP",
+        "scipy/spatial/qhull_src/COPYING_QHULL.txt"
+      ]
+    },
+    {
+      "name": "starlette",
+      "version": "1.10.0",
+      "license_expression": "BSD-3-Clause",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/starlette/1.10.0/",
+      "installed_notice_files": [
+        "starlette-1.10.0.dist-info/licenses/LICENSE.md"
+      ]
+    },
+    {
+      "name": "statsmodels",
+      "version": "0.15.0",
+      "license_expression": "BSD-3-Clause",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/statsmodels/0.15.0/",
+      "installed_notice_files": [
+        "statsmodels-0.15.0.dist-info/licenses/LICENSE.txt",
+        "statsmodels/multivariate/factor_rotation/LICENSE.txt",
+        "statsmodels/stats/libqsturng/LICENSE.txt",
+        "statsmodels/tsa/statespace/tests/results/frbny_nowcast/Nowcasting/LICENSE"
+      ]
+    },
+    {
+      "name": "truststore",
+      "version": "0.10.5",
+      "license_expression": "MIT",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/truststore/0.10.5/",
+      "installed_notice_files": [
+        "truststore-0.10.5.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.16.0",
+      "license_expression": "PSF-2.0",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/typing-extensions/4.16.0/",
+      "installed_notice_files": [
+        "typing_extensions-4.16.0.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.5",
+      "license_expression": "MIT",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/typing-inspection/0.4.5/",
+      "installed_notice_files": [
+        "typing_inspection-0.4.5.dist-info/licenses/LICENSE"
+      ]
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.6",
+      "license_expression": null,
+      "license_classifiers": [],
+      "license_summary": "Apache-2.0",
+      "source": "https://pypi.org/project/tzdata/2026.6/",
+      "installed_notice_files": [
+        "tzdata-2026.6.dist-info/licenses/LICENSE",
+        "tzdata-2026.6.dist-info/licenses/licenses/LICENSE_APACHE"
+      ]
+    },
+    {
+      "name": "uvicorn",
+      "version": "0.54.0",
+      "license_expression": "BSD-3-Clause",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/uvicorn/0.54.0/",
+      "installed_notice_files": [
+        "uvicorn-0.54.0.dist-info/licenses/LICENSE.md"
+      ]
+    },
+    {
+      "name": "wrapt",
+      "version": "2.5.2",
+      "license_expression": "BSD-2-Clause",
+      "license_classifiers": [],
+      "license_summary": "",
+      "source": "https://pypi.org/project/wrapt/2.5.2/",
+      "installed_notice_files": [
+        "wrapt-2.5.2.dist-info/licenses/LICENSE"
+      ]
+    }
+  ]
+}

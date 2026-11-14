@@ -1,0 +1,164 @@
+{
+  "checked_at": "2026-11-14",
+  "metadata_http_statuses": {
+    "capabilities": 200,
+    "layer_metadata": 200,
+    "colormap": 200
+  },
+  "layer_id": "MERRA2_2m_Air_Temperature_Monthly",
+  "title": "2-meter Air Temperature, (Monthly, MERRA2)",
+  "crs": "urn:ogc:def:crs:EPSG:6.18:3:3857",
+  "matrix_set": "GoogleMapsCompatible_Level6",
+  "matrices": [
+    {
+      "id": "0",
+      "width": 1,
+      "height": 1,
+      "tile_width": 256,
+      "tile_height": 256
+    },
+    {
+      "id": "1",
+      "width": 2,
+      "height": 2,
+      "tile_width": 256,
+      "tile_height": 256
+    },
+    {
+      "id": "2",
+      "width": 4,
+      "height": 4,
+      "tile_width": 256,
+      "tile_height": 256
+    },
+    {
+      "id": "3",
+      "width": 8,
+      "height": 8,
+      "tile_width": 256,
+      "tile_height": 256
+    },
+    {
+      "id": "4",
+      "width": 16,
+      "height": 16,
+      "tile_width": 256,
+      "tile_height": 256
+    },
+    {
+      "id": "5",
+      "width": 32,
+      "height": 32,
+      "tile_width": 256,
+      "tile_height": 256
+    },
+    {
+      "id": "6",
+      "width": 64,
+      "height": 64,
+      "tile_width": 256,
+      "tile_height": 256
+    }
+  ],
+  "format": "image/png",
+  "default_time": "2026-08-01",
+  "time_values": [
+    "1980-01-01/2023-11-01/P1M",
+    "2024-02-01/2024-04-01/P1M",
+    "2024-06-01/2025-04-01/P1M",
+    "2025-04-08/2025-04-08/P1M",
+    "2025-04-09/2025-04-09/P1M",
+    "2025-04-10/2025-04-10/P1M",
+    "2025-04-11/2025-04-11/P1M",
+    "2025-04-12/2025-04-12/P1M",
+    "2025-04-13/2025-04-13/P1M",
+    "2025-04-14/2025-04-14/P1M",
+    "2025-04-15/2025-04-15/P1M",
+    "2025-04-16/2025-04-16/P1M",
+    "2025-04-17/2025-04-17/P1M",
+    "2025-04-18/2025-04-18/P1M",
+    "2025-04-19/2025-04-19/P1M",
+    "2025-04-20/2025-04-20/P1M",
+    "2025-04-21/2025-04-21/P1M",
+    "2025-04-22/2025-04-22/P1M",
+    "2025-04-23/2025-04-23/P1M",
+    "2025-04-24/2025-04-24/P1M",
+    "2025-04-25/2025-04-25/P1M",
+    "2025-04-26/2025-04-26/P1M",
+    "2025-04-27/2025-04-27/P1M",
+    "2025-04-28/2025-04-28/P1M",
+    "2025-04-29/2025-04-29/P1M",
+    "2025-04-30/2025-04-30/P1M",
+    "2025-05-01/2025-05-01/P1M",
+    "2025-05-02/2025-05-02/P1M",
+    "2025-05-03/2025-05-03/P1M",
+    "2025-05-04/2025-05-04/P1M",
+    "2025-05-05/2025-05-05/P1M",
+    "2025-05-06/2025-05-06/P1M",
+    "2025-05-07/2025-05-07/P1M",
+    "2025-05-08/2025-05-08/P1M",
+    "2025-05-09/2025-05-09/P1M",
+    "2025-05-10/2025-05-10/P1M",
+    "2025-05-11/2025-05-11/P1M",
+    "2025-05-12/2025-05-12/P1M",
+    "2025-05-13/2025-05-13/P1M",
+    "2025-05-14/2025-05-14/P1M",
+    "2025-05-15/2025-05-15/P1M",
+    "2025-05-16/2025-05-16/P1M",
+    "2025-05-17/2025-05-17/P1M",
+    "2025-05-18/2025-05-18/P1M",
+    "2025-05-19/2025-05-19/P1M",
+    "2025-05-20/2025-05-20/P1M",
+    "2025-05-21/2025-05-21/P1M",
+    "2025-05-22/2025-05-22/P1M",
+    "2025-05-23/2025-05-23/P1M",
+    "2025-05-24/2025-05-24/P1M",
+    "2025-05-25/2025-05-25/P1M",
+    "2025-05-26/2025-05-26/P1M",
+    "2025-05-27/2025-05-27/P1M",
+    "2025-05-28/2025-05-28/P1M",
+    "2025-05-29/2025-05-29/P1M",
+    "2025-05-30/2025-05-30/P1M",
+    "2025-05-31/2025-05-31/P1M",
+    "2025-06-01/2025-06-01/P1M",
+    "2025-06-02/2025-06-02/P1M",
+    "2025-06-03/2025-06-03/P1M",
+    "2025-06-04/2025-06-04/P1M",
+    "2025-06-05/2025-06-05/P1M",
+    "2025-07-01/2026-08-01/P1M"
+  ],
+  "source_colormap_units": [
+    "K"
+  ],
+  "display_unit_planned": "°C",
+  "tile_templates": [
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MERRA2_2m_Air_Temperature_Monthly/default/{Time}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png",
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MERRA2_2m_Air_Temperature_Monthly/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png",
+    "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MERRA2_2m_Air_Temperature_Monthly/default/default/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}.png"
+  ],
+  "layer_metadata": {
+    "title": "2-meter Air Temperature (Monthly)",
+    "subtitle": "MERRA-2",
+    "ongoing": true,
+    "measurement": "Temperature",
+    "retentionPeriod": -1,
+    "conceptIds": [
+      {
+        "type": "STD",
+        "value": "C1276812859-GES_DISC",
+        "shortName": "M2TMNXSLV",
+        "title": "MERRA-2 tavgM_2d_slv_Nx: 2d,Monthly mean,Time-Averaged,Single-Level,Assimilation,Single-Level Diagnostics 0.625 x 0.5 degree V5.12.4 (M2TMNXSLV)",
+        "version": "5.12.4",
+        "dataCenter": "GES_DISC"
+      }
+    ],
+    "layerPeriod": "Monthly"
+  },
+  "sha256": {
+    "capabilities": "643224e9be0a224af3a1bac43c49ff681f77ff76acabc3c5cf503604b18f896e",
+    "colormap": "bde09eaa27a9065b9c1f29ea09f24e9933c7627985bf32156f79b0f4bc7fbb63"
+  },
+  "raster_layer_integrated": false,
+  "tile_request_tested": false,
+  "note": "Metadata verification only for N4B. Time list has gaps and non-first-of-month entries; do not assume every calendar month is available. Colormap source units are K, not °C; only legend labels may be converted, never infer temperature from RGB."
+}

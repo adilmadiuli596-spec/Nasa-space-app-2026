@@ -1,0 +1,41 @@
+{
+  "env_ignored": true,
+  "env_untracked": true,
+  "env_contents_read_by_audit": false,
+  "candidate_text_files_scanned": 305,
+  "forbidden_files": [],
+  "high_confidence_secret_paths": [],
+  "client_chunks_scanned": 27,
+  "private_server_config_in_client": [],
+  "client_high_confidence_secret_paths": [],
+  "traces": [
+    {
+      "route": "analysis",
+      "files": 117,
+      "bytes": 6785443,
+      "unexpected": []
+    },
+    {
+      "route": "places",
+      "files": 111,
+      "bytes": 1823777,
+      "unexpected": []
+    },
+    {
+      "route": "health",
+      "files": 113,
+      "bytes": 2577661,
+      "unexpected": []
+    },
+    {
+      "route": "variables",
+      "files": 113,
+      "bytes": 2577667,
+      "unexpected": []
+    }
+  ],
+  "earthdata_public_dynamic_block_unchanged": true,
+  "no_new_dependencies": true,
+  "push_or_deploy_performed": false,
+  "cost_KZT": 0
+}

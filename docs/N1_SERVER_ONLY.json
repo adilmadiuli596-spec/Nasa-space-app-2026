@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "negative_build_exit": 1,
+  "backend_client_import_rejected": true,
+  "probe_removed": true
+}

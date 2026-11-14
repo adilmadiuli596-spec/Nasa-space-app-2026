@@ -1,0 +1,47 @@
+{
+  "values": {
+    "month": "1991-01",
+    "lat": 52.5,
+    "lon": 76.875,
+    "time": 0.0,
+    "T2M": 259.11444091796875,
+    "QV2M": 0.0012164824875071645,
+    "T2M_C": -14.035559082031227
+  },
+  "metadata": {
+    "T2M": {
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "long_name": "2-meter_air_temperature",
+        "units": "K",
+        "_FillValue": 999999986991104.0,
+        "missing_value": 999999986991104.0,
+        "valid_range": [
+          -999999986991104.0,
+          999999986991104.0
+        ]
+      }
+    },
+    "QV2M": {
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "attributes": {
+        "long_name": "2-meter_specific_humidity",
+        "units": "kg kg-1",
+        "_FillValue": 999999986991104.0,
+        "missing_value": 999999986991104.0,
+        "valid_range": [
+          -999999986991104.0,
+          999999986991104.0
+        ]
+      }
+    }
+  }
+}

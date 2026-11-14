@@ -1,0 +1,6 @@
+{
+  "candidate_files": 293,
+  "forbidden_files": [],
+  "high_confidence_secret_matches": [],
+  "limitations": "Heuristic scan, not a proof that every possible secret format is detectable. NASA auth/environment/netrc were not read."
+}

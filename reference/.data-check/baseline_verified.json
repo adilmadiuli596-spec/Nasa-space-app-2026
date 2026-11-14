@@ -1,0 +1,63 @@
+{
+  "values": {
+    "month": "1991-01",
+    "lat": 52.5,
+    "lon": 76.875,
+    "time": 0.0,
+    "T2M": 259.11444091796875,
+    "QV2M": 0.0012164824875071645,
+    "T2M_C": -14.035559082031227
+  },
+  "quality": {
+    "month": "1991-01",
+    "time_label": "1991-01-01 00:30:00",
+    "metadata": {
+      "T2M": {
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "attributes": {
+          "long_name": "2-meter_air_temperature",
+          "units": "K",
+          "_FillValue": 999999986991104.0,
+          "missing_value": 999999986991104.0,
+          "valid_range": [
+            -999999986991104.0,
+            999999986991104.0
+          ]
+        }
+      },
+      "QV2M": {
+        "dimensions": [
+          "time",
+          "lat",
+          "lon"
+        ],
+        "attributes": {
+          "long_name": "2-meter_specific_humidity",
+          "units": "kg kg-1",
+          "_FillValue": 999999986991104.0,
+          "missing_value": 999999986991104.0,
+          "valid_range": [
+            -999999986991104.0,
+            999999986991104.0
+          ]
+        }
+      }
+    },
+    "sha256": "da3e5fc0a4eda8f847bf7ec373728dc6b50f5290ff26013040f29f0a43b652af",
+    "source_file": "MERRA2_100.tavgM_2d_slv_Nx.199101.nc4",
+    "global_attributes": {
+      "VersionID": "5.12.4",
+      "ShortName": "M2TMNXSLV",
+      "RangeBeginningDate": "1991-01-01",
+      "RangeEndingDate": "1991-01-31",
+      "identifier_product_doi": "10.5067/AP1B0BA5PD2K"
+    }
+  },
+  "catalog_months": 420,
+  "unique_months": 420,
+  "catalog_exact_expected_sequence": true
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-14",
+  "source_files_checked": 514,
+  "original_source_changed": [],
+  "preserved_copies_changed": [],
+  "baseline_files": 345,
+  "protected_existing_files": 135,
+  "protected_existing_changed": [],
+  "changed_from_N4A_start": [
+    "src/app/layout.tsx",
+    "src/app/page.tsx",
+    "src/frontend/location.ts",
+    "src/frontend/analysis/Panel.tsx",
+    "src/frontend/components/App.tsx",
+    "src/frontend/components/ClientApp.tsx",
+    "src/frontend/map/MapView.tsx",
+    "src/frontend/styles/style.css",
+    "docs/ARCHITECTURE.md",
+    "docs/COST_POLICY.md",
+    "docs/DESIGN.md",
+    "docs/MIGRATION_PLAN.md",
+    "docs/PROGRESS.md",
+    "docs/PROJECT.md",
+    "docs/THIRD_PARTY.md",
+    "docs/VERCEL_LIMITATIONS.md",
+    "AGENTS.md"
+  ],
+  "new_backend_namespace": "src/backend/geography only; existing science/nasa/cache/services unchanged",
+  "package_lock_and_versions_unchanged": true,
+  "private_env_read": false
+}

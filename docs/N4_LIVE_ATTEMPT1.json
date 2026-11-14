@@ -1,0 +1,186 @@
+{
+  "mode": "fresh_local_NASA",
+  "checks": [
+    {
+      "name": "search and manual coordinates do not trigger analysis",
+      "passed": true
+    },
+    {
+      "name": "PAVLODAR T2M genuine browser → NASA → chart",
+      "passed": true
+    },
+    {
+      "name": "PAVLODAR QV2M from actual same-cell month cache",
+      "passed": true
+    },
+    {
+      "name": "BERLIN T2M genuine browser → NASA → chart",
+      "passed": false,
+      "error": "{\"code\":\"nasa_transport_error\",\"message\":\"NASA HTTPS request failed; TLS verification remains enabled\"}\n\n502 !== 200\n"
+    }
+  ],
+  "page_errors": [],
+  "responses": [
+    {
+      "id": "PAVLODAR_T2M",
+      "status": 200,
+      "duration_ms": 163759.1624,
+      "requested": {
+        "latitude": 52.27601,
+        "longitude": 76.96881,
+        "variable": "T2M",
+        "start_year": 1991,
+        "end_year": 2025
+      },
+      "actual_cell": {
+        "latitude": 52.5,
+        "longitude": 76.875,
+        "latitude_index": 285,
+        "longitude_index": 411,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "network_used": true,
+      "cache_hits": 0,
+      "cache_misses": 420,
+      "trend": {
+        "fitted_values": [
+          3.315276305665458,
+          3.324455763423365,
+          3.333635221181272,
+          3.342814678939179,
+          3.3519941366970856,
+          3.3611735944549923,
+          3.3703530522128995,
+          3.3795325099708062,
+          3.388711967728713,
+          3.3978914254866197,
+          3.4070708832445264,
+          3.4162503410024336,
+          3.4254297987603404,
+          3.434609256518247,
+          3.443788714276154,
+          3.452968172034061,
+          3.4621476297919678,
+          3.4713270875498745,
+          3.4805065453077813,
+          3.489686003065688,
+          3.498865460823595,
+          3.508044918581502,
+          3.5172243763394087,
+          3.5264038340973154,
+          3.5355832918552226,
+          3.5447627496131293,
+          3.553942207371036,
+          3.563121665128943,
+          3.5723011228868495,
+          3.5814805806447567,
+          3.5906600384026635,
+          3.59983949616057,
+          3.609018953918477,
+          3.618198411676384,
+          3.627377869434291
+        ],
+        "status": "estimated",
+        "slope_per_decade": 0.09179457757906836,
+        "standard_error_per_decade": 0.1387895197039132,
+        "p_value_two_sided": 0.5129513990556195,
+        "ci95_per_decade": {
+          "lower": -0.19057482338418938,
+          "upper": 0.3741639785423261
+        },
+        "significant": false,
+        "alpha": 0.05,
+        "r_squared": 0.009061539494666593,
+        "n_years": 35,
+        "residual_degrees_of_freedom": 33,
+        "hac_maxlags": 3,
+        "multiple_testing_correction": "none"
+      }
+    },
+    {
+      "id": "PAVLODAR_QV2M",
+      "status": 200,
+      "duration_ms": 229.41169999999693,
+      "requested": {
+        "latitude": 52.27601,
+        "longitude": 76.96881,
+        "variable": "QV2M",
+        "start_year": 1991,
+        "end_year": 2025
+      },
+      "actual_cell": {
+        "latitude": 52.5,
+        "longitude": 76.875,
+        "latitude_index": 285,
+        "longitude_index": 411,
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "network_used": false,
+      "cache_hits": 420,
+      "cache_misses": 0,
+      "trend": {
+        "fitted_values": [
+          3.714451457437991,
+          3.732432696782371,
+          3.7504139361267512,
+          3.7683951754711313,
+          3.7863764148155115,
+          3.8043576541598916,
+          3.8223388935042717,
+          3.840320132848652,
+          3.858301372193032,
+          3.876282611537412,
+          3.894263850881792,
+          3.912245090226172,
+          3.930226329570552,
+          3.948207568914932,
+          3.966188808259312,
+          3.9841700476036923,
+          4.002151286948073,
+          4.0201325262924525,
+          4.038113765636832,
+          4.056095004981213,
+          4.0740762443255925,
+          4.092057483669973,
+          4.110038723014353,
+          4.128019962358733,
+          4.146001201703113,
+          4.1639824410474935,
+          4.181963680391873,
+          4.199944919736254,
+          4.217926159080633,
+          4.235907398425014,
+          4.253888637769394,
+          4.271869877113774,
+          4.289851116458154,
+          4.3078323558025335,
+          4.325813595146914
+        ],
+        "status": "estimated",
+        "slope_per_decade": 0.17981239344380087,
+        "standard_error_per_decade": 0.05464052951629003,
+        "p_value_two_sided": 0.002383488790211441,
+        "ci95_per_decade": {
+          "lower": 0.06864540028217674,
+          "upper": 0.290979386605425
+        },
+        "significant": true,
+        "alpha": 0.05,
+        "r_squared": 0.42104348710726114,
+        "n_years": 35,
+        "residual_degrees_of_freedom": 33,
+        "hac_maxlags": 3,
+        "multiple_testing_correction": "none"
+      }
+    },
+    {
+      "id": "BERLIN_T2M",
+      "status": 502,
+      "duration_ms": 113730.47619999998,
+      "error": "nasa_transport_error"
+    }
+  ],
+  "run_error": "{\"code\":\"nasa_transport_error\",\"message\":\"NASA HTTPS request failed; TLS verification remains enabled\"}\n\n502 !== 200\n"
+}

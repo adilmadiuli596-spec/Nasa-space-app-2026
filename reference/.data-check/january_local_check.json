@@ -1,0 +1,106 @@
+{
+  "filename": "MERRA2_100.tavgM_2d_slv_Nx.199101.nc4",
+  "bytes": 54323822,
+  "sha256": "da3e5fc0a4eda8f847bf7ec373728dc6b50f5290ff26013040f29f0a43b652af",
+  "dimensions": {
+    "lon": 576,
+    "lat": 361,
+    "time": 1
+  },
+  "attributes": {
+    "VersionID": "5.12.4",
+    "ShortName": "M2TMNXSLV",
+    "RangeBeginningDate": "1991-01-01",
+    "RangeEndingDate": "1991-01-31",
+    "LongName": "MERRA2 tavg1_2d_slv_Nx: 2d,1-Hourly,Time-Averaged,Single-Level,Assimilation,Single-Level Diagnostics Monthly Mean",
+    "Title": "MERRA2 tavg1_2d_slv_Nx: 2d,1-Hourly,Time-Averaged,Single-Level,Assimilation,Single-Level Diagnostics Monthly Mean",
+    "identifier_product_doi": "10.5067/AP1B0BA5PD2K"
+  },
+  "indices_zero_based": {
+    "lat": 285,
+    "lon": 411
+  },
+  "cell": {
+    "latitude": 52.5,
+    "longitude": 76.875,
+    "latitude_step": 0.5,
+    "longitude_step": 0.625
+  },
+  "variables": {
+    "time": {
+      "dimensions": [
+        "time"
+      ],
+      "shape": [
+        1
+      ],
+      "attributes": {
+        "long_name": "time",
+        "units": "minutes since 1991-01-01 00:30:00",
+        "begin_date": 19910101,
+        "begin_time": 3000,
+        "valid_range": [
+          -999999986991104.0,
+          999999986991104.0
+        ]
+      },
+      "cell_value": [
+        0
+      ],
+      "masked": false,
+      "decoded_time": [
+        "1991-01-01 00:30:00"
+      ]
+    },
+    "T2M": {
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        1,
+        361,
+        576
+      ],
+      "attributes": {
+        "long_name": "2-meter_air_temperature",
+        "units": "K",
+        "_FillValue": 999999986991104.0,
+        "missing_value": 999999986991104.0,
+        "valid_range": [
+          -999999986991104.0,
+          999999986991104.0
+        ]
+      },
+      "cell_value": 259.11444091796875,
+      "masked": false
+    },
+    "QV2M": {
+      "dimensions": [
+        "time",
+        "lat",
+        "lon"
+      ],
+      "shape": [
+        1,
+        361,
+        576
+      ],
+      "attributes": {
+        "long_name": "2-meter_specific_humidity",
+        "units": "kg kg-1",
+        "_FillValue": 999999986991104.0,
+        "missing_value": 999999986991104.0,
+        "valid_range": [
+          -999999986991104.0,
+          999999986991104.0
+        ]
+      },
+      "cell_value": 0.0012164824875071645,
+      "masked": false
+    }
+  },
+  "T2M_C": -14.035559082031227,
+  "QV2M_g_per_kg": 1.2164824875071645
+}

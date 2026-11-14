@@ -1,0 +1,4018 @@
+{
+  "requested": {
+    "latitude": 52.52,
+    "longitude": 13.405,
+    "variable": "T2M",
+    "start_year": 2000,
+    "end_year": 2025
+  },
+  "actual_cell": {
+    "latitude": 52.5,
+    "longitude": 13.125,
+    "latitude_index": 285,
+    "longitude_index": 309,
+    "latitude_spacing": 0.5,
+    "longitude_spacing": 0.625
+  },
+  "source_unit": "K",
+  "unit": "°C",
+  "trend_unit": "°C/decade",
+  "monthly_series": [
+    {
+      "month": "2000-01",
+      "value": 0.19155273437502274
+    },
+    {
+      "month": "2000-02",
+      "value": 3.1890197753906477
+    },
+    {
+      "month": "2000-03",
+      "value": 4.820794677734398
+    },
+    {
+      "month": "2000-04",
+      "value": 10.480065917968773
+    },
+    {
+      "month": "2000-05",
+      "value": 15.585168457031273
+    },
+    {
+      "month": "2000-06",
+      "value": 18.798364257812523
+    },
+    {
+      "month": "2000-07",
+      "value": 17.372613525390648
+    },
+    {
+      "month": "2000-08",
+      "value": 19.036706542968773
+    },
+    {
+      "month": "2000-09",
+      "value": 14.311791992187523
+    },
+    {
+      "month": "2000-10",
+      "value": 11.527734375000023
+    },
+    {
+      "month": "2000-11",
+      "value": 5.373773193359398
+    },
+    {
+      "month": "2000-12",
+      "value": 1.6872497558593977
+    },
+    {
+      "month": "2001-01",
+      "value": -0.8614257812499773
+    },
+    {
+      "month": "2001-02",
+      "value": 0.5224853515625227
+    },
+    {
+      "month": "2001-03",
+      "value": 2.1932006835937727
+    },
+    {
+      "month": "2001-04",
+      "value": 7.647058105468773
+    },
+    {
+      "month": "2001-05",
+      "value": 14.462884521484398
+    },
+    {
+      "month": "2001-06",
+      "value": 15.724542236328148
+    },
+    {
+      "month": "2001-07",
+      "value": 20.784875488281273
+    },
+    {
+      "month": "2001-08",
+      "value": 20.686791992187523
+    },
+    {
+      "month": "2001-09",
+      "value": 13.282098388671898
+    },
+    {
+      "month": "2001-10",
+      "value": 12.161462402343773
+    },
+    {
+      "month": "2001-11",
+      "value": 3.5378967285156477
+    },
+    {
+      "month": "2001-12",
+      "value": -1.4994262695312273
+    },
+    {
+      "month": "2002-01",
+      "value": -0.018255615234352263
+    },
+    {
+      "month": "2002-02",
+      "value": 3.8517700195312727
+    },
+    {
+      "month": "2002-03",
+      "value": 4.646844482421898
+    },
+    {
+      "month": "2002-04",
+      "value": 7.834527587890648
+    },
+    {
+      "month": "2002-05",
+      "value": 15.026879882812523
+    },
+    {
+      "month": "2002-06",
+      "value": 17.847070312500023
+    },
+    {
+      "month": "2002-07",
+      "value": 20.275292968750023
+    },
+    {
+      "month": "2002-08",
+      "value": 21.062005615234398
+    },
+    {
+      "month": "2002-09",
+      "value": 14.858941650390648
+    },
+    {
+      "month": "2002-10",
+      "value": 7.729669189453148
+    },
+    {
+      "month": "2002-11",
+      "value": 2.8629699707031477
+    },
+    {
+      "month": "2002-12",
+      "value": -3.6386474609374773
+    },
+    {
+      "month": "2003-01",
+      "value": -2.1247009277343523
+    },
+    {
+      "month": "2003-02",
+      "value": -3.4875244140624773
+    },
+    {
+      "month": "2003-03",
+      "value": 3.1726623535156477
+    },
+    {
+      "month": "2003-04",
+      "value": 7.568994140625023
+    },
+    {
+      "month": "2003-05",
+      "value": 14.833276367187523
+    },
+    {
+      "month": "2003-06",
+      "value": 20.377954101562523
+    },
+    {
+      "month": "2003-07",
+      "value": 21.320825195312523
+    },
+    {
+      "month": "2003-08",
+      "value": 21.527154541015648
+    },
+    {
+      "month": "2003-09",
+      "value": 15.805841064453148
+    },
+    {
+      "month": "2003-10",
+      "value": 5.905267333984398
+    },
+    {
+      "month": "2003-11",
+      "value": 4.998956298828148
+    },
+    {
+      "month": "2003-12",
+      "value": 0.9337097167968977
+    },
+    {
+      "month": "2004-01",
+      "value": -2.5130065917968523
+    },
+    {
+      "month": "2004-02",
+      "value": 1.4978881835937727
+    },
+    {
+      "month": "2004-03",
+      "value": 3.9923339843750227
+    },
+    {
+      "month": "2004-04",
+      "value": 9.226434326171898
+    },
+    {
+      "month": "2004-05",
+      "value": 12.920617675781273
+    },
+    {
+      "month": "2004-06",
+      "value": 16.655023193359398
+    },
+    {
+      "month": "2004-07",
+      "value": 18.627191162109398
+    },
+    {
+      "month": "2004-08",
+      "value": 20.493737792968773
+    },
+    {
+      "month": "2004-09",
+      "value": 14.991815185546898
+    },
+    {
+      "month": "2004-10",
+      "value": 9.863336181640648
+    },
+    {
+      "month": "2004-11",
+      "value": 3.9484802246093977
+    },
+    {
+      "month": "2004-12",
+      "value": 0.9159179687500227
+    },
+    {
+      "month": "2005-01",
+      "value": 1.9512268066406477
+    },
+    {
+      "month": "2005-02",
+      "value": -1.4324401855468523
+    },
+    {
+      "month": "2005-03",
+      "value": 2.3771301269531477
+    },
+    {
+      "month": "2005-04",
+      "value": 9.007287597656273
+    },
+    {
+      "month": "2005-05",
+      "value": 13.593591308593773
+    },
+    {
+      "month": "2005-06",
+      "value": 17.410211181640648
+    },
+    {
+      "month": "2005-07",
+      "value": 19.852624511718773
+    },
+    {
+      "month": "2005-08",
+      "value": 17.393640136718773
+    },
+    {
+      "month": "2005-09",
+      "value": 16.413079833984398
+    },
+    {
+      "month": "2005-10",
+      "value": 11.213739013671898
+    },
+    {
+      "month": "2005-11",
+      "value": 3.8287902832031477
+    },
+    {
+      "month": "2005-12",
+      "value": 0.07241210937502274
+    },
+    {
+      "month": "2006-01",
+      "value": -6.234075927734352
+    },
+    {
+      "month": "2006-02",
+      "value": -1.5463012695312273
+    },
+    {
+      "month": "2006-03",
+      "value": 0.7543273925781477
+    },
+    {
+      "month": "2006-04",
+      "value": 8.106866455078148
+    },
+    {
+      "month": "2006-05",
+      "value": 13.615899658203148
+    },
+    {
+      "month": "2006-06",
+      "value": 18.695825195312523
+    },
+    {
+      "month": "2006-07",
+      "value": 24.306024169921898
+    },
+    {
+      "month": "2006-08",
+      "value": 18.040612792968773
+    },
+    {
+      "month": "2006-09",
+      "value": 18.094537353515648
+    },
+    {
+      "month": "2006-10",
+      "value": 12.361566162109398
+    },
+    {
+      "month": "2006-11",
+      "value": 6.715814208984398
+    },
+    {
+      "month": "2006-12",
+      "value": 4.381951904296898
+    },
+    {
+      "month": "2007-01",
+      "value": 4.168939208984398
+    },
+    {
+      "month": "2007-02",
+      "value": 2.5769897460937727
+    },
+    {
+      "month": "2007-03",
+      "value": 6.026116943359398
+    },
+    {
+      "month": "2007-04",
+      "value": 10.472436523437523
+    },
+    {
+      "month": "2007-05",
+      "value": 15.467797851562523
+    },
+    {
+      "month": "2007-06",
+      "value": 19.412408447265648
+    },
+    {
+      "month": "2007-07",
+      "value": 18.715997314453148
+    },
+    {
+      "month": "2007-08",
+      "value": 18.755548095703148
+    },
+    {
+      "month": "2007-09",
+      "value": 13.468652343750023
+    },
+    {
+      "month": "2007-10",
+      "value": 8.110833740234398
+    },
+    {
+      "month": "2007-11",
+      "value": 2.8398986816406477
+    },
+    {
+      "month": "2007-12",
+      "value": 0.8697143554687727
+    },
+    {
+      "month": "2008-01",
+      "value": 2.1374145507812727
+    },
+    {
+      "month": "2008-02",
+      "value": 3.2319580078125227
+    },
+    {
+      "month": "2008-03",
+      "value": 3.8266235351562727
+    },
+    {
+      "month": "2008-04",
+      "value": 7.918542480468773
+    },
+    {
+      "month": "2008-05",
+      "value": 14.533532714843773
+    },
+    {
+      "month": "2008-06",
+      "value": 18.757897949218773
+    },
+    {
+      "month": "2008-07",
+      "value": 20.314050292968773
+    },
+    {
+      "month": "2008-08",
+      "value": 19.395318603515648
+    },
+    {
+      "month": "2008-09",
+      "value": 13.830712890625023
+    },
+    {
+      "month": "2008-10",
+      "value": 9.318963623046898
+    },
+    {
+      "month": "2008-11",
+      "value": 4.556420898437523
+    },
+    {
+      "month": "2008-12",
+      "value": 0.016137695312522737
+    },
+    {
+      "month": "2009-01",
+      "value": -3.3840698242187273
+    },
+    {
+      "month": "2009-02",
+      "value": -0.5992492675781023
+    },
+    {
+      "month": "2009-03",
+      "value": 4.125939941406273
+    },
+    {
+      "month": "2009-04",
+      "value": 11.778314208984398
+    },
+    {
+      "month": "2009-05",
+      "value": 14.393457031250023
+    },
+    {
+      "month": "2009-06",
+      "value": 15.889825439453148
+    },
+    {
+      "month": "2009-07",
+      "value": 20.158990478515648
+    },
+    {
+      "month": "2009-08",
+      "value": 20.707208251953148
+    },
+    {
+      "month": "2009-09",
+      "value": 16.015832519531273
+    },
+    {
+      "month": "2009-10",
+      "value": 7.499810791015648
+    },
+    {
+      "month": "2009-11",
+      "value": 6.131494140625023
+    },
+    {
+      "month": "2009-12",
+      "value": -1.0488952636718523
+    },
+    {
+      "month": "2010-01",
+      "value": -8.519232177734352
+    },
+    {
+      "month": "2010-02",
+      "value": -3.1385253906249773
+    },
+    {
+      "month": "2010-03",
+      "value": 3.4393554687500227
+    },
+    {
+      "month": "2010-04",
+      "value": 8.212670898437523
+    },
+    {
+      "month": "2010-05",
+      "value": 11.090142822265648
+    },
+    {
+      "month": "2010-06",
+      "value": 17.475976562500023
+    },
+    {
+      "month": "2010-07",
+      "value": 23.148583984375023
+    },
+    {
+      "month": "2010-08",
+      "value": 18.450952148437523
+    },
+    {
+      "month": "2010-09",
+      "value": 12.928399658203148
+    },
+    {
+      "month": "2010-10",
+      "value": 7.280389404296898
+    },
+    {
+      "month": "2010-11",
+      "value": 3.7994323730468977
+    },
+    {
+      "month": "2010-12",
+      "value": -6.500341796874977
+    },
+    {
+      "month": "2011-01",
+      "value": -0.9459289550781023
+    },
+    {
+      "month": "2011-02",
+      "value": -1.5341247558593523
+    },
+    {
+      "month": "2011-03",
+      "value": 3.3803039550781477
+    },
+    {
+      "month": "2011-04",
+      "value": 11.277947998046898
+    },
+    {
+      "month": "2011-05",
+      "value": 14.014398193359398
+    },
+    {
+      "month": "2011-06",
+      "value": 18.378594970703148
+    },
+    {
+      "month": "2011-07",
+      "value": 17.841180419921898
+    },
+    {
+      "month": "2011-08",
+      "value": 18.079888916015648
+    },
+    {
+      "month": "2011-09",
+      "value": 15.558953857421898
+    },
+    {
+      "month": "2011-10",
+      "value": 9.632958984375023
+    },
+    {
+      "month": "2011-11",
+      "value": 3.4101196289062727
+    },
+    {
+      "month": "2011-12",
+      "value": 3.0784545898437727
+    },
+    {
+      "month": "2012-01",
+      "value": 0.7197204589843977
+    },
+    {
+      "month": "2012-02",
+      "value": -2.8307556152343523
+    },
+    {
+      "month": "2012-03",
+      "value": 5.951287841796898
+    },
+    {
+      "month": "2012-04",
+      "value": 8.335870361328148
+    },
+    {
+      "month": "2012-05",
+      "value": 14.755120849609398
+    },
+    {
+      "month": "2012-06",
+      "value": 16.450555419921898
+    },
+    {
+      "month": "2012-07",
+      "value": 19.079583740234398
+    },
+    {
+      "month": "2012-08",
+      "value": 19.559442138671898
+    },
+    {
+      "month": "2012-09",
+      "value": 15.071832275390648
+    },
+    {
+      "month": "2012-10",
+      "value": 8.739801025390648
+    },
+    {
+      "month": "2012-11",
+      "value": 4.368371582031273
+    },
+    {
+      "month": "2012-12",
+      "value": -1.1537841796874773
+    },
+    {
+      "month": "2013-01",
+      "value": -1.1438049316406023
+    },
+    {
+      "month": "2013-02",
+      "value": -1.0065673828124773
+    },
+    {
+      "month": "2013-03",
+      "value": -1.8288635253906023
+    },
+    {
+      "month": "2013-04",
+      "value": 7.607904052734398
+    },
+    {
+      "month": "2013-05",
+      "value": 13.539117431640648
+    },
+    {
+      "month": "2013-06",
+      "value": 17.291131591796898
+    },
+    {
+      "month": "2013-07",
+      "value": 21.318231201171898
+    },
+    {
+      "month": "2013-08",
+      "value": 19.902856445312523
+    },
+    {
+      "month": "2013-09",
+      "value": 13.618737792968773
+    },
+    {
+      "month": "2013-10",
+      "value": 10.536187744140648
+    },
+    {
+      "month": "2013-11",
+      "value": 4.127404785156273
+    },
+    {
+      "month": "2013-12",
+      "value": 2.6935974121093977
+    },
+    {
+      "month": "2014-01",
+      "value": -0.47168579101560226
+    },
+    {
+      "month": "2014-02",
+      "value": 2.9343505859375227
+    },
+    {
+      "month": "2014-03",
+      "value": 6.730310058593773
+    },
+    {
+      "month": "2014-04",
+      "value": 11.574090576171898
+    },
+    {
+      "month": "2014-05",
+      "value": 13.883966064453148
+    },
+    {
+      "month": "2014-06",
+      "value": 17.450219726562523
+    },
+    {
+      "month": "2014-07",
+      "value": 21.830102539062523
+    },
+    {
+      "month": "2014-08",
+      "value": 17.674462890625023
+    },
+    {
+      "month": "2014-09",
+      "value": 16.262109375000023
+    },
+    {
+      "month": "2014-10",
+      "value": 11.985620117187523
+    },
+    {
+      "month": "2014-11",
+      "value": 5.646997070312523
+    },
+    {
+      "month": "2014-12",
+      "value": 1.2827087402343977
+    },
+    {
+      "month": "2015-01",
+      "value": 1.4779907226562727
+    },
+    {
+      "month": "2015-02",
+      "value": 0.16427001953127274
+    },
+    {
+      "month": "2015-03",
+      "value": 4.878991699218773
+    },
+    {
+      "month": "2015-04",
+      "value": 8.359307861328148
+    },
+    {
+      "month": "2015-05",
+      "value": 12.987023925781273
+    },
+    {
+      "month": "2015-06",
+      "value": 16.852777099609398
+    },
+    {
+      "month": "2015-07",
+      "value": 20.616937255859398
+    },
+    {
+      "month": "2015-08",
+      "value": 22.509973144531273
+    },
+    {
+      "month": "2015-09",
+      "value": 14.456872558593773
+    },
+    {
+      "month": "2015-10",
+      "value": 8.003381347656273
+    },
+    {
+      "month": "2015-11",
+      "value": 6.743127441406273
+    },
+    {
+      "month": "2015-12",
+      "value": 5.515374755859398
+    },
+    {
+      "month": "2016-01",
+      "value": -1.5352233886718523
+    },
+    {
+      "month": "2016-02",
+      "value": 2.6441589355468977
+    },
+    {
+      "month": "2016-03",
+      "value": 3.8214660644531477
+    },
+    {
+      "month": "2016-04",
+      "value": 8.174310302734398
+    },
+    {
+      "month": "2016-05",
+      "value": 15.299768066406273
+    },
+    {
+      "month": "2016-06",
+      "value": 19.727471923828148
+    },
+    {
+      "month": "2016-07",
+      "value": 20.688470458984398
+    },
+    {
+      "month": "2016-08",
+      "value": 19.165673828125023
+    },
+    {
+      "month": "2016-09",
+      "value": 18.626397705078148
+    },
+    {
+      "month": "2016-10",
+      "value": 8.641198730468773
+    },
+    {
+      "month": "2016-11",
+      "value": 2.8514648437500227
+    },
+    {
+      "month": "2016-12",
+      "value": 1.5418334960937727
+    },
+    {
+      "month": "2017-01",
+      "value": -2.6291259765624773
+    },
+    {
+      "month": "2017-02",
+      "value": 0.43966064453127274
+    },
+    {
+      "month": "2017-03",
+      "value": 6.206628417968773
+    },
+    {
+      "month": "2017-04",
+      "value": 7.706872558593773
+    },
+    {
+      "month": "2017-05",
+      "value": 14.755456542968773
+    },
+    {
+      "month": "2017-06",
+      "value": 18.853082275390648
+    },
+    {
+      "month": "2017-07",
+      "value": 18.631646728515648
+    },
+    {
+      "month": "2017-08",
+      "value": 18.750695800781273
+    },
+    {
+      "month": "2017-09",
+      "value": 13.884881591796898
+    },
+    {
+      "month": "2017-10",
+      "value": 11.205682373046898
+    },
+    {
+      "month": "2017-11",
+      "value": 4.953637695312523
+    },
+    {
+      "month": "2017-12",
+      "value": 2.1086975097656477
+    },
+    {
+      "month": "2018-01",
+      "value": 2.1014953613281477
+    },
+    {
+      "month": "2018-02",
+      "value": -2.0567382812499773
+    },
+    {
+      "month": "2018-03",
+      "value": 0.5682312011718977
+    },
+    {
+      "month": "2018-04",
+      "value": 12.326013183593773
+    },
+    {
+      "month": "2018-05",
+      "value": 16.891992187500023
+    },
+    {
+      "month": "2018-06",
+      "value": 19.599145507812523
+    },
+    {
+      "month": "2018-07",
+      "value": 22.043756103515648
+    },
+    {
+      "month": "2018-08",
+      "value": 22.205133056640648
+    },
+    {
+      "month": "2018-09",
+      "value": 17.005029296875023
+    },
+    {
+      "month": "2018-10",
+      "value": 11.171441650390648
+    },
+    {
+      "month": "2018-11",
+      "value": 4.636102294921898
+    },
+    {
+      "month": "2018-12",
+      "value": 3.1838623046875227
+    },
+    {
+      "month": "2019-01",
+      "value": 0.22786865234377274
+    },
+    {
+      "month": "2019-02",
+      "value": 2.8637329101562727
+    },
+    {
+      "month": "2019-03",
+      "value": 6.194909667968773
+    },
+    {
+      "month": "2019-04",
+      "value": 10.024774169921898
+    },
+    {
+      "month": "2019-05",
+      "value": 12.670983886718773
+    },
+    {
+      "month": "2019-06",
+      "value": 23.191094970703148
+    },
+    {
+      "month": "2019-07",
+      "value": 20.738122558593773
+    },
+    {
+      "month": "2019-08",
+      "value": 21.793634033203148
+    },
+    {
+      "month": "2019-09",
+      "value": 15.357720947265648
+    },
+    {
+      "month": "2019-10",
+      "value": 11.033319091796898
+    },
+    {
+      "month": "2019-11",
+      "value": 5.391137695312523
+    },
+    {
+      "month": "2019-12",
+      "value": 2.8456359863281477
+    },
+    {
+      "month": "2020-01",
+      "value": 2.9140869140625227
+    },
+    {
+      "month": "2020-02",
+      "value": 4.896356201171898
+    },
+    {
+      "month": "2020-03",
+      "value": 4.443414306640648
+    },
+    {
+      "month": "2020-04",
+      "value": 9.506097412109398
+    },
+    {
+      "month": "2020-05",
+      "value": 12.312646484375023
+    },
+    {
+      "month": "2020-06",
+      "value": 19.235009765625023
+    },
+    {
+      "month": "2020-07",
+      "value": 19.259362792968773
+    },
+    {
+      "month": "2020-08",
+      "value": 22.184014892578148
+    },
+    {
+      "month": "2020-09",
+      "value": 15.989709472656273
+    },
+    {
+      "month": "2020-10",
+      "value": 10.607049560546898
+    },
+    {
+      "month": "2020-11",
+      "value": 5.804620361328148
+    },
+    {
+      "month": "2020-12",
+      "value": 1.5324340820312727
+    },
+    {
+      "month": "2021-01",
+      "value": -1.2383178710937273
+    },
+    {
+      "month": "2021-02",
+      "value": -0.9091247558593523
+    },
+    {
+      "month": "2021-03",
+      "value": 4.490808105468773
+    },
+    {
+      "month": "2021-04",
+      "value": 6.025323486328148
+    },
+    {
+      "month": "2021-05",
+      "value": 11.712243652343773
+    },
+    {
+      "month": "2021-06",
+      "value": 21.320336914062523
+    },
+    {
+      "month": "2021-07",
+      "value": 21.135339355468773
+    },
+    {
+      "month": "2021-08",
+      "value": 18.050012207031273
+    },
+    {
+      "month": "2021-09",
+      "value": 16.225396728515648
+    },
+    {
+      "month": "2021-10",
+      "value": 10.012261962890648
+    },
+    {
+      "month": "2021-11",
+      "value": 5.243707275390648
+    },
+    {
+      "month": "2021-12",
+      "value": 0.6122985839843977
+    },
+    {
+      "month": "2022-01",
+      "value": 2.2949768066406477
+    },
+    {
+      "month": "2022-02",
+      "value": 4.127069091796898
+    },
+    {
+      "month": "2022-03",
+      "value": 4.095330810546898
+    },
+    {
+      "month": "2022-04",
+      "value": 7.856835937500023
+    },
+    {
+      "month": "2022-05",
+      "value": 15.230523681640648
+    },
+    {
+      "month": "2022-06",
+      "value": 20.603631591796898
+    },
+    {
+      "month": "2022-07",
+      "value": 20.934289550781273
+    },
+    {
+      "month": "2022-08",
+      "value": 22.728112792968773
+    },
+    {
+      "month": "2022-09",
+      "value": 14.469049072265648
+    },
+    {
+      "month": "2022-10",
+      "value": 12.845849609375023
+    },
+    {
+      "month": "2022-11",
+      "value": 5.254083251953148
+    },
+    {
+      "month": "2022-12",
+      "value": 0.5161987304687727
+    },
+    {
+      "month": "2023-01",
+      "value": 3.1685119628906477
+    },
+    {
+      "month": "2023-02",
+      "value": 2.3526550292968977
+    },
+    {
+      "month": "2023-03",
+      "value": 4.941613769531273
+    },
+    {
+      "month": "2023-04",
+      "value": 7.576837158203148
+    },
+    {
+      "month": "2023-05",
+      "value": 13.511071777343773
+    },
+    {
+      "month": "2023-06",
+      "value": 19.849084472656273
+    },
+    {
+      "month": "2023-07",
+      "value": 20.501550292968773
+    },
+    {
+      "month": "2023-08",
+      "value": 20.205712890625023
+    },
+    {
+      "month": "2023-09",
+      "value": 19.259545898437523
+    },
+    {
+      "month": "2023-10",
+      "value": 11.894738769531273
+    },
+    {
+      "month": "2023-11",
+      "value": 4.984796142578148
+    },
+    {
+      "month": "2023-12",
+      "value": 2.6991516113281477
+    },
+    {
+      "month": "2024-01",
+      "value": 0.19872436523439774
+    },
+    {
+      "month": "2024-02",
+      "value": 5.897454833984398
+    },
+    {
+      "month": "2024-03",
+      "value": 7.110192871093773
+    },
+    {
+      "month": "2024-04",
+      "value": 10.449365234375023
+    },
+    {
+      "month": "2024-05",
+      "value": 16.268212890625023
+    },
+    {
+      "month": "2024-06",
+      "value": 18.388330078125023
+    },
+    {
+      "month": "2024-07",
+      "value": 20.849023437500023
+    },
+    {
+      "month": "2024-08",
+      "value": 21.983178710937523
+    },
+    {
+      "month": "2024-09",
+      "value": 17.726434326171898
+    },
+    {
+      "month": "2024-10",
+      "value": 11.459497070312523
+    },
+    {
+      "month": "2024-11",
+      "value": 4.696252441406273
+    },
+    {
+      "month": "2024-12",
+      "value": 2.7776123046875227
+    },
+    {
+      "month": "2025-01",
+      "value": 1.0082031250000227
+    },
+    {
+      "month": "2025-02",
+      "value": 0.46114501953127274
+    },
+    {
+      "month": "2025-03",
+      "value": 5.651055908203148
+    },
+    {
+      "month": "2025-04",
+      "value": 11.120721435546898
+    },
+    {
+      "month": "2025-05",
+      "value": 13.753503417968773
+    },
+    {
+      "month": "2025-06",
+      "value": 19.685113525390648
+    },
+    {
+      "month": "2025-07",
+      "value": 20.171990966796898
+    },
+    {
+      "month": "2025-08",
+      "value": 19.532403564453148
+    },
+    {
+      "month": "2025-09",
+      "value": 16.266046142578148
+    },
+    {
+      "month": "2025-10",
+      "value": 10.367120361328148
+    },
+    {
+      "month": "2025-11",
+      "value": 4.448175048828148
+    },
+    {
+      "month": "2025-12",
+      "value": 2.1147705078125227
+    }
+  ],
+  "annual_series": [
+    {
+      "year": 2000,
+      "value": 10.213873924713992,
+      "months": 12,
+      "days": 366
+    },
+    {
+      "year": 2001,
+      "value": 9.112758103462138,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2002,
+      "value": 9.390554266106616,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2003,
+      "value": 9.308262237130801,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2004,
+      "value": 9.238785023506896,
+      "months": 12,
+      "days": 366
+    },
+    {
+      "year": 2005,
+      "value": 9.369200071570013,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2006,
+      "value": 9.833179045376735,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2007,
+      "value": 10.119235522126521,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2008,
+      "value": 9.83999256905313,
+      "months": 12,
+      "days": 366
+    },
+    {
+      "year": 2009,
+      "value": 9.35263203660105,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2010,
+      "value": 7.35534525832087,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2011,
+      "value": 9.406388875882943,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2012,
+      "value": 9.130856023069311,
+      "months": 12,
+      "days": 366
+    },
+    {
+      "year": 2013,
+      "value": 8.949886123448225,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2014,
+      "value": 10.604231074084996,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2015,
+      "value": 10.28121087061218,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2016,
+      "value": 9.984668735858545,
+      "months": 12,
+      "days": 366
+    },
+    {
+      "year": 2017,
+      "value": 9.627903684851264,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2018,
+      "value": 10.883680286146213,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2019,
+      "value": 11.067849438811024,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2020,
+      "value": 10.734701421352055,
+      "months": 12,
+      "days": 366
+    },
+    {
+      "year": 2021,
+      "value": 9.443839629708927,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2022,
+      "value": 10.956355264742102,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2023,
+      "value": 10.96047981993795,
+      "months": 12,
+      "days": 365
+    },
+    {
+      "year": 2024,
+      "value": 11.499664873633904,
+      "months": 12,
+      "days": 366
+    },
+    {
+      "year": 2025,
+      "value": 10.435847201412694,
+      "months": 12,
+      "days": 365
+    }
+  ],
+  "trend": {
+    "fitted_values": [
+      9.06066941402882,
+      9.126897034388119,
+      9.193124654747416,
+      9.259352275106714,
+      9.325579895466012,
+      9.39180751582531,
+      9.458035136184607,
+      9.524262756543905,
+      9.590490376903203,
+      9.6567179972625,
+      9.722945617621798,
+      9.789173237981096,
+      9.855400858340394,
+      9.92162847869969,
+      9.987856099058988,
+      10.054083719418285,
+      10.120311339777583,
+      10.18653896013688,
+      10.252766580496179,
+      10.318994200855476,
+      10.385221821214774,
+      10.451449441574072,
+      10.51767706193337,
+      10.583904682292667,
+      10.650132302651965,
+      10.716359923011263
+    ],
+    "status": "estimated",
+    "slope_per_decade": 0.6622762035929768,
+    "standard_error_per_decade": 0.15088651719608745,
+    "p_value_two_sided": 0.00019631298542344133,
+    "ci95_per_decade": {
+      "lower": 0.35086173778290936,
+      "upper": 0.9736906694030443
+    },
+    "significant": true,
+    "alpha": 0.05,
+    "r_squared": 0.3263170087452296,
+    "n_years": 26,
+    "residual_degrees_of_freedom": 24,
+    "hac_maxlags": 3,
+    "multiple_testing_correction": "none"
+  },
+  "method": {
+    "aggregation": "days-in-month weighted annual mean; 12 finite months required",
+    "model": "OLS with intercept and centered calendar year",
+    "covariance": "HAC/Newey-West",
+    "kernel": "bartlett",
+    "maxlags": 3,
+    "use_correction": true,
+    "use_t": true,
+    "missing_policy": "reject; no imputation or dropping",
+    "calendar": "Gregorian",
+    "implementation": "earth-detective-typescript-n2",
+    "arithmetic": "IEEE-754 binary64; Neumaier summation; Lanczos/continued-fraction Student t"
+  },
+  "quality": {
+    "expected_months": 312,
+    "actual_months": 312,
+    "missing_months": 0,
+    "missing_values": 0,
+    "complete_years": 26,
+    "physical_screening_passed": true
+  },
+  "provenance": {
+    "provider": "NASA GES DISC",
+    "dataset": "M2TMNXSLV",
+    "version": "5.12.4",
+    "doi": "10.5067/AP1B0BA5PD2K",
+    "mode": "nasa_opendap",
+    "network_used": true,
+    "source_id": "M2TMNXSLV.5.12.4",
+    "artifact_sha256": {
+      "cmr_manifest": "1c658b812003918579032055510df0d8cefb3f08085772d9cc0f56f490a0f8cc",
+      "normalized_series": "9dc1c2018b37a53469aad5526e51d9813b5ebcd95bc2cdc1b41d98b8611e02a4"
+    },
+    "granules": [
+      {
+        "month": "2000-01",
+        "granule_id": "G1278025811-GES_DISC",
+        "filename": "MERRA2_200.tavgM_2d_slv_Nx.200001.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "51bba53b486648a6501a496ca3e4a2d7271c10f0a26b9752dcb2936e95320a2c",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_200.tavgM_2d_slv_Nx.200001.nc4"
+      },
+      {
+        "month": "2000-02",
+        "granule_id": "G1278025829-GES_DISC",
+        "filename": "MERRA2_200.tavgM_2d_slv_Nx.200002.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "473019da252be76ab21ac08ed2963030225bc5ef870f96f9e38fbfb380ce9794",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_200.tavgM_2d_slv_Nx.200002.nc4"
+      },
+      {
+        "month": "2000-03",
+        "granule_id": "G1278025809-GES_DISC",
+        "filename": "MERRA2_200.tavgM_2d_slv_Nx.200003.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "9cb7efe1fd5de7abf357a34874224266282ad02b7180f78198d9dc2b5dac99a6",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_200.tavgM_2d_slv_Nx.200003.nc4"
+      },
+      {
+        "month": "2000-04",
+        "granule_id": "G1278025791-GES_DISC",
+        "filename": "MERRA2_200.tavgM_2d_slv_Nx.200004.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "d79b220017b061576cc453bdc666c38dc5b5cb661f684800ac79fcedeb86f479",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_200.tavgM_2d_slv_Nx.200004.nc4"
+      },
+      {
+        "month": "2000-05",
+        "granule_id": "G1278025826-GES_DISC",
+        "filename": "MERRA2_200.tavgM_2d_slv_Nx.200005.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e48ef0e10f80361f5783aa991c2a19cd3f5778267b0a38af7ffd28a9f6954a7b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_200.tavgM_2d_slv_Nx.200005.nc4"
+      },
+      {
+        "month": "2000-06",
+        "granule_id": "G1278025788-GES_DISC",
+        "filename": "MERRA2_200.tavgM_2d_slv_Nx.200006.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ea5047046640fb130e2ab112976382bb1145b407f7deb8e4d055de73e20879c8",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_200.tavgM_2d_slv_Nx.200006.nc4"
+      },
+      {
+        "month": "2000-07",
+        "granule_id": "G1278025828-GES_DISC",
+        "filename": "MERRA2_200.tavgM_2d_slv_Nx.200007.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "cfc2f59bc8acd7c11a065e5a5d59d618ee29715cd170f9e64518bc27fe52e33e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_200.tavgM_2d_slv_Nx.200007.nc4"
+      },
+      {
+        "month": "2000-08",
+        "granule_id": "G1278025787-GES_DISC",
+        "filename": "MERRA2_200.tavgM_2d_slv_Nx.200008.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "f0b4ced715b4176cc72b89a2b9106fda16c0154358ba99a8ecf7d9bcf47aac26",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_200.tavgM_2d_slv_Nx.200008.nc4"
+      },
+      {
+        "month": "2000-09",
+        "granule_id": "G1278025810-GES_DISC",
+        "filename": "MERRA2_200.tavgM_2d_slv_Nx.200009.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "c720c64dd3e8ae12c67a287b881108663a377069276195b985d204c2469575fa",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_200.tavgM_2d_slv_Nx.200009.nc4"
+      },
+      {
+        "month": "2000-10",
+        "granule_id": "G1278025827-GES_DISC",
+        "filename": "MERRA2_200.tavgM_2d_slv_Nx.200010.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "7244f9b212adec50daa8a7e7d3586fe68406a9eb586bbf6f706a915c0dbe3113",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_200.tavgM_2d_slv_Nx.200010.nc4"
+      },
+      {
+        "month": "2000-11",
+        "granule_id": "G1278025824-GES_DISC",
+        "filename": "MERRA2_200.tavgM_2d_slv_Nx.200011.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "093187c1644a3f64352c2a530727ba2de940de3cb45ed1f9782f7c554b97e40c",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_200.tavgM_2d_slv_Nx.200011.nc4"
+      },
+      {
+        "month": "2000-12",
+        "granule_id": "G1278025789-GES_DISC",
+        "filename": "MERRA2_200.tavgM_2d_slv_Nx.200012.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "85d0a0603814202ab2f423ca4e8065b7da1d6f6103150277f3e6a76b5c8d8760",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_200.tavgM_2d_slv_Nx.200012.nc4"
+      },
+      {
+        "month": "2001-01",
+        "granule_id": "G1278025850-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200101.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "11d900bb5d32cb9a1c798fc59a1462a0dc095fa12e7854b5cd10427e9da04b3f",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200101.nc4"
+      },
+      {
+        "month": "2001-02",
+        "granule_id": "G1278025888-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200102.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "6e1bb5a715f0147a51ecd811e10baad14ccfdf9ef4e4cb9763bf3fd887495cae",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200102.nc4"
+      },
+      {
+        "month": "2001-03",
+        "granule_id": "G1278025852-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200103.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "00ecaba4c5eaac6c24556a43c35bb596017b8522c640cec4f1389f0d6a7f79d4",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200103.nc4"
+      },
+      {
+        "month": "2001-04",
+        "granule_id": "G1278025853-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200104.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "23cc84e589cd844299d91a71f0aeb14e7fb691c8357c6701607dd3bb8728f9ee",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200104.nc4"
+      },
+      {
+        "month": "2001-05",
+        "granule_id": "G1278025851-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200105.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e21c8fb56285d5baf5d65682f4cd16ab911f0fa7cd1b045a874b42a6eb88a54a",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200105.nc4"
+      },
+      {
+        "month": "2001-06",
+        "granule_id": "G1278025855-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200106.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "39c6b27388b8be645ea3f3bb1bc454e80f803a4616834bf7a0bb004bb4b0048b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200106.nc4"
+      },
+      {
+        "month": "2001-07",
+        "granule_id": "G1278025886-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200107.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "833d86a033cd2b17bd98b7b04002a61df8262107847f70941e171da359483191",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200107.nc4"
+      },
+      {
+        "month": "2001-08",
+        "granule_id": "G1278025872-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200108.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "b9cfadb6f93ce51cd200b55d0c16c74e3d6b5e0f8f8dc29f6b0260dd7769acd6",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200108.nc4"
+      },
+      {
+        "month": "2001-09",
+        "granule_id": "G1278025873-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200109.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "346c02eee27d7d7186d7f5fcd9d48d0da3a383f6055fda6e21e51a80f5ef77c2",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200109.nc4"
+      },
+      {
+        "month": "2001-10",
+        "granule_id": "G1278025887-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200110.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "3b7be4942463652077dbe3d8051c5c761328595e45e9f43c0b6b5d841535125a",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200110.nc4"
+      },
+      {
+        "month": "2001-11",
+        "granule_id": "G1278025889-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200111.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "688fa30ff591a154c1a023858fe7f4d68c8293623f55666f43729c1d545e1c92",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200111.nc4"
+      },
+      {
+        "month": "2001-12",
+        "granule_id": "G1278025871-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200112.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "3243dd35ebbda04ecf1b2160ad3bf0b913f811fb795d84acfb2d41155e24047f",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200112.nc4"
+      },
+      {
+        "month": "2002-01",
+        "granule_id": "G1278026261-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200201.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e4ebc3e6618ddd503524513b8ac08705d5c45f370b1338aed000b02e7ab620b5",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200201.nc4"
+      },
+      {
+        "month": "2002-02",
+        "granule_id": "G1278026239-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200202.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "4420b96ea1fef91a1b77674600cbb42a77b8180d04e35f6acf89243edc51f0e7",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200202.nc4"
+      },
+      {
+        "month": "2002-03",
+        "granule_id": "G1278026256-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200203.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ae7f569fbf921eee374ab3bc5e99a07a2c52dd57fa051614fa54b96eaf22b905",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200203.nc4"
+      },
+      {
+        "month": "2002-04",
+        "granule_id": "G1278026254-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200204.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "621bf79c3b763decd1e3c2b3cf0b35117ed21ff59337af7b309a20ae2a57d40d",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200204.nc4"
+      },
+      {
+        "month": "2002-05",
+        "granule_id": "G1278026252-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200205.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "00dad46b2dee8786e4ac0dcba2c3967da2b4170156fe4db57408624ce4e1d0f7",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200205.nc4"
+      },
+      {
+        "month": "2002-06",
+        "granule_id": "G1278026250-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200206.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "13f70f82cc3cf319001dc39fe753feeb3f7ec7594b008dd34eee2102caaa23e5",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200206.nc4"
+      },
+      {
+        "month": "2002-07",
+        "granule_id": "G1278026237-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200207.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "c84440efa389527fcf322b43fee7dc191ce6bfd107218e7facebf60788e00160",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200207.nc4"
+      },
+      {
+        "month": "2002-08",
+        "granule_id": "G1278026265-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200208.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "3a6822184883644dee57cc8c9a220a25bddb474f5d5e42dc3b979857654d32de",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200208.nc4"
+      },
+      {
+        "month": "2002-09",
+        "granule_id": "G1278026258-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200209.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "5354f75ee5b2098be8d3dc58182b4582c406758f892db5bc811d34f2800eab79",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200209.nc4"
+      },
+      {
+        "month": "2002-10",
+        "granule_id": "G1278026263-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200210.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e3f23f1a9088a37fab46fa980a8a25488ca0a088717d8f36fc834ab39ae9d7d4",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200210.nc4"
+      },
+      {
+        "month": "2002-11",
+        "granule_id": "G1278026280-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200211.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e730fbc1dde2b9ade9afc548d47e52ee236c66a3bbd61ec662b099d5a0f4b832",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200211.nc4"
+      },
+      {
+        "month": "2002-12",
+        "granule_id": "G1278026251-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200212.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "9e8689f056e2323ec95df9aad3e61f14b9dced569005df4c5ef5350c426b477c",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200212.nc4"
+      },
+      {
+        "month": "2003-01",
+        "granule_id": "G1278026232-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200301.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "0d6154ee3796ac6ddbb90fddec95ab06f8214ec06928a730c0e009189382326e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200301.nc4"
+      },
+      {
+        "month": "2003-02",
+        "granule_id": "G1278026230-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200302.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ec404db3583407ba6fb441beab93f8123bedb3a7379615dcd9e0a8011fba91ae",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200302.nc4"
+      },
+      {
+        "month": "2003-03",
+        "granule_id": "G1278026244-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200303.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "c74f9bf87ece582e03ce6e444c2e28ca35da94cfbbd219e9f1487b811e310c64",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200303.nc4"
+      },
+      {
+        "month": "2003-04",
+        "granule_id": "G1278026228-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200304.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "4876152601f8e5386d852164906d3f13989f87435d8b7e6fa4606c0d70845160",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200304.nc4"
+      },
+      {
+        "month": "2003-05",
+        "granule_id": "G1278026240-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200305.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "df5a3b78511f3fab4721e623f6121c4ce2f4910b4c05d574fe5994cc006d3802",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200305.nc4"
+      },
+      {
+        "month": "2003-06",
+        "granule_id": "G1278026234-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200306.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "93309157ef0a9a2fe8ff5b79d32a335d71017d02f7913b2bbb08edba44a4ab95",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200306.nc4"
+      },
+      {
+        "month": "2003-07",
+        "granule_id": "G1278026246-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200307.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "7fc1e75a5035d7ffbb47fe209bd737b7757db42ee3dcf4976e428ee6c87efa25",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200307.nc4"
+      },
+      {
+        "month": "2003-08",
+        "granule_id": "G1278026243-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200308.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ea766bb8760e34db4594b1aa60ebe7dfeb5f11f88b917a19dce0ef1139548248",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200308.nc4"
+      },
+      {
+        "month": "2003-09",
+        "granule_id": "G1278026227-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200309.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "2c065d89bc14b023a8c6d756db5af752500abcc10ed273c3dc9b6de8c26c4192",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200309.nc4"
+      },
+      {
+        "month": "2003-10",
+        "granule_id": "G1278026245-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200310.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "50cf67232080e1339e13afff1f741456922a027fb5995d9f97d2e4b69b3bb5dc",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200310.nc4"
+      },
+      {
+        "month": "2003-11",
+        "granule_id": "G1278026242-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200311.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e9628cafbcb83ced20e7a87011171ef7ae5dca0b59e644889f2b676860e7a23b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200311.nc4"
+      },
+      {
+        "month": "2003-12",
+        "granule_id": "G1278026236-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200312.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "6ce574eca9b4baadfe34cccadf6cdbc1d2ca1f269c5c6242a53637383a02d00d",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200312.nc4"
+      },
+      {
+        "month": "2004-01",
+        "granule_id": "G1278026156-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200401.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "f56ac19f419aa5bf55aa05dbe255794dea291d0724d56d38b7b483d6d2366a53",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200401.nc4"
+      },
+      {
+        "month": "2004-02",
+        "granule_id": "G1278026183-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200402.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "6318ea6638faf1204fa8c9ae6c8bf1ec22f73c8762da11f3046c9d254e64babd",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200402.nc4"
+      },
+      {
+        "month": "2004-03",
+        "granule_id": "G1278026178-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200403.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "8ad77170d88e34eea0bd6ce8787eeab93f95e0b4ea998995c19791c275c9d40d",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200403.nc4"
+      },
+      {
+        "month": "2004-04",
+        "granule_id": "G1278026200-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200404.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "1b16104abc5e4a6cf6a9bb8fc158060d6471f63641f335356672340124eb20d4",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200404.nc4"
+      },
+      {
+        "month": "2004-05",
+        "granule_id": "G1278026181-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200405.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e4e622cbb21cab57cc2545e5e466a25e8b26de56079bfcbe2ed0753472c1103c",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200405.nc4"
+      },
+      {
+        "month": "2004-06",
+        "granule_id": "G1278026180-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200406.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ef0ecadec4f4fc03f146f99fe53573f4fabd52b5d2653075b131f6fb97bb8095",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200406.nc4"
+      },
+      {
+        "month": "2004-07",
+        "granule_id": "G1278026157-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200407.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "24fb357459132c7957082f77594fea1f104b60f06429657c2a60068df7981a16",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200407.nc4"
+      },
+      {
+        "month": "2004-08",
+        "granule_id": "G1278026179-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200408.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "572a23a80b00065221b8165d74b6da0a18b6a7fa16bf3a6b007308d74baf5553",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200408.nc4"
+      },
+      {
+        "month": "2004-09",
+        "granule_id": "G1278026182-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200409.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "1bb4ec6a68cf5ec1ab97f061f5143917b9d74fdb4717d6f253d7c79c15d28e30",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200409.nc4"
+      },
+      {
+        "month": "2004-10",
+        "granule_id": "G1278026176-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200410.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "16e19e84d00ec748526f2b3167e1d84d57d848b66431609347837c43e954c678",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200410.nc4"
+      },
+      {
+        "month": "2004-11",
+        "granule_id": "G1278026174-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200411.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "b53263d2f2ea9ef50c5d5da87374386ac860083132b2ba5b0b1a2de9ce6b7210",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200411.nc4"
+      },
+      {
+        "month": "2004-12",
+        "granule_id": "G1278026158-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200412.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "91533d026f0ce8dc5b185701e6dab3dcc5355233c7cf45b7c24e3c61a7c0b4b3",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200412.nc4"
+      },
+      {
+        "month": "2005-01",
+        "granule_id": "G1278025954-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200501.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "462dc28690db11bc63cd067dc3a3ee558051bdcab644db047ea33a2381a10bff",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200501.nc4"
+      },
+      {
+        "month": "2005-02",
+        "granule_id": "G1278025988-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200502.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "3c6678cfa9c7e10f42a6beefd369469911f4f98e0dc31c00813de8e5617305fd",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200502.nc4"
+      },
+      {
+        "month": "2005-03",
+        "granule_id": "G1278025989-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200503.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "97875736d3959084c7abcfc56403f4fd8a3ae43569e6e482f7aad4f79ed56b79",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200503.nc4"
+      },
+      {
+        "month": "2005-04",
+        "granule_id": "G1278025993-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200504.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "f5052a9d9a8ab697a83ffbc064954b471c3e485b3efcb262a6c7563e5642ca55",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200504.nc4"
+      },
+      {
+        "month": "2005-05",
+        "granule_id": "G1278025992-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200505.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "65343587149fcb979e47abe5b8739fc5b8ca0e34afba4fd2e3e2dfa23da154a6",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200505.nc4"
+      },
+      {
+        "month": "2005-06",
+        "granule_id": "G1278025952-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200506.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "5c9003b670e7f98c739a99eae4dc90620db9e153024bd6c38022851095602692",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200506.nc4"
+      },
+      {
+        "month": "2005-07",
+        "granule_id": "G1278025971-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200507.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "6b3fd57dceb202e404017bf5d544969e717660db136fa6628f2d4512772b178b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200507.nc4"
+      },
+      {
+        "month": "2005-08",
+        "granule_id": "G1278025987-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200508.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "97af66ed1826e6df244f135678579ba2f3d28ba43fe2c146a8ae1572fe5999aa",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200508.nc4"
+      },
+      {
+        "month": "2005-09",
+        "granule_id": "G1278025986-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200509.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "0d29aad7ea6b58f1c71b848585da992c2366dd1a0be4bc3b8987a96eb0f3b238",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200509.nc4"
+      },
+      {
+        "month": "2005-10",
+        "granule_id": "G1278025953-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200510.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "4dc2cc125524ded00115b0c3f381f68ea10dde9b6fbbd01a1bb8e0e08c77f939",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200510.nc4"
+      },
+      {
+        "month": "2005-11",
+        "granule_id": "G1278025991-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200511.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "08d5a97a01001486026706e5b3df075700a72f7cc747475966139f9eb331e1e0",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200511.nc4"
+      },
+      {
+        "month": "2005-12",
+        "granule_id": "G1278025985-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200512.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "b20029e11c93afc259880da2b1fd246818187cfe9249a15457aa6d3de1a8e3fa",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200512.nc4"
+      },
+      {
+        "month": "2006-01",
+        "granule_id": "G1278026305-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200601.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "00930a796788103deb65ba69dce2cc9a191f198028ada6318ce6f41d1451685b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200601.nc4"
+      },
+      {
+        "month": "2006-02",
+        "granule_id": "G1278026273-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200602.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "b6d4895e54dfe8ee258dfe36d1cfb2fdeb22a789c29316d6f0fa7d4079230661",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200602.nc4"
+      },
+      {
+        "month": "2006-03",
+        "granule_id": "G1278026309-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200603.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "2e85273236ba91c393efcfdecb22d69410be90be849af6ec6a3a5e2ca4779c43",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200603.nc4"
+      },
+      {
+        "month": "2006-04",
+        "granule_id": "G1278026312-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200604.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "a7406b77647d22e0b71ec58bbe3b371cfad2cea260c95bb0d542c0396eb078c2",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200604.nc4"
+      },
+      {
+        "month": "2006-05",
+        "granule_id": "G1278026307-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200605.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e62cb6aebb91972e459da064ad40435ff8fc698ba1ec023cf89ab4afee30790d",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200605.nc4"
+      },
+      {
+        "month": "2006-06",
+        "granule_id": "G1278026275-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200606.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "f526b234b3c98d17fdba85ac03db28acea3568515f8adc85e633ccf7a8fde5b3",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200606.nc4"
+      },
+      {
+        "month": "2006-07",
+        "granule_id": "G1278026320-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200607.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "b5a0d9829916f2609c9e00d205ad5b66d6514928e1f3086f34d6b87a451ef5b7",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200607.nc4"
+      },
+      {
+        "month": "2006-08",
+        "granule_id": "G1278026299-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200608.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "5a826090c4f127b64d547a5922e74eb5ed13f19a55a21453b623d8972bed9e1e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200608.nc4"
+      },
+      {
+        "month": "2006-09",
+        "granule_id": "G1278026297-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200609.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "f757a9e61f1dffa3c54980853827f544a104c1df5a56669e624112dabfb9d8b2",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200609.nc4"
+      },
+      {
+        "month": "2006-10",
+        "granule_id": "G1278026304-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200610.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "2a7d3305acb9695cf92ea7f128e9dd7ef362b98f12b3de84528634084256e8ea",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200610.nc4"
+      },
+      {
+        "month": "2006-11",
+        "granule_id": "G1278026276-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200611.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "4642636eeef83f0cce01d42ef639145eeedb817e67fa0944a39b38964d881270",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200611.nc4"
+      },
+      {
+        "month": "2006-12",
+        "granule_id": "G1278026274-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200612.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "715d5c296e2767e49601bf352ec7319ad63541c44e72b2a1b221a1a80a31dccd",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200612.nc4"
+      },
+      {
+        "month": "2007-01",
+        "granule_id": "G1278026412-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200701.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "29b6f36a130370dbe2f5d5f5f3144a7228442df802882ab7353ba64fde54a927",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200701.nc4"
+      },
+      {
+        "month": "2007-02",
+        "granule_id": "G1278026423-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200702.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "180a85a46fb2dcb052347c93413d70ec2995b1880a2129be3ff35b755e26eb93",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200702.nc4"
+      },
+      {
+        "month": "2007-03",
+        "granule_id": "G1278026426-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200703.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "615326309827bffbb4c21fa007e08812357899d584d8161a9ecd506f7792cd4b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200703.nc4"
+      },
+      {
+        "month": "2007-04",
+        "granule_id": "G1278026413-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200704.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "78f22ef8bd065da3d07ea0696603076e03204e5447ac238ea786632bfcbc056b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200704.nc4"
+      },
+      {
+        "month": "2007-05",
+        "granule_id": "G1278026422-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200705.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e3b13cca0c3fcf588a78c1a16f0d30eef549d623edd562fdd46dd2cf3f84499f",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200705.nc4"
+      },
+      {
+        "month": "2007-06",
+        "granule_id": "G1278026428-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200706.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "08d1e5d77d2c23facba128d3cde704a3b962dd2fa4676747016f97392a74ed63",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200706.nc4"
+      },
+      {
+        "month": "2007-07",
+        "granule_id": "G1278026418-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200707.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "d9d0ac7acf01adee7522a9a76d717bf009b2f2752b8d61ffc0425367fdaada06",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200707.nc4"
+      },
+      {
+        "month": "2007-08",
+        "granule_id": "G1278026414-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200708.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "89eb950ed5166148822044703ec3f476b3dd954700b9519994ea22898e5a64fe",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200708.nc4"
+      },
+      {
+        "month": "2007-09",
+        "granule_id": "G1278026410-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200709.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "abcc70ed2480b3d1c5d33309496a9febf3a2158a02e0ed69b6afd7c8c66d81c0",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200709.nc4"
+      },
+      {
+        "month": "2007-10",
+        "granule_id": "G1278026425-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200710.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "9d377c680ae59e5f4491ae5ae01fcc1eef1d3a1f9bf3c42cf0c197a001e479d4",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200710.nc4"
+      },
+      {
+        "month": "2007-11",
+        "granule_id": "G1278026419-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200711.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "8c55aae4f4a0641d0bd4651c9249df0c9c73d80c1941d3d915366d1299662265",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200711.nc4"
+      },
+      {
+        "month": "2007-12",
+        "granule_id": "G1278026424-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200712.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "d184d4a9f95b9d5fbc1f887af9c4e38316e8ffb30371cd86e6281a2637756f40",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200712.nc4"
+      },
+      {
+        "month": "2008-01",
+        "granule_id": "G1278025935-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200801.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "40df0a6d1ed6920cb916c5e0b56672b597b98d0b757db9ebb21e409b97af6373",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200801.nc4"
+      },
+      {
+        "month": "2008-02",
+        "granule_id": "G1278025918-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200802.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ffc0923b18f4c4b2a4f890c073ba39896f77423c8f2fc8cde9a622339b523c82",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200802.nc4"
+      },
+      {
+        "month": "2008-03",
+        "granule_id": "G1278025964-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200803.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "fe7028795d9f297c5c5d555f7be2fb65e7732869b2b8a6277a38989dbc8a8688",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200803.nc4"
+      },
+      {
+        "month": "2008-04",
+        "granule_id": "G1278025919-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200804.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "43f3be164883a78069371876a9b2dd9999e574ba44dbd3d7e303e44fd57fd170",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200804.nc4"
+      },
+      {
+        "month": "2008-05",
+        "granule_id": "G1278025949-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200805.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "0860c19beb2fa844e0f7d4f9147bd5d612c89bbf01d040ea0eba4f9be8b057f7",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200805.nc4"
+      },
+      {
+        "month": "2008-06",
+        "granule_id": "G1278025960-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200806.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "62fa06a5f30797d8305ac27249e234327c1db93dbb9a7148eec28c84388714b4",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200806.nc4"
+      },
+      {
+        "month": "2008-07",
+        "granule_id": "G1278025932-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200807.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ce9de3ee7c8e27e47483645ac37f9c1b5526560ef6bdf41258b24d0aae2814ee",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200807.nc4"
+      },
+      {
+        "month": "2008-08",
+        "granule_id": "G1278025963-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200808.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "73a189c8eb2963bb3466130518c6a1b080910ffdbd473f768883829329692f5a",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200808.nc4"
+      },
+      {
+        "month": "2008-09",
+        "granule_id": "G1278025961-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200809.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "19dc4d750f096baedd058be02186cb68c35423390b5af5f58f36e03f09af0422",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200809.nc4"
+      },
+      {
+        "month": "2008-10",
+        "granule_id": "G1278025938-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200810.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "160a83adb6834aa3a9659d6d991c0c0e3def4c94174e4893b6d809cca0d76ffc",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200810.nc4"
+      },
+      {
+        "month": "2008-11",
+        "granule_id": "G1278025937-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200811.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "f87cc6134643232a605b5b25683dd4aab4af0670246bde2e2dccf2080196e11e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200811.nc4"
+      },
+      {
+        "month": "2008-12",
+        "granule_id": "G1278025934-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200812.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "85107307fe7ef7252503b910c512413cf466c229b9ed5366ee55de8538d5e2b7",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200812.nc4"
+      },
+      {
+        "month": "2009-01",
+        "granule_id": "G1278026341-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200901.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "36a0d2e210386f0f65312b013c78755432da9c8aa27aa40c16495a98f9dd4dce",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200901.nc4"
+      },
+      {
+        "month": "2009-02",
+        "granule_id": "G1278026313-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200902.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "0d024fc05235683111aba44dcf54c7b57f107c8d90ec030ffa3705b36d0f6a8a",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200902.nc4"
+      },
+      {
+        "month": "2009-03",
+        "granule_id": "G1278026317-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200903.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "67bad883a66ea78d33bce716998bf95da7f71fa9b57b88dacb9ead6f30257468",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200903.nc4"
+      },
+      {
+        "month": "2009-04",
+        "granule_id": "G1278026278-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200904.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "af59bd9a8368eab1bcd2abf513ed5611a561a61475aafc00f83423584d605a17",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200904.nc4"
+      },
+      {
+        "month": "2009-05",
+        "granule_id": "G1278026346-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200905.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "fec012ce22eec8ee7213b160ee2db491289792605dba13db4347a5fc75270031",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200905.nc4"
+      },
+      {
+        "month": "2009-06",
+        "granule_id": "G1278026279-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200906.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "84fe7c457c95d54856b2f6789c461f8c839b8cd90b3d7e5d45c31150fe03d7b9",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200906.nc4"
+      },
+      {
+        "month": "2009-07",
+        "granule_id": "G1278026315-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200907.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "5501031a2eaacaf26edefcfc41e6a1600d05a11aece90d7dcb28f66e098a66b5",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200907.nc4"
+      },
+      {
+        "month": "2009-08",
+        "granule_id": "G1278026325-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200908.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "dc11e7829b2c62c024fce3a5af19006c6796f4cb6dfa474e3a944b6e27e251a5",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200908.nc4"
+      },
+      {
+        "month": "2009-09",
+        "granule_id": "G1278026326-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200909.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "b801e7c6255b3912290b092230a2aaf1a835524f5470bb2ad048d0e7244cb8fe",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200909.nc4"
+      },
+      {
+        "month": "2009-10",
+        "granule_id": "G1278026340-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200910.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "348dc3d9c8c264a1716f967a8f6df1088323baa4b1cf92038edd02b15535c323",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200910.nc4"
+      },
+      {
+        "month": "2009-11",
+        "granule_id": "G1278026322-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200911.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "526ff58a54ec14402373244d332d72ee4d430586e32da45f3df6bcbc91016b67",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200911.nc4"
+      },
+      {
+        "month": "2009-12",
+        "granule_id": "G1278026343-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.200912.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e3f70286e5b710f548c29f520ea2312d4402fc6f8306d4d35ba4e25aa3a416fb",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.200912.nc4"
+      },
+      {
+        "month": "2010-01",
+        "granule_id": "G1278025892-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.201001.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "1b9883ab7555fcfa772cdd06177f6dca9149d278b5860a522d10ceb36d004493",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.201001.nc4"
+      },
+      {
+        "month": "2010-02",
+        "granule_id": "G1278025859-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.201002.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "b6a098c670fc5bb4aba3d2a452e65843ba4be2a3bb8126976cae464e1ba33436",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.201002.nc4"
+      },
+      {
+        "month": "2010-03",
+        "granule_id": "G1278025878-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.201003.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "b4bc893a33e88f6a2cb6989f4a16576fd823bfddfb852cbcee2b6130e7bb67a5",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.201003.nc4"
+      },
+      {
+        "month": "2010-04",
+        "granule_id": "G1278025858-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.201004.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "91ce6bc58e3b3a64227e4076aa1f1641ccd4bf2ae4d46eb810d15fd8c3da99a9",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.201004.nc4"
+      },
+      {
+        "month": "2010-05",
+        "granule_id": "G1278025876-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.201005.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "6ce6cf39f984c6d26c33eba5860f70b4fa4445650008c026efc1cec3ba0ca91e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.201005.nc4"
+      },
+      {
+        "month": "2010-06",
+        "granule_id": "G1278025856-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.201006.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "77d8a7155be95e036a0c5361bee3d8ac39738a8ee6f45f13465d703ed593ea56",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.201006.nc4"
+      },
+      {
+        "month": "2010-07",
+        "granule_id": "G1278025891-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.201007.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "5dc8cf9a732b672561aec8c44c9e4e93846e5e019f791385852618127627f385",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.201007.nc4"
+      },
+      {
+        "month": "2010-08",
+        "granule_id": "G1278025877-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.201008.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "25ee82f72521a646db3bae425067100f4e27f4df6f90f9b6b5f5f463b42a5bc3",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.201008.nc4"
+      },
+      {
+        "month": "2010-09",
+        "granule_id": "G1278025890-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.201009.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "53f4744f04ba7dfcc6ef6f57a951fefff72163450f12a922b10ba0595c60bd75",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.201009.nc4"
+      },
+      {
+        "month": "2010-10",
+        "granule_id": "G1278025857-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.201010.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "10185b8a94242c3d6ad41311591c10233c0587ed372ed82000f26046567db473",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.201010.nc4"
+      },
+      {
+        "month": "2010-11",
+        "granule_id": "G1278025900-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.201011.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "17741ca455c4bc32fcd5f20b61cf39f6647ac9d13e2b0791136c9fecfbd143b1",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.201011.nc4"
+      },
+      {
+        "month": "2010-12",
+        "granule_id": "G1278025875-GES_DISC",
+        "filename": "MERRA2_300.tavgM_2d_slv_Nx.201012.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "38121071e4a00ff1482a6510fe7499055f28f5ef0bb69985795bff7319ed73fe",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_300.tavgM_2d_slv_Nx.201012.nc4"
+      },
+      {
+        "month": "2011-01",
+        "granule_id": "G1278025868-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201101.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "d18b9dea6319fb2416fad1f3c8dfc307eb8e4534bbf475412b50c1c43f918526",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201101.nc4"
+      },
+      {
+        "month": "2011-02",
+        "granule_id": "G1278025866-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201102.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "dd361838e3ceab491be6edc3f2bd2b06250f66263c8aa853d77760e7d571f852",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201102.nc4"
+      },
+      {
+        "month": "2011-03",
+        "granule_id": "G1278025846-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201103.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "98b4f0a53e632576417f5a3a138a2af36fdc046108212396790542c32b855a27",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201103.nc4"
+      },
+      {
+        "month": "2011-04",
+        "granule_id": "G1278025867-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201104.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "a24d92867e14b250c63a2dea8d971bcdc7a38aa1c4496bf57a90cdc5cdc19c04",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201104.nc4"
+      },
+      {
+        "month": "2011-05",
+        "granule_id": "G1278025869-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201105.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "8ca98d5f58df871b540f47ab95d9b9d686b877e567dd5a509b31cf796e83427c",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201105.nc4"
+      },
+      {
+        "month": "2011-06",
+        "granule_id": "G1278025847-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201106.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "402e0d398a9765399a63e5d685d7b89ee08ff905daf67f0733185ca1455ae40b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201106.nc4"
+      },
+      {
+        "month": "2011-07",
+        "granule_id": "G1278025870-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201107.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ea6aaec3d35222aaf9855ed765c3570763dbc687140c02daf8fcdce56afb250f",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201107.nc4"
+      },
+      {
+        "month": "2011-08",
+        "granule_id": "G1278025885-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201108.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "846fc4b2529ac25de49bf9477b18af18124aa0da66c2c5422c6d899528a1e3d6",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201108.nc4"
+      },
+      {
+        "month": "2011-09",
+        "granule_id": "G1278025882-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201109.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "1d803466e9be99e2cbfcd93880283fcbd8dd21c0aa0beefe161bba35fece9924",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201109.nc4"
+      },
+      {
+        "month": "2011-10",
+        "granule_id": "G1278025865-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201110.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "fa6d8d92a0eb735214b6a2e3b5a622954170ed422b8ebf3320314c29b4697075",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201110.nc4"
+      },
+      {
+        "month": "2011-11",
+        "granule_id": "G1278025884-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201111.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "c19bdd488c4d02762fd7f6341181bb39eeac8ab122fc59257ae85a6a00a03b88",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201111.nc4"
+      },
+      {
+        "month": "2011-12",
+        "granule_id": "G1278025848-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201112.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "67a32226e1eda9b2c08a5380da09fc608e6e41e2ff7e610df07e323af32e6848",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201112.nc4"
+      },
+      {
+        "month": "2012-01",
+        "granule_id": "G1278025880-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201201.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "bd95651761f3a3da0b7af45d42ddbe1a71af240882a415cc6d67f4f79d5089b0",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201201.nc4"
+      },
+      {
+        "month": "2012-02",
+        "granule_id": "G1278025842-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201202.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "90da35f29cd96fdcc0c8c0b96a18f8e58a31090ef417ac04f512ce4f19d8beb5",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201202.nc4"
+      },
+      {
+        "month": "2012-03",
+        "granule_id": "G1278025863-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201203.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "9dc9bd8b83b80e999543d1dd3f33f717cc0766940bf12042a5796fe6eba9bf4f",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201203.nc4"
+      },
+      {
+        "month": "2012-04",
+        "granule_id": "G1278025841-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201204.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "0ee20b7e1b51b253cc38ae7ac2632acadeeb4be29c0813d298565149778098d2",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201204.nc4"
+      },
+      {
+        "month": "2012-05",
+        "granule_id": "G1278025862-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201205.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "d768557976744d08083bf8f8db5a71a06daed8082633211af2beb55fc5787c7e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201205.nc4"
+      },
+      {
+        "month": "2012-06",
+        "granule_id": "G1278025845-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201206.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "7236b5b232f4d7aa5f534fa312c4088792f1355db1ac3a380d2f257d72190042",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201206.nc4"
+      },
+      {
+        "month": "2012-07",
+        "granule_id": "G1278025844-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201207.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "f94fb685612a4c630f3c1a3c5c849ce1a1190790d5daa3de24735a522cdbb841",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201207.nc4"
+      },
+      {
+        "month": "2012-08",
+        "granule_id": "G1278025861-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201208.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "cbfa834b6f03cd1b3d0b2dc8bce1e0cf0e67058dea81d42150be2462972f1957",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201208.nc4"
+      },
+      {
+        "month": "2012-09",
+        "granule_id": "G1278025864-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201209.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "b4436ca84f3b0e6f8c61d0cc38cacb76b3aae5f0a354d9c7c08d2c37b3b0d08a",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201209.nc4"
+      },
+      {
+        "month": "2012-10",
+        "granule_id": "G1278025881-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201210.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "be2cd56c1f52d9df416ffec510f27bdbd09ce9de1f8a17a6e9bb40bdbb73eec0",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201210.nc4"
+      },
+      {
+        "month": "2012-11",
+        "granule_id": "G1278025860-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201211.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "1affe913510e1f19c60318053d169280e8987ec395c011248404c5f3f60a8f55",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201211.nc4"
+      },
+      {
+        "month": "2012-12",
+        "granule_id": "G1278025843-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201212.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "7c1b5ba5b3af47816c7487a41b5dbe027062f4c24c8846e9235b1ecb5042c2c3",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201212.nc4"
+      },
+      {
+        "month": "2013-01",
+        "granule_id": "G1278026382-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201301.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ba60e8a7c7d94ce6af01668bd705bb443d1c636d04bda5b777cd4c92d37bccbb",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201301.nc4"
+      },
+      {
+        "month": "2013-02",
+        "granule_id": "G1278026387-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201302.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "da8b5453a3bee4b728072afe8750e30cb65c07092291f57ab3449640d4d230d9",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201302.nc4"
+      },
+      {
+        "month": "2013-03",
+        "granule_id": "G1278026385-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201303.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "cd7149e8574173a298ab22f1352e5fdc01af6ee2a9403b58d0157ed5281c8df2",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201303.nc4"
+      },
+      {
+        "month": "2013-04",
+        "granule_id": "G1278026383-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201304.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "07dcd252f595e0f07c4f0d611e786f3119b38b80b574118a7228e1a81b534b79",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201304.nc4"
+      },
+      {
+        "month": "2013-05",
+        "granule_id": "G1278026339-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201305.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "efbf7767c46ddfaf4d63bc73f70b665d0756d3737ca92df593ccf44d7a166ecb",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201305.nc4"
+      },
+      {
+        "month": "2013-06",
+        "granule_id": "G1278026364-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201306.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "1e7ebe652c56982c83257fb8c603bfda7f778900df43ae5923da414c9c989c2f",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201306.nc4"
+      },
+      {
+        "month": "2013-07",
+        "granule_id": "G1278026365-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201307.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "89cf692c5ee5be4ef9f1e6e1239f2d7ab16894c21503f5df5b57b8dcb1657999",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201307.nc4"
+      },
+      {
+        "month": "2013-08",
+        "granule_id": "G1278026380-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201308.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "59dad008000908862d27da7a48734379b8234fd7a8418f2fe0008e2d58f0619b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201308.nc4"
+      },
+      {
+        "month": "2013-09",
+        "granule_id": "G1278026366-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201309.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "0c0b9a6b5f29313602dbf1b0c36fd5d6c8ec435f8edee62128f1ceb8a0d009c0",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201309.nc4"
+      },
+      {
+        "month": "2013-10",
+        "granule_id": "G1278026381-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201310.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "26e7a3e6bc6cee142f74d7f1a8c00819f4b4b94cd8584fa1844c0d5c5b622176",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201310.nc4"
+      },
+      {
+        "month": "2013-11",
+        "granule_id": "G1278026402-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201311.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "c2c6ff843dcc27a1b81e7d877c43635ae93eea2795792f8477938184def152b6",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201311.nc4"
+      },
+      {
+        "month": "2013-12",
+        "granule_id": "G1278026388-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201312.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "12f350b2df1fec253000ffe7a388daf2adadaaa94a64ad8703aea3e07371cfb5",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201312.nc4"
+      },
+      {
+        "month": "2014-01",
+        "granule_id": "G1278025970-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201401.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "0465e4d23cdab36279a4f2d918a2a65b75992d6674264fe214dee33871c68b53",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201401.nc4"
+      },
+      {
+        "month": "2014-02",
+        "granule_id": "G1278025951-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201402.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "7ed49aa79e100fd056740133c9d6165ea0f7fb4bc09721f911e2f86559638249",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201402.nc4"
+      },
+      {
+        "month": "2014-03",
+        "granule_id": "G1278025983-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201403.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "91ff40a043033f2b58e0c59ad99539220a3e2f7589e331b7f641f836458ebe8d",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201403.nc4"
+      },
+      {
+        "month": "2014-04",
+        "granule_id": "G1278025939-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201404.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "78a8139f7208508ce7f5581b05a9056f8598bf99796f8a85b5fb055495de835f",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201404.nc4"
+      },
+      {
+        "month": "2014-05",
+        "granule_id": "G1278025968-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201405.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "32d4e281fe30a2b30369f4ee7e85eb3e740bf075874996c3d09e3dde31b36e3b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201405.nc4"
+      },
+      {
+        "month": "2014-06",
+        "granule_id": "G1278025950-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201406.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "9fe9929dcd22bdab750a4d19155fa23b6b4e08a06d64d8c66f230719800d18c8",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201406.nc4"
+      },
+      {
+        "month": "2014-07",
+        "granule_id": "G1278025966-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201407.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "0c148ec2f6ee7b06538bca5a4074480c19685e29d0401a931988824a745fd309",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201407.nc4"
+      },
+      {
+        "month": "2014-08",
+        "granule_id": "G1278025981-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201408.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "476759f7a7cc2ac36be261fa268439ff6bcf456d5459662de52bd33fda781d7e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201408.nc4"
+      },
+      {
+        "month": "2014-09",
+        "granule_id": "G1278025967-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201409.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "76635fff0513c36286917a67590d6fe3ac1ac9c401f991be05adfd7db2c7564e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201409.nc4"
+      },
+      {
+        "month": "2014-10",
+        "granule_id": "G1278025969-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201410.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e203ee87bb28e6257332dbe8595cb1ad65383bbdc3c2189b29fefc45304bcca2",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201410.nc4"
+      },
+      {
+        "month": "2014-11",
+        "granule_id": "G1278025980-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201411.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ca7ba686a66fd239f0a831225b76811f69d1bc4c4a42dfc5eb6b562799f03a6e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201411.nc4"
+      },
+      {
+        "month": "2014-12",
+        "granule_id": "G1278025984-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201412.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e3dc3e97e6b92ae8f26264741100188fdd67e163139a41d80c632106d12593d9",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201412.nc4"
+      },
+      {
+        "month": "2015-01",
+        "granule_id": "G1278026026-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201501.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "7a59a72ef8599523d325d90f87e3b1c8c4d51837f2a2c374508b8f772412670a",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201501.nc4"
+      },
+      {
+        "month": "2015-02",
+        "granule_id": "G1278026011-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201502.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ba7182d9d1750f5855b7dbfbd00fccc372f22fb202db0845194d0eed2a2e81e3",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201502.nc4"
+      },
+      {
+        "month": "2015-03",
+        "granule_id": "G1278026010-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201503.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "05e403bad80696c3fa64801a1cc4a36a92df86656578315a707e97eac56add4d",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201503.nc4"
+      },
+      {
+        "month": "2015-04",
+        "granule_id": "G1278026024-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201504.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "4cdd5d57dab2f3a77cce6d1992ec9d417d710a560ff01d4b3dd6535dff875acc",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201504.nc4"
+      },
+      {
+        "month": "2015-05",
+        "granule_id": "G1278026028-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201505.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "0ffb1259b71d95ef761fa72c06a027b52d9788ea60b5b3cfb909038cbc285f1c",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201505.nc4"
+      },
+      {
+        "month": "2015-06",
+        "granule_id": "G1278026012-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201506.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "0034d340d1d0540cf17e426ac906dee704a8665c00d4e8327fb37ce072dee990",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201506.nc4"
+      },
+      {
+        "month": "2015-07",
+        "granule_id": "G1278026009-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201507.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "d00d09d19edaaba7861d42a46dacbf278b49117dd348f7cb4a201123efd2ffd0",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201507.nc4"
+      },
+      {
+        "month": "2015-08",
+        "granule_id": "G1278026013-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201508.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ab5eee5e05f7a8c323f4c6cc01bef33eab162f578074f185c766dc6e0838d1dd",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201508.nc4"
+      },
+      {
+        "month": "2015-09",
+        "granule_id": "G1278026041-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201509.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "c5cb93dcbb8208408eac7534bf297d06b82e6f276a2f0a35604dc0721732ca7a",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201509.nc4"
+      },
+      {
+        "month": "2015-10",
+        "granule_id": "G1278026027-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201510.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "c05edb156987a631c8566c31ba698952f07a0b42d732939e5250f3fb6b4a2099",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201510.nc4"
+      },
+      {
+        "month": "2015-11",
+        "granule_id": "G1278026015-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201511.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e573e0ea8bdac8f509f2b09ee06d34f6f25795db25cbad1764017c19a487001d",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201511.nc4"
+      },
+      {
+        "month": "2015-12",
+        "granule_id": "G1278026042-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201512.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "908ec5fe04ef3a128c806702c31c46759aab7b3135ea15331cfd7a509c454b31",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201512.nc4"
+      },
+      {
+        "month": "2016-01",
+        "granule_id": "G1278026185-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201601.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "5c4af469033e933a424e2cbee5122f57aed1d1f85699d2156764754844f953a5",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201601.nc4"
+      },
+      {
+        "month": "2016-02",
+        "granule_id": "G1278026202-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201602.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "96f68b06d9c546795cc027b09b7e34d167d97e6337975eb6839f7343f9f395e6",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201602.nc4"
+      },
+      {
+        "month": "2016-03",
+        "granule_id": "G1278026220-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201603.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "4072a35807dd3d4a71de0b5e639b41d2b50909ad84a111eec9af317b2dadcad1",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201603.nc4"
+      },
+      {
+        "month": "2016-04",
+        "granule_id": "G1278026184-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201604.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "772111d2513801f61a6b323fcde7242e57cdd6e7f33f4f8464edc141356d1c53",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201604.nc4"
+      },
+      {
+        "month": "2016-05",
+        "granule_id": "G1279431658-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201605.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ddb64ddc1cdb5587ef9684899d13c334aca509cfb30c5ba4222fa41b1fb9f0a4",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201605.nc4"
+      },
+      {
+        "month": "2016-06",
+        "granule_id": "G1286004857-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201606.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "bb7571ce9857cbf78b6c231610480261e82fab9d5f14320dbdc7180abae23aef",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201606.nc4"
+      },
+      {
+        "month": "2016-07",
+        "granule_id": "G1295754550-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201607.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "3c2ac40b131343a6394ba1db635488c4be1da47a3d7fe4dca96c4af61ea69a13",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201607.nc4"
+      },
+      {
+        "month": "2016-08",
+        "granule_id": "G1327958139-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201608.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "75bb91dd280b68e6af0e4af5b8602dde7eaa3a8f7b3c21db2328dd55903c7ce3",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201608.nc4"
+      },
+      {
+        "month": "2016-09",
+        "granule_id": "G1337068721-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201609.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "8c064bfcf831ab81b840f8f599e89bcdc2fc2f6b3a30dd51f9c6f785b1fc2178",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201609.nc4"
+      },
+      {
+        "month": "2016-10",
+        "granule_id": "G1344863940-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201610.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "c87374c535c491c0328530357830f6a05237b1184cce7c13cc93426a2a4eb874",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201610.nc4"
+      },
+      {
+        "month": "2016-11",
+        "granule_id": "G1358037269-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201611.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "7dbcf177a1fb8ed0202f32190086ee4907e35e4b7baf9dbb0b1835daa0f684e3",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201611.nc4"
+      },
+      {
+        "month": "2016-12",
+        "granule_id": "G1363323866-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201612.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e01af0837f27762f03ee323e4e2218e778939ef31a60fe4883aacccc86de155e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201612.nc4"
+      },
+      {
+        "month": "2017-01",
+        "granule_id": "G1371084446-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201701.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "d6ec3480e8415d4e423cf1cb27abe5c8d284217ba732facf68cbca67b25f43eb",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201701.nc4"
+      },
+      {
+        "month": "2017-02",
+        "granule_id": "G1375846643-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201702.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "05614b0a27764ebd48c44fc92f1395f91cbe533f18f0b35b8450e5f769c2a16e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201702.nc4"
+      },
+      {
+        "month": "2017-03",
+        "granule_id": "G1381079776-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201703.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "7fc6cfe4d1246d5d0201e95664aebc5fa72c574d6cfdc1dc9fb83104d3a4d2e2",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201703.nc4"
+      },
+      {
+        "month": "2017-04",
+        "granule_id": "G1386434331-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201704.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "5623f900d1b6b59f80f64a35ce54f7087ad90b28790652fee30b7e6a198ab2f5",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201704.nc4"
+      },
+      {
+        "month": "2017-05",
+        "granule_id": "G1397111070-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201705.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "c9184654f78d70b48c26ba0eaf561e393dc0c1b58e464d4f0bd51f06760741a4",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201705.nc4"
+      },
+      {
+        "month": "2017-06",
+        "granule_id": "G1405723564-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201706.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ce65b8f84078fc2bca9fbc02c53d403cd14b4a599b0b514973325b620846980c",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201706.nc4"
+      },
+      {
+        "month": "2017-07",
+        "granule_id": "G1412869528-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201707.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "dfd180c45d6d73a8d59d6c7d26c4c4237e682c6cc985f7375be42181a7d1f795",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201707.nc4"
+      },
+      {
+        "month": "2017-08",
+        "granule_id": "G1419909135-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201708.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "158d5291e864964165c3b3d882437cd0ae15c2f551ef658171df58bbe94539bb",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201708.nc4"
+      },
+      {
+        "month": "2017-09",
+        "granule_id": "G1428123303-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201709.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "488d74ea58d691fd622b7a15a02e37789c3fa2f93a4fa41efb1248795d9c8904",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201709.nc4"
+      },
+      {
+        "month": "2017-10",
+        "granule_id": "G1439414713-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201710.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "5b041563dddde862f4078b04b28761e7343088ed00d5362c3c499f581f25a0ea",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201710.nc4"
+      },
+      {
+        "month": "2017-11",
+        "granule_id": "G1444583203-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201711.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "d05dc915a7c88b9cca95fd13d2d94977e14347943d0931148000a81aeef49237",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201711.nc4"
+      },
+      {
+        "month": "2017-12",
+        "granule_id": "G1450811047-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201712.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "59c992b5c8d1a8d1e71531e0e4884ed689b3505b3d5d17b48f2d8aa33e2cabd3",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201712.nc4"
+      },
+      {
+        "month": "2018-01",
+        "granule_id": "G1456888654-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201801.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "119a3107f562173f9ca59fa7747114d7800cdd7c1c965ed935ce4a875dcd3e03",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201801.nc4"
+      },
+      {
+        "month": "2018-02",
+        "granule_id": "G1459576459-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201802.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "d72520546738ee6ac7a72ae91d5f97d5bae78c46c9b9012224a793a0a933ad9e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201802.nc4"
+      },
+      {
+        "month": "2018-03",
+        "granule_id": "G1513202361-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201803.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "acbf2fed4238e6b8d304e19cc7804bc7f8efaed7334aacd28600c63e4cf9d564",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201803.nc4"
+      },
+      {
+        "month": "2018-04",
+        "granule_id": "G1519255972-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201804.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "5cbb55d834e11f8c3ab71448a93a22d1c402355b56be7f44e490f76a04411193",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201804.nc4"
+      },
+      {
+        "month": "2018-05",
+        "granule_id": "G1531237042-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201805.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "79a7bf0a6ee42c5cd9bff0ea617d8e0416403582e2dd4f14b64aa6ae3247ecbc",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201805.nc4"
+      },
+      {
+        "month": "2018-06",
+        "granule_id": "G1537709933-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201806.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "23902c9f90451ee2d57b23f5681e223e20febb4709875891a3b542486b833dd6",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201806.nc4"
+      },
+      {
+        "month": "2018-07",
+        "granule_id": "G1543915065-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201807.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "66675f25b5b71ecfedc184bc80c7848770720bdb668fdd38054a4130e225bfff",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201807.nc4"
+      },
+      {
+        "month": "2018-08",
+        "granule_id": "G1548732341-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201808.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "5d476dd46296d5e90ddfc4f4f5642ac5ea77d7eae79784e5f40db01ff891a3d0",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201808.nc4"
+      },
+      {
+        "month": "2018-09",
+        "granule_id": "G1562009728-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201809.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "b3cb585b7526e7c39c531325a89f4310cbb2933bc24b9dc8972b74f9cf27747c",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201809.nc4"
+      },
+      {
+        "month": "2018-10",
+        "granule_id": "G1573446988-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201810.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "45a32285d6baae6dc7db4f06caa8d377f258149875cdd80c11c7c7f7131e040c",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201810.nc4"
+      },
+      {
+        "month": "2018-11",
+        "granule_id": "G1579143195-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201811.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "a2650977ee9c44a2f65e25b3154f03621c723273c6bfc5c9544b9690d9ec42e8",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201811.nc4"
+      },
+      {
+        "month": "2018-12",
+        "granule_id": "G1587901675-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201812.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "7f205abcf6ed7fd2594cf92a407381288523d4040bb7e9dc326eb3b751eff0b2",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201812.nc4"
+      },
+      {
+        "month": "2019-01",
+        "granule_id": "G1592916366-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201901.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e16461b23d0e65e150c832db6b2a3ed1c519b08e295f55aef7d7f878f41e8f1e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201901.nc4"
+      },
+      {
+        "month": "2019-02",
+        "granule_id": "G1599354062-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201902.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "b7890bf803ac0aa4a768ea298d44e3fa5c5fc558464b31039f6001843f67e746",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201902.nc4"
+      },
+      {
+        "month": "2019-03",
+        "granule_id": "G1607202222-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201903.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "407d8479fe9f41a9636cc079089904c6a337826fdfaca0b35c62c7c9f9fff41a",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201903.nc4"
+      },
+      {
+        "month": "2019-04",
+        "granule_id": "G1614304917-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201904.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "c52e53f2b1739b454ad528b9e3feca3f38754cae3303fb6f98b49e5b4139e420",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201904.nc4"
+      },
+      {
+        "month": "2019-05",
+        "granule_id": "G1619642004-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201905.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "09152f41c237a43f3ac074549b70e2908323cbc19bb064de879db1feea9a5273",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201905.nc4"
+      },
+      {
+        "month": "2019-06",
+        "granule_id": "G1625134650-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201906.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "59872daa49f9ba3f622d1d1250a46812fe12578790be68bb36e866932c95ba1f",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201906.nc4"
+      },
+      {
+        "month": "2019-07",
+        "granule_id": "G1629933253-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201907.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "87aff4b100def02e0bc72871929fdd42e6a5ee974512a462bfb006e8fb33b1b5",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201907.nc4"
+      },
+      {
+        "month": "2019-08",
+        "granule_id": "G1634082904-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201908.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "389d4f2805135e68dd4206a632bfc3a9d45cc8422eadc18dfbaccd7eae4d70d6",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201908.nc4"
+      },
+      {
+        "month": "2019-09",
+        "granule_id": "G1646920188-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201909.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "6577769bc60a82b11af41982360144d07f8dc7e9ab4d31d5297700e04a1b9d0e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201909.nc4"
+      },
+      {
+        "month": "2019-10",
+        "granule_id": "G1657503679-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201910.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "a34fb893fdc07edf3bb16fa02c07dfbe9a7fdd3bcbb8b9fe11fb4a316a154262",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201910.nc4"
+      },
+      {
+        "month": "2019-11",
+        "granule_id": "G1676894844-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201911.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "cf52de685a4d69dec4bd42a139612a2417aa57ac59b64ac799cf71993d95de81",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201911.nc4"
+      },
+      {
+        "month": "2019-12",
+        "granule_id": "G1682744780-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.201912.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "2be9f95af5b34110403b5766f80a5c632b334a8aca699832bddeed00a6a10490",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.201912.nc4"
+      },
+      {
+        "month": "2020-01",
+        "granule_id": "G1694793719-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202001.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "962ae3d133b753cb1d450b5ff842b821f51a0e8f1ab92b7f42ea8babf8c6cc33",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202001.nc4"
+      },
+      {
+        "month": "2020-02",
+        "granule_id": "G1711019001-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202002.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "368c32c3429776b2f27f579aa21c14824b4a09d579a048ef74e81d1d2f2227ac",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202002.nc4"
+      },
+      {
+        "month": "2020-03",
+        "granule_id": "G1724181514-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202003.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "dd05d2f3d850643b730a4d4e40cb01ff28c8fd312a80b4d4e9d8e1bbcfbb8b88",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202003.nc4"
+      },
+      {
+        "month": "2020-04",
+        "granule_id": "G1747139784-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202004.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "2987a0e12c33e10063d268d7c001025a9171ea43d4f418753a1d4a0facb14cf7",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202004.nc4"
+      },
+      {
+        "month": "2020-05",
+        "granule_id": "G1871136378-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202005.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "9c0362a6d6a4235ec04940bb28572052fc77daac0d34d27c687fb7589e491fb7",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202005.nc4"
+      },
+      {
+        "month": "2020-06",
+        "granule_id": "G1906391741-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202006.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "3aaa27b4e9efec20f77f55c63369c6453e4429f5f723819dd771307e9a265a09",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202006.nc4"
+      },
+      {
+        "month": "2020-07",
+        "granule_id": "G1929627671-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202007.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "0138760e05ba4c7b4f0d04a2fecd5713f576971196dbe7a6492747519b939d7e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202007.nc4"
+      },
+      {
+        "month": "2020-08",
+        "granule_id": "G1941947064-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202008.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "9d4d9701b7339ce2a8d1849ce5692848f290c835f746b497701e4ad9e07a0fc0",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202008.nc4"
+      },
+      {
+        "month": "2020-09",
+        "granule_id": "G1962851354-GES_DISC",
+        "filename": "MERRA2_401.tavgM_2d_slv_Nx.202009.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "23c46a42a0f0debeff819f751b6213c47d096d5b2045efd7740c93ead4f7c6b1",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_401.tavgM_2d_slv_Nx.202009.nc4"
+      },
+      {
+        "month": "2020-10",
+        "granule_id": "G1970114736-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202010.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "29b574bbb5a43fb666259ed3a30d59548be84548bbfb264df5deede1a848ac88",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202010.nc4"
+      },
+      {
+        "month": "2020-11",
+        "granule_id": "G1985131498-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202011.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "82e1251b9eb30326c61f19997ee8db230e796177e9bf63b4cb823571adcbc165",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202011.nc4"
+      },
+      {
+        "month": "2020-12",
+        "granule_id": "G1994442414-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202012.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "7ddf9e13b6da9e8e4e0a2d07226134913f25d0c20a63b16cf4a862f390b5b419",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202012.nc4"
+      },
+      {
+        "month": "2021-01",
+        "granule_id": "G2011583259-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202101.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "399425b1515fb26ebe85d8bd784937a66069ce57847e61c37f30ef19993b9fa3",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202101.nc4"
+      },
+      {
+        "month": "2021-02",
+        "granule_id": "G2022784785-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202102.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "95f2e7b6f7814edc9192b600d3a3fc1ec178dc5bbead84d414c31ff58d71aef4",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202102.nc4"
+      },
+      {
+        "month": "2021-03",
+        "granule_id": "G2037443536-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202103.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "9c6e0c1f14266ee0b8425d21befb3eaf5544c769b9c9fd6d2d7618f743ebd6e9",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202103.nc4"
+      },
+      {
+        "month": "2021-04",
+        "granule_id": "G2055129311-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202104.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "2aef7a05962599a29c1b9de2ea8dff4e5cfe503e6f2d73230f267aed8f1bd53f",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202104.nc4"
+      },
+      {
+        "month": "2021-05",
+        "granule_id": "G2073778153-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202105.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "d780173112f2efab8578b8a2f9ac868aa0eec985f45ea65c6da42c0db3a2700b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202105.nc4"
+      },
+      {
+        "month": "2021-06",
+        "granule_id": "G2181546106-GES_DISC",
+        "filename": "MERRA2_401.tavgM_2d_slv_Nx.202106.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "84c555101152c3b56beacf3781a010d4501f6bd91c21d2b6db57d4ec30ca8d52",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_401.tavgM_2d_slv_Nx.202106.nc4"
+      },
+      {
+        "month": "2021-07",
+        "granule_id": "G2184594601-GES_DISC",
+        "filename": "MERRA2_401.tavgM_2d_slv_Nx.202107.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "baa75620d08d1eff2a3e2e934ba4253268922e0f0e59b8ec53aaf2b3d9801ff2",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_401.tavgM_2d_slv_Nx.202107.nc4"
+      },
+      {
+        "month": "2021-08",
+        "granule_id": "G2185010324-GES_DISC",
+        "filename": "MERRA2_401.tavgM_2d_slv_Nx.202108.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "9b19a5f45ae82221a981d1ee325ef9775cd8715c5412fc472aba3a05e1903a8c",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_401.tavgM_2d_slv_Nx.202108.nc4"
+      },
+      {
+        "month": "2021-09",
+        "granule_id": "G2185375928-GES_DISC",
+        "filename": "MERRA2_401.tavgM_2d_slv_Nx.202109.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "d35fa74926277df4b1966afa081f3497d9b424a8f2f97ba95d47b362bb3d30bd",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_401.tavgM_2d_slv_Nx.202109.nc4"
+      },
+      {
+        "month": "2021-10",
+        "granule_id": "G2186269092-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202110.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "133f53864e8b5431364689cc8e48cf811f9c6313d23fdc4258b5a9e06d9972f8",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202110.nc4"
+      },
+      {
+        "month": "2021-11",
+        "granule_id": "G2188982492-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202111.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "25d1cee7a8f6f59372a64480524728a58e54d396043f0bf45385c0793676e345",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202111.nc4"
+      },
+      {
+        "month": "2021-12",
+        "granule_id": "G2205155516-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202112.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "4e72d0a85c404c3cdb0f0f27a285f8259c489f84c06282cf563178b4dbc0578e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202112.nc4"
+      },
+      {
+        "month": "2022-01",
+        "granule_id": "G2224550588-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202201.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "baec7ccd8e45102f565342b01015dc4a18befb1510710727494d5102a505e46c",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202201.nc4"
+      },
+      {
+        "month": "2022-02",
+        "granule_id": "G2239268227-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202202.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "385d4636e43904a5f91b976ff5730efdda7b7f393c66eef98e49a28f23ed9a1d",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202202.nc4"
+      },
+      {
+        "month": "2022-03",
+        "granule_id": "G2253844045-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202203.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "95255d07effbb8ea5adf3e53c87b2dbfbc23ec0f68248db2830b03ff18b54055",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202203.nc4"
+      },
+      {
+        "month": "2022-04",
+        "granule_id": "G2273286753-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202204.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ba621372e941eb9266631a954c86f8566c47b19cf45be4bd14402eef27141d9e",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202204.nc4"
+      },
+      {
+        "month": "2022-05",
+        "granule_id": "G2298145526-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202205.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "3e47a7425e728e33c276ec03e9a94819438e4255f1b89749f6b2c7aa2f4b813f",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202205.nc4"
+      },
+      {
+        "month": "2022-06",
+        "granule_id": "G2355127680-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202206.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "1202445e40801d76bf1a1d113e00c33fb81928eefcfb027612967600588f25e0",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202206.nc4"
+      },
+      {
+        "month": "2022-07",
+        "granule_id": "G2430724922-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202207.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "39c14a364eb44f7c9ed54f7273d3826331f35e0b20d0a7ba2958e21d8b180f8c",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202207.nc4"
+      },
+      {
+        "month": "2022-08",
+        "granule_id": "G2466229387-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202208.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "6803c5d63ae5e888af8764d0a3f72390c0986ecbf92dcff858fbff2e27beffb9",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202208.nc4"
+      },
+      {
+        "month": "2022-09",
+        "granule_id": "G2516356559-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202209.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "3900e89edeea209d3267da59a724d994df43c1ba2414934a40be4c0f1bb71bd1",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202209.nc4"
+      },
+      {
+        "month": "2022-10",
+        "granule_id": "G2551271285-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202210.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "a6f20aaca1b813a0d2cf02f54ef3ec2433dc32126f935015967d568d16f256f5",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202210.nc4"
+      },
+      {
+        "month": "2022-11",
+        "granule_id": "G2569034371-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202211.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "83002143efa6ae57ca9ea224a4ffebd584caf45ba5d8df67250c661edfa9e238",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202211.nc4"
+      },
+      {
+        "month": "2022-12",
+        "granule_id": "G2591283723-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202212.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "4f1077d7b27aedcc3752f04af1c3d720a2b0b97086e5636a17fc3a70d867409c",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202212.nc4"
+      },
+      {
+        "month": "2023-01",
+        "granule_id": "G2613628811-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202301.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "21c5ceac85f19025139aee50952e536bf7d7dc942c7fd46e891bcb91e763186d",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202301.nc4"
+      },
+      {
+        "month": "2023-02",
+        "granule_id": "G2638671752-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202302.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "1aff71e6cddd96b5cca9760419ffa183206eb9d48302a9dfaade430ed0f62ed1",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202302.nc4"
+      },
+      {
+        "month": "2023-03",
+        "granule_id": "G2660111742-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202303.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "372bbad9f62bb602ef38592f754e2e82a547cefcb7a5e75cdd6a8bc6fb8a3919",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202303.nc4"
+      },
+      {
+        "month": "2023-04",
+        "granule_id": "G2695585007-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202304.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "b0e2bbe285e7e7d892590dc604ddfaa9992acc456482b6a0a49090941fbb146b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202304.nc4"
+      },
+      {
+        "month": "2023-05",
+        "granule_id": "G2716941911-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202305.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "318a199cb88f8f9737e601320b6ef686a9f83f4477d46e63c729081b877cab9b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202305.nc4"
+      },
+      {
+        "month": "2023-06",
+        "granule_id": "G2735022570-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202306.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "386c3693acce3e552a711f595b7db67d84c69c75c5f71c1dd292f74d46e3a140",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202306.nc4"
+      },
+      {
+        "month": "2023-07",
+        "granule_id": "G2755421026-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202307.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "c7ca54eb7509b166f852f54c3d80e379ceda1119dca879056c38769462d1cec0",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202307.nc4"
+      },
+      {
+        "month": "2023-08",
+        "granule_id": "G2769529108-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202308.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "7a9b1908214816195dc804f3af092f615fcff50cd3b3df63b8f0560a8c4dd1db",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202308.nc4"
+      },
+      {
+        "month": "2023-09",
+        "granule_id": "G2788246085-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202309.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "3273d5c4f05114cffe7d3e881469bfca37601ac6dab3420e0c8f88dd535a1fa2",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202309.nc4"
+      },
+      {
+        "month": "2023-10",
+        "granule_id": "G2805672393-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202310.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "06df9ad37fd73fe2eeb1704a93372601f90dc17af02467d94e60ca531ca9e2ad",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202310.nc4"
+      },
+      {
+        "month": "2023-11",
+        "granule_id": "G2820955633-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202311.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ca3a33f57faf5815cd271da7f69d41f3e4c17afd90a7d0d2b7863909bfabcd1b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202311.nc4"
+      },
+      {
+        "month": "2023-12",
+        "granule_id": "G2840724371-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202312.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "43a088aa2d966bee1de7dc2c40a4c848eec9c27f992f902de39c4aed52e0fdbb",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202312.nc4"
+      },
+      {
+        "month": "2024-01",
+        "granule_id": "G2873651477-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202401.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "f0a32310bd64f5057bba13d6e596fa2a513b5d7424d0727a0f985bd219a32f7b",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202401.nc4"
+      },
+      {
+        "month": "2024-02",
+        "granule_id": "G2904861514-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202402.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "9a40d1f5930e256a0c97913fbe17a24f941997702ee3785a0ed75923a0621839",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202402.nc4"
+      },
+      {
+        "month": "2024-03",
+        "granule_id": "G2963027065-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202403.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "256029c7fd85b38ff4226695bc2f1e1acfca18567f0eb4f0cdde58569d344bbf",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202403.nc4"
+      },
+      {
+        "month": "2024-04",
+        "granule_id": "G3019518010-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202404.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e18f068501aa26ef4dc2271063436c13703fd561952ff26333dfab27f2f88dff",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202404.nc4"
+      },
+      {
+        "month": "2024-05",
+        "granule_id": "G3125995231-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202405.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "ecc37998105d9ae4d2e0e80954a6faf498c763eb3236f1a04be4e7149a197a57",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202405.nc4"
+      },
+      {
+        "month": "2024-06",
+        "granule_id": "G3171556831-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202406.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "9b4affba0454fde3edd38805f5e7e5f804131a7cafcb5117b6cd51ae68d5dabb",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202406.nc4"
+      },
+      {
+        "month": "2024-07",
+        "granule_id": "G3205035911-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202407.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "2cf760de0b40aeb1d2b3c7c246b8bb06f72bd5f8263233e9c4abcfdbd36d8fbc",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202407.nc4"
+      },
+      {
+        "month": "2024-08",
+        "granule_id": "G3243899824-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202408.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "d85b78ee4f8ace01269c8e43c3f886b95dfd910da4b16c7c84c57315cc6ba3da",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202408.nc4"
+      },
+      {
+        "month": "2024-09",
+        "granule_id": "G3274572910-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202409.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "f4cc05207c3c2a012becd6ae280d3e79f56a4de02c28c6f1f28508e79124fc59",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202409.nc4"
+      },
+      {
+        "month": "2024-10",
+        "granule_id": "G3301167361-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202410.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "305860982fd682451b064e78a961f2a7bea2c6e7ecab5d1435a4180d4e19b48f",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202410.nc4"
+      },
+      {
+        "month": "2024-11",
+        "granule_id": "G3336692810-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202411.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "603a5d183412dbd35e4828f112cc3b5db77786b9bf89583ab6738182dc74d52a",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202411.nc4"
+      },
+      {
+        "month": "2024-12",
+        "granule_id": "G3381658714-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202412.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "5910ad812627cb845508c68cbfefa53a4c5c427c61ff636f5b6d7d8f2dec621c",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202412.nc4"
+      },
+      {
+        "month": "2025-01",
+        "granule_id": "G3418855284-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202501.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "8d8db5c38f5e7b254df1025406621ff75ca99c3291f84fcb9aefc08cbbefc062",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202501.nc4"
+      },
+      {
+        "month": "2025-02",
+        "granule_id": "G3464919712-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202502.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "158fd118ac1f8fb0596bb10f1bbcdce509f79ce6753a53a4d828693df52b3b05",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202502.nc4"
+      },
+      {
+        "month": "2025-03",
+        "granule_id": "G3503129918-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202503.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "25395a880de1dd690b32c3eab5c86bf69f0f5df4092f037713720194cc5c2315",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202503.nc4"
+      },
+      {
+        "month": "2025-04",
+        "granule_id": "G3542431862-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202504.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "2bb9a2072b6aa4354bd24f77d9d13985abeef98161768f9ee659527b8ff0afe7",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202504.nc4"
+      },
+      {
+        "month": "2025-05",
+        "granule_id": "G3580172516-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202505.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "a99bda83aa0b8ddf7ba1d284e6cfde63e23409f83e68466e559d6484d25e6582",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202505.nc4"
+      },
+      {
+        "month": "2025-06",
+        "granule_id": "G3618961758-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202506.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "e0f65aa86c4967f4904a9766e08e0cff6156bbca31942d7fab67871cb8c5ea47",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202506.nc4"
+      },
+      {
+        "month": "2025-07",
+        "granule_id": "G3672291855-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202507.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "61e7b310764d75005122852677fb6a3934ca26e57512706c42783968a06cc8d7",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202507.nc4"
+      },
+      {
+        "month": "2025-08",
+        "granule_id": "G3757602569-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202508.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "6834cda91c1a152d0efa59335cb34f1af601d380ffff90224771d73bb5c5e5f1",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202508.nc4"
+      },
+      {
+        "month": "2025-09",
+        "granule_id": "G3835793001-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202509.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "61760aafd6af1ae7eb2bdffd4ae9bb6088d507f0657a6ebc3fda1ef2d06f4146",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202509.nc4"
+      },
+      {
+        "month": "2025-10",
+        "granule_id": "G3868866725-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202510.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "7c75afb1c0175d1d7da41d2c2a3e9c533c2773aeffb3f4ea3b07e518b63ca346",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202510.nc4"
+      },
+      {
+        "month": "2025-11",
+        "granule_id": "G3924150971-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202511.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "0395c5afd4109d1603520932906e4b78613c9b04b54860e298f09b9cc09dffcd",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202511.nc4"
+      },
+      {
+        "month": "2025-12",
+        "granule_id": "G3973392279-GES_DISC",
+        "filename": "MERRA2_400.tavgM_2d_slv_Nx.202512.nc4",
+        "retrieval": "memory_cache",
+        "sha256": "0e3ba6bf08cd72ab6667047ca781bf102aaec4c7e06b092f7e7a7228722b2dff",
+        "url": "https://opendap.earthdata.nasa.gov/collections/C1276812859-GES_DISC/granules/M2TMNXSLV.5.12.4%3AMERRA2_400.tavgM_2d_slv_Nx.202512.nc4"
+      }
+    ],
+    "cache_used": true,
+    "cache_hits": 312,
+    "cache_misses": 0,
+    "catalog_cache_hit": false
+  },
+  "warnings": [
+    "MERRA-2 grid-cell reanalysis; not a city weather station. No independent station validation.",
+    "HAC/t inference is approximate; reanalysis structural uncertainty is not quantified."
+  ],
+  "timings_ms": {
+    "catalog": 688.0985000000801,
+    "source_total": 710.0250000001397,
+    "statistical_calculation": 4.13550000009127
+  }
+}

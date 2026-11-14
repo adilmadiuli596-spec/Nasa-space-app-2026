@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-14",
+  "mode": "offline_archived_NASA_subset_replay_not_live_network",
+  "subsets": 419,
+  "variables_checked_per_subset": 2,
+  "source_bytes": 17792982,
+  "hdf5_validation_and_cache_fill_ms": 2974.8754,
+  "warm_decoded_cache_read_ms": 6.828200000000379,
+  "process_memory_before": {
+    "rss": 100638720,
+    "heapTotal": 31121408,
+    "heapUsed": 14752304,
+    "external": 4343253,
+    "arrayBuffers": 1258063
+  },
+  "process_memory_after": {
+    "rss": 169566208,
+    "heapTotal": 62717952,
+    "heapUsed": 38523608,
+    "external": 51752624,
+    "arrayBuffers": 6980401
+  },
+  "sampled_peak_rss_bytes": 170627072,
+  "permanent_data_files_written": false,
+  "notes": [
+    "419 real preserved HDF5 subsets; January 1991 is a global file and deliberately not accepted as a subset",
+    "CMR updated timestamp is a replay placeholder, not a fresh catalog retrieval",
+    "This is decoding/cache timing, not a cold 420-month NASA network or Vercel benchmark"
+  ]
+}

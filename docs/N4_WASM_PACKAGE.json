@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "kind": "Copied browser/MEMFS h5wasm assets decoded HDF5 bytes supplied as test input on stdin",
+  "external_runtime_files_read": false,
+  "input_bytes": 43092,
+  "values": {
+    "T2M": {
+      "value": 257.1700134277344,
+      "units": "K",
+      "shape": [
+        1,
+        1,
+        1
+      ]
+    },
+    "QV2M": {
+      "value": 0.0010537424823269248,
+      "units": "kg kg-1",
+      "shape": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "cloud_runtime_tested": false
+}

@@ -1,0 +1,15 @@
+{
+  "checks": [
+    {
+      "mode": "local",
+      "name": "safe disabled analysis, explicit explanation, phone collapsed and editable coordinates",
+      "passed": true
+    },
+    {
+      "mode": "blocked",
+      "name": "safe disabled analysis, explicit explanation, phone collapsed and editable coordinates",
+      "passed": true
+    }
+  ],
+  "credentials_used": false
+}

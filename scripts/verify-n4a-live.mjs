@@ -1,0 +1,16 @@
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const base='http://127.0.0.1:3010',cases=JSON.parse(await fs.readFile('tests/fixtures/n2/real-cases.json','utf8'));
+const report={date:'2026-11-14',mode:'local_authorized',attempts:[],comparisons:[],errors:[]};
+const save=()=>fs.writeFile('docs/N4A_LIVE.json',JSON.stringify(report,null,2));
+function compare(a,b,path,stats){if(typeof b==='number'){const error=Math.abs(a-b);stats.numeric_leaves++;stats.max_absolute_error=Math.max(stats.max_absolute_error,error);if(typeof a!=='number'||!Number.isFinite(a)||error>1e-12+1e-10*Math.abs(b))stats.errors.push(path);}else if(Array.isArray(b)){if(!Array.isArray(a)||a.length!==b.length){stats.errors.push(path+'.length');return;}b.forEach((v,i)=>compare(a[i],v,path+'['+i+']',stats));}else if(b&&typeof b==='object'){for(const[k,v]of Object.entries(b))compare(a?.[k],v,path+'.'+k,stats);}else if(a!==b)stats.errors.push(path);}
+try{
+ report.health=await(await fetch(base+'/api/health')).json();assert.equal(report.health.mode,'local');assert(report.health.dynamic_nasa_enabled,'Local authorization must be configured');
+ const all=[...cases,{id:'TOKYO_T2M',request:{latitude:35.68,longitude:139.69,variable:'T2M',start_year:1991,end_year:2025},expected:JSON.parse(await fs.readFile('docs/N3_LIVE_TOKYO_T2M.json','utf8'))}];
+ for(const c of all){let completed=false;for(let attempt=1;attempt<=3;attempt++){
+  console.log('Starting '+c.id+' attempt '+attempt);const started=performance.now();const r=await fetch(base+'/api/analysis',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(c.request),signal:AbortSignal.timeout(290000)}),d=await r.json();const row={id:c.id,attempt,status:r.status,duration_ms:performance.now()-started,...(r.ok?{network_used:d.provenance.network_used,cache_hits:d.provenance.cache_hits,cache_misses:d.provenance.cache_misses}: {error:d.error?.code})};report.attempts.push(row);console.log(JSON.stringify(row));
+  if(!r.ok){await fs.writeFile('docs/N4A_ERROR_'+c.id+'_'+attempt+'.json',JSON.stringify(d,null,2));await save();if(['nasa_transport_error','nasa_timeout','nasa_unavailable'].includes(d.error?.code)&&attempt<3)continue;report.errors.push(row);break;}
+  await fs.writeFile('docs/N4A_LIVE_'+c.id+'.json',JSON.stringify(d,null,2));const stats={numeric_leaves:0,max_absolute_error:0,errors:[]};for(const key of ['requested','actual_cell','source_unit','unit','trend_unit','monthly_series','annual_series','trend','quality','warnings'])compare(d[key],c.expected[key],key,stats);for(const key of ['provider','dataset','version','doi'])compare(d.provenance[key],c.expected.provenance[key],'provenance.'+key,stats);report.comparisons.push({id:c.id,passed:!stats.errors.length,...stats,trend:d.trend,actual_cell:d.actual_cell});assert.equal(stats.errors.length,0,c.id);completed=true;await save();break;
+ }if(!completed&&report.errors.at(-1)?.error?.includes('auth'))break;}
+ report.passed=report.comparisons.length===5&&report.comparisons.every(c=>c.passed);assert(report.passed,'Some live cases were not verified');
+}catch(e){report.run_error=e.message;process.exitCode=1;}finally{await save();console.log(JSON.stringify({passed:report.passed,completed:report.comparisons.length,failed_attempts:report.attempts.filter(r=>r.status!==200).length,error:report.run_error}));}

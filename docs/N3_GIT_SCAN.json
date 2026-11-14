@@ -1,0 +1,9 @@
+{
+  "candidate_files": 330,
+  "forbidden_files": [],
+  "high_confidence_secret_matches": [],
+  "env_ignored": true,
+  "env_tracked": false,
+  "env_contents_read": false,
+  "limitations": "Heuristic scan of Git candidates, not a universal secret detector. Actual token file excluded and never opened by the audit."
+}

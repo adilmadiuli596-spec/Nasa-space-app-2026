@@ -1,0 +1,26 @@
+node_modules/
+.next/
+.cache/
+coverage/
+*.tsbuildinfo
+.env*
+!.env.example
+.netrc
+*.log
+__pycache__/
+.pytest_cache/
+.venv/
+reference/data/
+reference/.data-check/granules/
+
+/public/vendor/
+
+# Local verification and deployment artifacts; never publish credentials or caches.
+.integration-check/
+.vercel/
+.edl_cookie_file
+*.zip
+*.7z
+*.tmp
+*.bak
+.DS_Store
