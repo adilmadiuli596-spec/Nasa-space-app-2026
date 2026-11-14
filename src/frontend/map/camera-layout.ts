@@ -1,0 +1,8 @@
+import type {Map} from 'maplibre-gl';
+/** Reserve screen space for floating UI; the map itself remains full-screen. */
+export function mapPadding(map:Map){const rect=map.getContainer().getBoundingClientRect(),header=document.querySelector('header')?.getBoundingClientRect(),tools=document.querySelector('.map-tools')?.getBoundingClientRect(),column=document.querySelector<HTMLElement>('.right-column'),dock=column?.getBoundingClientRect(),small=innerWidth<=600;
+ const top=Math.max(16,(header?.bottom??rect.top)+12-rect.top),left=Math.max(16,(tools?.right??rect.left)+12-rect.left);let right=16,bottom=16;
+ if(dock&&dock.width>0&&dock.height>0&&dock.left<rect.right&&dock.right>rect.left&&dock.top<rect.bottom&&dock.bottom>rect.top){if(!small&&column?.querySelector('aside'))right=Math.max(16,rect.right-dock.left+12);else bottom=Math.max(16,rect.bottom-dock.top+12);}
+ return{top:Math.min(top,Math.max(16,rect.height-72)),right:Math.min(right,Math.max(16,rect.width-left-64)),left,bottom:Math.min(bottom,Math.max(16,rect.height-top-64))};}
+/** Native MapLibre sphere + perspective fit in the unobscured area. No data/projection changes. */
+export function globeOverviewZoom(map:Map,latitude:number,padding=mapPadding(map)){const {width,height}=map.getContainer().getBoundingClientRect(),available=Math.max(40,Math.min(width-padding.left-padding.right,height-padding.top-padding.bottom)-20),screenRadius=available/2,cameraDistance=height/(2*Math.tan(map.getVerticalFieldOfView()*Math.PI/360)),term=screenRadius*screenRadius/cameraDistance,nativeRadius=term+Math.sqrt(term*term+screenRadius*screenRadius),scale=Math.cos(Math.min(85.0511287798066,Math.abs(latitude))*Math.PI/180);return Math.max(-2,Math.min(4,Math.log2(nativeRadius*2*Math.PI*scale/512)));}

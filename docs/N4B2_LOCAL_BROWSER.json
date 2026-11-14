@@ -1,0 +1,28 @@
+{
+  "checks": [
+    "Full-screen map remains unpartitioned; compact functional header and floating tools",
+    "N4B.1 menu supplies real GIBS, year/month and official legend under the right panel",
+    "Floating science at the right, time and legend below; selected point remains unobscured",
+    "One real POWER pair; both variables and all scientific tabs retained",
+    "Closing science leaves no empty column; time dock and results stay in place",
+    "2D/3D, menu and dates do not reset coordinates, period or paired analysis",
+    "1024x768: full-screen map, 350px floating panel, no external scroll",
+    "390x844: bottom science sheet and compact expandable time dock, readable graph and sources"
+  ],
+  "errors": [],
+  "posts": 1,
+  "power": {
+    "ms": 1629,
+    "provider": "NASA POWER",
+    "network_used": true,
+    "requested": {
+      "latitude": 51.25497,
+      "longitude": 82.34631,
+      "variable": "T2M",
+      "start_year": 1991,
+      "end_year": 2025
+    },
+    "sha256": "3051ae820c27da59794dadccd4622a900fa07d916e5f625932f3251c66320c86"
+  },
+  "ok": true
+}

@@ -4,6 +4,7 @@ import * as maplibregl from 'maplibre-gl';
 import type {Point} from '../api';
 import type {PointMapProps} from '@/shared/types/map';
 import {createPortal} from 'react-dom';
+import {mapPadding} from './camera-layout';
 import {addMapAttribution} from './map-attribution';
 import {useTemperatureLayer} from '../gibs/use-temperature-layer';
 import {Icon} from '../components/Icon';
@@ -48,22 +49,12 @@ export function MapView({timeControlsVisible=false,temperature,point,cell,pick,f
  useEffect(()=>{const m=map.current,p=selected.current;if(m&&p&&canProject(p)&&focusKey)m.easeTo({center:[p.longitude,p.latitude],zoom:Math.max(6,m.getZoom()),duration:400});},[focusKey]);
 
  useEffect(()=>{const m=map.current;if(m?.isStyleLoaded())for(const layer of m.getStyle().layers||[])if(layer.type==='symbol')m.setLayoutProperty(layer.id,'visibility',labelsVisible?'visible':'none');},[labelsVisible]);
- useEffect(()=>{const m=map.current;if(!m||!command)return;if(command.type==='in')m.zoomIn();else if(command.type==='out')m.zoomOut();else m.easeTo({center:[15,25],zoom:1.5,duration:400});},[command]);
+ useEffect(()=>{const m=map.current;if(!m||!command)return;if(command.type==='in')m.zoomIn();else if(command.type==='out')m.zoomOut();else m.fitBounds([[-180,-85.0511287798066],[180,85.0511287798066]],{padding:mapPadding(m),duration:400});},[command]);
  useEffect(()=>{
   const m=map.current;if(!m)return;
-  const update=()=>{
-   const small=innerWidth<=600,canvasHeight=m.getCanvas().clientHeight;
-   const header=parseFloat(getComputedStyle(document.querySelector('main')!).getPropertyValue('--header-bottom'))||100;
-   const width=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--panel-width'))||488;
-   const reserve=parseFloat(getComputedStyle(document.querySelector('main')!).getPropertyValue('--map-time-reserve'))||0;
-   const height=small?reserve+(panelOpen?(document.querySelector('aside')?.getBoundingClientRect().height||0):0):0;
-   const top=Math.min(header,canvasHeight/3),padding={top,right:!small&&panelOpen?width+30:16,bottom:Math.min(height+12,Math.max(0,canvasHeight-top-44)),left:60};
-   // Finish camera/layout as one transaction: an older easeTo must not restore old padding.
-   m.stop();const p=selected.current;
-   if(p&&canProject(p))m.jumpTo({center:[p.longitude,p.latitude],padding});else m.setPadding(padding);
-  };
-  layout.current=update;update();window.addEventListener('resize',update);
-  return()=>{window.removeEventListener('resize',update);if(layout.current===update)layout.current=null;};
+  const update=()=>{const padding=mapPadding(m);m.stop();const p=selected.current;if(p&&canProject(p))m.easeTo({center:[p.longitude,p.latitude],padding,duration:window.matchMedia('(prefers-reduced-motion: reduce)').matches?0:180});else m.setPadding(padding);};
+  layout.current=update;update();window.addEventListener('resize',update);const observer=new ResizeObserver(update);const dock=document.querySelector('.right-column');if(dock)observer.observe(dock);
+  return()=>{observer.disconnect();window.removeEventListener('resize',update);if(layout.current===update)layout.current=null;};
  },[panelOpen,timeControlsVisible]);
 
  useEffect(()=>{
