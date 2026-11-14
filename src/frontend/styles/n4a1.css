@@ -1,5 +1,5 @@
 /* N4A.1 — focused UI refinements; scientific values still come from the API. */
-:root{--panel-width:472px;--line:#DFE7F1;--muted:#62738F}
+:root{--panel-width:400px;--line:#DFE7F1;--muted:#62738F}
 .header{grid-template-columns:220px minmax(220px,1fr) auto;gap:22px;padding:10px 18px;border-radius:20px;box-shadow:0 5px 18px #071D4912;background:#FFFFFFF7}
 .brand,.header .brand{grid-column:1;grid-row:1;gap:10px;font-size:24px;line-height:1.02;letter-spacing:-.65px;min-width:0;min-height:54px;border-right:1px solid var(--line)}
 .brand span{display:block;overflow:visible;white-space:nowrap}.brand img,.header .brand img{width:54px;height:54px;object-fit:contain;flex-shrink:0}
