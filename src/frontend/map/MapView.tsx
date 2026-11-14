@@ -5,14 +5,17 @@ import type {Point} from '../api';
 import type {PointMapProps} from '@/shared/types/map';
 import {createPortal} from 'react-dom';
 import {addMapAttribution} from './map-attribution';
+import {useTemperatureLayer} from '../gibs/use-temperature-layer';
 import {Icon} from '../components/Icon';
 const STYLE='https://tiles.openfreemap.org/styles/positron';
 const canProject=(point:Point)=>Math.abs(point.latitude)<=85.0511287798066;
-export function MapView({point,cell,pick,focusKey=0,labelsVisible=true,command,panelOpen=false,summary,showSummary=true,onOpenAnalysis,initialCamera,onCameraChange}:PointMapProps){
+export function MapView({temperature,point,cell,pick,focusKey=0,labelsVisible=true,command,panelOpen=false,summary,showSummary=true,onOpenAnalysis,initialCamera,onCameraChange}:PointMapProps){
  const host=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),handler=useRef(pick),selected=useRef(point);
  const layout=useRef<(()=>void)|null>(null);
  const currentLabels=useRef(labelsVisible);currentLabels.current=labelsVisible;
  handler.current=pick;selected.current=point;
+ const [activeMap,setActiveMap]=useState<maplibregl.Map|null>(null);
+ useTemperatureLayer(activeMap,temperature);
  const [issue,setIssue]=useState(''),[loading,setLoading]=useState(true),[popupHost,setPopupHost]=useState<HTMLDivElement|null>(null);
  useEffect(()=>{
   if(!host.current)return;let m:maplibregl.Map;
@@ -23,12 +26,13 @@ export function MapView({point,cell,pick,focusKey=0,labelsVisible=true,command,p
   m.on('moveend',()=>{const c=m.getCenter();onCameraChange?.({center:{latitude:c.lat,longitude:c.wrap().lng},zoom:m.getZoom(),bearing:m.getBearing(),pitch:m.getPitch()});});
   const timer=window.setTimeout(()=>{if(!m.areTilesLoaded())setIssue('Подложка загружается медленно. Координаты и научный анализ остаются доступны.');},20000);
   m.on('style.load',()=>{
+   setActiveMap(m);
    for(const layer of m.getStyle().layers||[]){if(layer.type==='symbol')m.setLayoutProperty(layer.id,'visibility',currentLabels.current?'visible':'none');if(layer.type==='fill'&&/water/i.test(layer.id)&&!/waterway|water_name/i.test(layer.id))m.setPaintProperty(layer.id,'fill-color','#BFE7FC');}
 
   });
   m.on('click',e=>handler.current({latitude:+e.lngLat.lat.toFixed(5),longitude:+e.lngLat.wrap().lng.toFixed(5)}));
   m.on('movestart',()=>host.current?.removeAttribute('data-map-ready'));
-  m.on('error',()=>{setLoading(false);setIssue('Часть подложки не загрузилась. Можно повторить загрузку или ввести координаты.');});
+  m.on('error',e=>{if('sourceId' in e&&String(e.sourceId).startsWith('earth-overlay-'))return;setLoading(false);setIssue('Часть подложки не загрузилась. Можно повторить загрузку или ввести координаты.');});
   m.on('idle',()=>{if(m.areTilesLoaded()&&m.isStyleLoaded()){setLoading(false);setIssue('');host.current?.setAttribute('data-map-ready','true');}});
   const observer=new ResizeObserver(()=>{m.resize();layout.current?.();const p=selected.current;if(p&&canProject(p)&&!m.getBounds().contains([p.longitude,p.latitude]))m.jumpTo({center:[p.longitude,p.latitude]});});observer.observe(host.current);
   return()=>{clearTimeout(timer);observer.disconnect();m.remove();map.current=null;};

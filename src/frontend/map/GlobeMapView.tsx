@@ -7,14 +7,16 @@ import {useEarthMap} from './globe-friend/hooks/useEarthMap';
 import {normalizePoint,isMapSurface} from './globe-friend/lib/geo-utils';
 import {HOST_STYLE} from './globe-friend/lib/map-config';
 import {SpaceBackdrop} from './globe-friend/SpaceBackdrop';
+import {useTemperatureLayer} from '../gibs/use-temperature-layer';
 import {Icon} from '../components/Icon';
 // Host adapter over the teammate EarthMap lifecycle/projection/selection implementation.
-export function GlobeMapView({point,pick,initialCamera,onCameraChange,focusKey=0,labelsVisible=true,command,panelOpen=false,summary,showSummary=true,onOpenAnalysis,space=false,onFailure}:{space?:boolean;onFailure:()=>void}&PointMapProps){
+export function GlobeMapView({temperature,point,pick,initialCamera,onCameraChange,focusKey=0,labelsVisible=true,command,panelOpen=false,summary,showSummary=true,onOpenAnalysis,space=false,onFailure}:{space?:boolean;onFailure:()=>void}&PointMapProps){
  const container=useRef<HTMLDivElement>(null),latest=useRef({pick,point,onCameraChange,onFailure});latest.current={pick,point,onCameraChange,onFailure};
  const initial=useRef(initialCamera),layout=useRef<()=>void>(()=>{}),[popupHost,setPopupHost]=useState<HTMLDivElement|null>(null);
  const changed=useCallback((camera:{center:{lat:number;lng:number};zoom:number;bearing:number;pitch:number})=>{latest.current.onCameraChange?.({center:{latitude:camera.center.lat,longitude:camera.center.lng},zoom:camera.zoom,bearing:camera.bearing,pitch:camera.pitch});},[]);
  const fail=useCallback(()=>latest.current.onFailure(),[]);
  const {map,ready,error,basemapLoading}=useEarthMap(container,{selectedDate:'1991-01-01',mode:'globe',baseStyle:HOST_STYLE,initialView:{center:initial.current?{lat:initial.current.center.latitude,lng:initial.current.center.longitude}:{lat:point?.latitude??25,lng:point?.longitude??45},zoom:typeof window!=='undefined'&&innerWidth<=600?(panelOpen?-0.4:0.6):1.8,bearing:0,pitch:0},onCameraChange:changed,onError:fail});
+ useTemperatureLayer(ready?map:null,temperature);
  useEffect(()=>{if(!map||!ready)return;
   // Projection effect and surface selection are adapted directly from teammate EarthMap.
   map.setProjection({type:'globe'});map.setSky({'sky-color':'#0a1734','horizon-color':'#9fdcff','sky-horizon-blend':0.1,'atmosphere-blend':['interpolate',['linear'],['zoom'],0,0.65,4,0.65,7,0]});map.dragRotate.disable();map.touchZoomRotate.disableRotation();

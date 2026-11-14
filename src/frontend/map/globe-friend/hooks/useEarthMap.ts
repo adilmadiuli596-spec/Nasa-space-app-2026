@@ -74,7 +74,7 @@ export function useEarthMap(container: React.RefObject<HTMLDivElement | null>, p
       });
       current.on("moveend", () => latest.current.onCameraChange?.(readCamera(current)));
       current.on("error", event => {
-        if (disposed) return;
+        if (disposed || ("sourceId" in event && String(event.sourceId).startsWith("earth-overlay-"))) return;
         const message = event.error?.message ?? "Ошибка загрузки карты";
         latest.current.onError?.(new Error(message));
         setBasemapLoading(false);

@@ -1,0 +1,30 @@
+{
+  "comparedTo": "2e1caa1a8e9146939d7404059ff5bc2399d52f2d",
+  "protectedFiles": 69,
+  "exactBytes": 48,
+  "existingWorkingTreeLineEndingsOnly": [
+    "package-lock.json",
+    "package.json",
+    "reference/.data-check/REPORT_RU.md",
+    "reference/.data-check/SHA256SUMS.txt",
+    "reference/.data-check/analysis_results.json",
+    "reference/.data-check/annual_values.csv",
+    "reference/.data-check/baseline_verified.json",
+    "reference/.data-check/download_status.json",
+    "reference/.data-check/independent_audit.json",
+    "reference/.data-check/january_1991.json",
+    "reference/.data-check/january_local_check.json",
+    "reference/.data-check/january_local_quality.json",
+    "reference/.data-check/local_file_verification.json",
+    "reference/.data-check/manifest.json",
+    "reference/.data-check/monthly_quality.json",
+    "reference/.data-check/monthly_values.csv",
+    "reference/.data-check/monthly_values.json",
+    "reference/.data-check/statistics_crosscheck.json",
+    "reference/.data-check/status.json",
+    "reference/frontend-source/style.css",
+    "src/backend/science/student.ts"
+  ],
+  "changed": [],
+  "method": "HEAD content comparison with separately identified pre-existing CRLF/LF differences; Git diff in all protected paths remains empty"
+}
