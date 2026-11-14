@@ -1,0 +1,69 @@
+{
+  "checks": [
+    "Existing 2D map and point picking remain functional",
+    "Teammate globe loads; selection persists, real 3D surface picks coordinates",
+    "One real POWER paired analysis from the globe",
+    "Variables and 2D/3D preserve results, period, point and panel without API requests",
+    "Optional teammate space background cleans second context; compact credits retained",
+    "Mobile globe uses available area, preserves panel and source results, space off",
+    "Repeated projection switches release previous WebGL contexts",
+    "3D WebGL initialization failure returns healthy 2D without losing science",
+    "3D style load failure returns 2D and retains analysis",
+    "Touch-enabled mobile selects a real globe surface point and returns to 2D",
+    "No unexpected console errors, new NASA requests on switches, demo tile services or GIBS calls"
+  ],
+  "errors": [],
+  "expected_fallback_errors": [
+    "Failed to load resource: net::ERR_FAILED"
+  ],
+  "posts": 1,
+  "forbidden_requests": [],
+  "point2d": {
+    "latitude": 55.9859,
+    "longitude": 45.44265
+  },
+  "point3d": {
+    "latitude": 54.16279,
+    "longitude": 52.44881
+  },
+  "first_analysis_ms": 1499,
+  "source": {
+    "network_used": true,
+    "requested": {
+      "latitude": 54.16279,
+      "longitude": 52.44881,
+      "variable": "T2M",
+      "start_year": 1991,
+      "end_year": 2025
+    },
+    "sha256": "e724d4d95160a990608de0c5a561c8fcf0f0d004324dd964cd68375bf669c740"
+  },
+  "selected_slope": "+0,33404",
+  "mobile": {
+    "w": 390,
+    "h": 844,
+    "sw": 390,
+    "sh": 844,
+    "globe": {
+      "x": 0,
+      "y": 119,
+      "width": 390,
+      "height": 125,
+      "top": 119,
+      "right": 390,
+      "bottom": 244,
+      "left": 0
+    },
+    "panel": {
+      "x": 0,
+      "y": 244,
+      "width": 390,
+      "height": 600,
+      "top": 244,
+      "right": 390,
+      "bottom": 844,
+      "left": 0
+    }
+  },
+  "touch_point": "49.87081,86.04476"
+}

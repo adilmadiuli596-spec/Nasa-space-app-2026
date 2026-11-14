@@ -4,10 +4,11 @@ import * as maplibregl from 'maplibre-gl';
 import type {Point} from '../api';
 import type {PointMapProps} from '@/shared/types/map';
 import {createPortal} from 'react-dom';
+import {addMapAttribution} from './map-attribution';
 import {Icon} from '../components/Icon';
 const STYLE='https://tiles.openfreemap.org/styles/positron';
 const canProject=(point:Point)=>Math.abs(point.latitude)<=85.0511287798066;
-export function MapView({point,cell,pick,focusKey=0,labelsVisible=true,command,panelOpen=false,summary,showSummary=true,onOpenAnalysis}:PointMapProps){
+export function MapView({point,cell,pick,focusKey=0,labelsVisible=true,command,panelOpen=false,summary,showSummary=true,onOpenAnalysis,initialCamera,onCameraChange}:PointMapProps){
  const host=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),handler=useRef(pick),selected=useRef(point);
  const layout=useRef<(()=>void)|null>(null);
  const currentLabels=useRef(labelsVisible);currentLabels.current=labelsVisible;
@@ -15,15 +16,11 @@ export function MapView({point,cell,pick,focusKey=0,labelsVisible=true,command,p
  const [issue,setIssue]=useState(''),[loading,setLoading]=useState(true),[popupHost,setPopupHost]=useState<HTMLDivElement|null>(null);
  useEffect(()=>{
   if(!host.current)return;let m:maplibregl.Map;
-  try{maplibregl.setWorkerUrl(`/vendor/maplibre-${maplibregl.getVersion()}/maplibre-gl-worker.mjs`);m=new maplibregl.Map({container:host.current,style:STYLE,center:[45,44],zoom:2.15,maxPitch:0,dragRotate:false,attributionControl:false,locale:{'AttributionControl.ToggleAttribution':'Источники карты'}});}
+  try{maplibregl.setWorkerUrl(`/vendor/maplibre-${maplibregl.getVersion()}/maplibre-gl-worker.mjs`);m=new maplibregl.Map({container:host.current,style:STYLE,center:initialCamera?[initialCamera.center.longitude,initialCamera.center.latitude]:[45,44],zoom:initialCamera?.zoom??2.15,maxPitch:0,dragRotate:false,attributionControl:false,locale:{'AttributionControl.ToggleAttribution':'Источники карты'}});}
   catch{setLoading(false);setIssue('Для карты требуется WebGL. Доступны поиск и ручной ввод координат.');return;}
   map.current=m;m.touchZoomRotate.disableRotation();
-  m.addControl(new maplibregl.AttributionControl({compact:true,customAttribution:'<a href="https://maplibre.org/" target="_blank" rel="noreferrer">MapLibre</a>'}),'bottom-left');
-  // Keep the library's source credits and native keyboard-accessible details control.
-  const credits=host.current.querySelector<HTMLDetailsElement>('.maplibregl-ctrl-attrib');
-  const closeCredits=()=>{credits?.classList.remove('maplibregl-compact-show');credits?.removeAttribute('open');};
-  m.once('load',closeCredits);
-  credits?.addEventListener('keydown',e=>{if(e.key==='Escape'){closeCredits();credits.querySelector<HTMLElement>('summary')?.focus();}});
+  addMapAttribution(m);
+  m.on('moveend',()=>{const c=m.getCenter();onCameraChange?.({center:{latitude:c.lat,longitude:c.wrap().lng},zoom:m.getZoom(),bearing:m.getBearing(),pitch:m.getPitch()});});
   const timer=window.setTimeout(()=>{if(!m.areTilesLoaded())setIssue('Подложка загружается медленно. Координаты и научный анализ остаются доступны.');},20000);
   m.on('style.load',()=>{
    for(const layer of m.getStyle().layers||[]){if(layer.type==='symbol')m.setLayoutProperty(layer.id,'visibility',currentLabels.current?'visible':'none');if(layer.type==='fill'&&/water/i.test(layer.id)&&!/waterway|water_name/i.test(layer.id))m.setPaintProperty(layer.id,'fill-color','#BFE7FC');}
@@ -72,6 +69,6 @@ export function MapView({point,cell,pick,focusKey=0,labelsVisible=true,command,p
  },[summary,showSummary,point?.latitude,point?.longitude]);
 
  const outside=point&&!canProject(point);
- return <>{popupHost&&summary&&createPortal(<div className="point-card"><b title={summary.title}>{summary.title}</b><strong data-testid="point-value">{summary.value===null?'Данные недоступны':summary.value.toLocaleString('ru-RU',{maximumFractionDigits:2})+' '+summary.unit}</strong><span data-testid="point-year">Среднегодовое · {summary.year}</span><span>{summary.source}</span><button type="button" aria-label="Открыть научную панель" title="Открыть научный анализ" onClick={()=>onOpenAnalysis?.()}><Icon name="chart" size={19}/></button></div>,popupHost)}<div className="map" ref={host} aria-label="Интерактивная карта мира"/>{(issue||loading||outside)&&<div className="mapIssue" role="status">{outside?'Эта широта вне видимой области 2D-проекции. Для анализа сохранены введённые координаты.':issue||'Загрузка подложки карты…'}{issue&&<button type="button" onClick={()=>{setIssue('');setLoading(true);host.current?.removeAttribute('data-map-ready');map.current?.setStyle(STYLE);}}>Повторить карту</button>}</div>}</>;
+ return <>{popupHost&&summary&&createPortal(<div className="point-card"><b title={summary.title}>{summary.title}</b><strong data-testid="point-value">{summary.value===null?'Данные недоступны':summary.value.toLocaleString('ru-RU',{maximumFractionDigits:2})+' '+summary.unit}</strong><span data-testid="point-year">Среднегодовое · {summary.year}</span><span>{summary.source}</span><button type="button" aria-label="Открыть научную панель" title="Открыть научный анализ" onClick={()=>onOpenAnalysis?.()}><Icon name="chart" size={19}/></button></div>,popupHost)}<div className="map" ref={host} data-renderer="2d" aria-label="Интерактивная карта мира"/>{(issue||loading||outside)&&<div className="mapIssue" role="status">{outside?'Эта широта вне видимой области 2D-проекции. Для анализа сохранены введённые координаты.':issue||'Загрузка подложки карты…'}{issue&&<button type="button" onClick={()=>{setIssue('');setLoading(true);host.current?.removeAttribute('data-map-ready');map.current?.setStyle(STYLE);}}>Повторить карту</button>}</div>}</>;
 }
 

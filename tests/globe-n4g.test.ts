@@ -1,0 +1,9 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import {normalizePoint,normalizeLongitude,boundsFromPoints,isISODate,isMapSurface} from '../src/frontend/map/globe-friend/lib/geo-utils';
+import {createGIBSLayer} from '../src/frontend/map/globe-friend/lib/gibs';
+import {mapPixelRatio} from '../src/frontend/map/globe-friend/lib/render-performance';
+import {spaceCanvasSize,spaceRotation} from '../src/frontend/map/globe-friend/lib/space-camera';
+test('teammate coordinate normalization and sky-hit rejection',()=>{assert.equal(normalizeLongitude(180),-180);assert.deepEqual(normalizePoint({lat:95,lng:540}),{lat:90,lng:-180});const map={unproject:()=>({lat:10,lng:20}),project:()=>({x:100,y:100})};assert(isMapSurface(map as any,{x:100,y:100}));assert(!isMapSurface(map as any,{x:300,y:100}));});
+test('retained geometry/date helpers handle antimeridian and calendar',()=>{assert(boundsFromPoints({lat:10,lng:170},{lat:-10,lng:-175}).crossesAntimeridian);assert(isISODate('2024-02-29'));assert(!isISODate('2025-02-29'));});
+test('future GIBS helper retained with projection/zoom guards; no layer is activated',()=>{const options={id:'future',title:'Future',product:'NOT_ACTIVATED',matrixSet:'GoogleMapsCompatible_Level6',maxzoom:6,format:'png' as const,tileSize:256 as const,availability:{dates:['1991-01-01']}};assert.equal(createGIBSLayer(options).enabled,true);assert.throws(()=>createGIBSLayer({...options,matrixSet:'EPSG4326'}));assert.throws(()=>createGIBSLayer({...options,maxzoom:7}));});
+test('teammate rendering caps and space rotation remain bounded',()=>{assert.equal(mapPixelRatio(3,false),1.5);assert.equal(mapPixelRatio(3,true),1);const [w,h]=spaceCanvasSize(4000,3000,3);assert(w*h<=900000);const m=spaceRotation({center:{lat:45,lng:180},zoom:1,bearing:0,pitch:0});for(let i=0;i<3;i++)assert(Math.abs(Math.hypot(...m.slice(i*3,i*3+3))-1)<1e-6);});

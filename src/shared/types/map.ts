@@ -1,7 +1,8 @@
 import type {Point,Result} from './api';
 export type MapCommand={id:number;type:'in'|'out'|'world'};
 export type PointSummary={title:string;year:number;source?:string;variable:'T2M'|'QV2M';value:number|null;unit:'°C'|'г/кг'};
-export type PointMapProps={summary?:PointSummary;showSummary?:boolean;onOpenAnalysis?:()=>void;point:Point|null;cell?:Result['actual_cell'];pick:(point:Point)=>void;focusKey?:number;labelsVisible?:boolean;command?:MapCommand;panelOpen?:boolean};
+export type MapCamera={center:Point;zoom:number;bearing:number;pitch:number};
+export type PointMapProps={initialCamera?:MapCamera;onCameraChange?:(camera:MapCamera)=>void;summary?:PointSummary;showSummary?:boolean;onOpenAnalysis?:()=>void;point:Point|null;cell?:Result['actual_cell'];pick:(point:Point)=>void;focusKey?:number;labelsVisible?:boolean;command?:MapCommand;panelOpen?:boolean};
 // Future adapters consume these descriptors; N4A does not render scientific layers.
 export type ScientificMapLayer=FutureMonthlyTemperatureLayer|FutureTrendLayer;
 export type LegendStop={sourceValue:number;displayValue:number;color:string;label:string};

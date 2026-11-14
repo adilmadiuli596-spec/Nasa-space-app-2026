@@ -1,0 +1,45 @@
+{
+  "source": "D:/Downloads/earth detective/earth detective/src/components/earth-map",
+  "author": "Earth Detective team member (name not supplied)",
+  "permission": "Project owner confirmed on 2026-11-14: author permitted use; both are on the team",
+  "scope": "Team Earth Detective integration, not a new sublicence",
+  "files": {
+    "hooks/useEarthMap.ts": {
+      "source_sha256": "253d236fee1185ba54170ca62b9aa164dc93f067f7926588087148f50029fb15"
+    },
+    "lib/geo-utils.ts": {
+      "source_sha256": "74b116b6dd539ca2c045d4ed1ed0fdac7f1ef7e4f72c59a5bb4a863f14e9feb3"
+    },
+    "lib/render-performance.ts": {
+      "source_sha256": "69351026881c909c998e471e387e627600d06fefd797978355d2f1557befe513"
+    },
+    "lib/space-camera.ts": {
+      "source_sha256": "f1df130eb313015bda1c6a1ff78f843e1a3c2056c9085f342a7c499c5537fb94"
+    },
+    "lib/space-renderer.ts": {
+      "source_sha256": "e275435fd7eb54910ad2056388cc1cfe6d1e28df456fd5072523dd200caac35c"
+    },
+    "lib/gibs.ts": {
+      "source_sha256": "105adefb460ad81c218035c36f1c3665b55444394a43bbae0b1261ab319c7698"
+    },
+    "lib/map-layers.ts": {
+      "source_sha256": "ec20567142ecff7b00e89d10e33415065907fddd6868cae8398803a6d9433e7d"
+    },
+    "types/map.types.ts": {
+      "source_sha256": "dbd9a8f8e83bb0fe995f8b7c271b8ff3a70e72cea4fc4c2ac6805da485696d32"
+    },
+    "SpaceBackdrop.tsx": {
+      "source_sha256": "2dde98b1f7ba877fef53000b606f925ee8bfbe3d96ac4cb40e3f3ceaa00af290"
+    },
+    "assets/cosmic-sky.webp": {
+      "source_sha256": "86f31d559d124287fd65c0340d879f952fdaa50df327a666f4812e4e7f3507e1"
+    },
+    "assets/README.md": {
+      "source_sha256": "8a15ccc1b481a64b2c5c963046864909a23cd994c925494d0abf039d5d63970e"
+    },
+    "EarthMap.tsx": {
+      "source_sha256": "681645d77aa864bc965ee86442af7b3dfe99f24abb16799bafe89f8502ae64e0",
+      "adapted_parts": "Projection effect, point selection and camera commands reused in GlobeMapView; donor demonstration UI not copied"
+    }
+  }
+}
