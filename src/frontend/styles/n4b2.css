@@ -60,11 +60,11 @@ main,main.panel-open{--layout-side:380px;--map-time-reserve:0px;display:block;po
 @media(min-width:601px){.map-time-dock{position:relative}.map-time-dock[data-expanded=true] .time-dock-heading{position:absolute;right:6px;top:6px;width:72px;height:36px;min-height:36px;z-index:6}.map-time-dock[data-expanded=true] .time-dock-toggle{flex:none;display:grid;place-items:center;width:32px;min-height:36px;padding:0}.map-time-dock[data-expanded=true] .time-dock-toggle>span,.map-time-dock[data-expanded=true] .time-dock-toggle>svg:first-child{display:none}.map-time-dock .map-timebar{height:70px;grid-template-rows:36px 20px 10px;gap:1px;padding:1px 2px}.timebar-date{margin-right:76px}.map-month-slider{height:20px;min-height:20px}.timebar-status{font-size:8px;line-height:10px}.temperature-ticks{height:15px;line-height:11px}.legend-source{line-height:10px}}
 
 @media(max-width:600px){
- .panel-open .right-column{position:fixed;inset:0;left:0;right:0;top:0;bottom:0;width:auto;height:auto;max-height:none;overflow:visible;pointer-events:none}
- .panel-open .right-column>.map-time-dock{position:absolute;left:64px;right:8px;top:calc(var(--header-bottom) + 8px);width:auto;pointer-events:auto}
- .panel-open .right-column>.map-time-dock .time-dock-heading{display:none}
- .panel-open .right-column>.map-time-dock .time-dock-content{display:block!important}
- .panel-open .right-column>.map-time-dock .map-temperature-legend{display:block!important}
+ .right-column{position:fixed;inset:0;left:0;right:0;top:0;bottom:0;width:auto;height:auto;max-height:none;overflow:visible;pointer-events:none}
+ .right-column>.map-time-dock{position:absolute;left:64px;right:8px;top:calc(var(--header-bottom) + 8px);width:auto;pointer-events:auto}
+ .right-column>.map-time-dock .time-dock-heading{display:none}
+ .right-column>.map-time-dock .time-dock-content{display:block!important}
+ .right-column>.map-time-dock .map-temperature-legend{display:block!important}
  .panel-open .right-column>aside.science-panel{position:absolute;left:64px;right:8px;top:calc(var(--header-bottom) + 166px);bottom:8px;width:auto;height:auto;min-height:0;max-height:none;pointer-events:auto}
  .panel-open .science-panel .overview-view .preview{height:110px;min-height:110px}
 }
