@@ -1,3 +1,5 @@
+import {pairedResponseSchema,type AnalysisPair} from '@/shared/schemas/pair';
+export type {AnalysisPair} from '@/shared/schemas/pair';
 import {resultSchema} from '@/shared/schemas/result';
 import {catalogSchema,healthSchema} from '@/shared/schemas/catalog';
 import type {Query,Result} from '@/shared/types/api';
@@ -51,3 +53,6 @@ export function checkedResult(input:unknown,query:Query,mode?:string):Result {
 }
 export async function requestAnalysis(query:Query,signal:AbortSignal,mode?:string){return checkedResult(await api<unknown>('analysis',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(query),signal}),query,mode);}
 export const names:Record<string,string>={T2M:'Температура воздуха',QV2M:'Удельная влажность'};
+
+export function checkedPair(input:unknown,query:Query,mode?:string):AnalysisPair{const parsed=pairedResponseSchema.safeParse(input);if(!parsed.success)throw new ApiError('invalid_result',502);return {T2M:checkedResult(parsed.data.results.T2M,{...query,variable:'T2M'},mode),QV2M:checkedResult(parsed.data.results.QV2M,{...query,variable:'QV2M'},mode)};}
+export async function requestAnalysisPair(query:Query,signal:AbortSignal,mode?:string){return checkedPair(await api<unknown>('analysis',{method:'POST',headers:{'Content-Type':'application/json','X-Analysis-Variables':'T2M,QV2M'},body:JSON.stringify(query),signal}),query,mode);}

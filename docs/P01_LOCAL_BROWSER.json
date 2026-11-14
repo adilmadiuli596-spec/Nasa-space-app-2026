@@ -1,0 +1,22 @@
+{
+  "base": "http://127.0.0.1:3017",
+  "checks": [
+    "One analysis response contains both statistics from the same real POWER payload",
+    "Four variable switches update value, trend, p and CI without a POST or NASA request",
+    "Graph, unit and selected variable update while preserving the current tab",
+    "Real delayed response is ignored after coordinates change; no cross-point data mixing",
+    "Returning to original point and period restores cached pair without a new request",
+    "No browser errors, tokens or direct NASA requests"
+  ],
+  "errors": [],
+  "posts": 2,
+  "direct_nasa_requests": 0,
+  "first_analysis_ms": 3362,
+  "network_used": true,
+  "switch_ms": [
+    37.79999998211861,
+    31.5,
+    35.5,
+    81.09999999403954
+  ]
+}

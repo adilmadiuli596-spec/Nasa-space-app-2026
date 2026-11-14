@@ -1,0 +1,17 @@
+{
+  "src/backend/science/aggregation.ts": "4992386796610af5a9c6fdc93e3c7810f67cac0db06f55e5d5f1b512d1fe127c",
+  "src/backend/science/calendar.ts": "a49fe435846dd03a62969905690aa38b06dc57c7717ffa80ea2a5d04f3c25dfa",
+  "src/backend/science/coordinates.ts": "08125ce51cac78e1448920e8d1e3cb1f9414b6fa3a2465ab029c56c14fc9cad0",
+  "src/backend/science/errors.ts": "dc61f78c49e857127863f391b465f59cbeaee49b41c1c5f8ca4ef0f89d761a06",
+  "src/backend/science/hac.ts": "704438b38ec0995a6a6ff2358ecefe97584aa52f2f2dfc81e148dab6a3dd9a4f",
+  "src/backend/science/index.ts": "47993a3ea1b8eacca800318a89f9a7c3e03e5ffa38dc6e387a442e4caf43651e",
+  "src/backend/science/inference.ts": "7738fc4c7da3de9ed7299eb1e2c1d1141ef8f2aa30ba4066844c173fd32e7593",
+  "src/backend/science/interpretation.ts": "7d6f573a66dc6698f5cab3992bd986b8c6f889c74dc13fb10097fb0ef31d6d66",
+  "src/backend/science/numeric.ts": "6e703ccf8cf2b8d69bd6f532214b6c213957fc783fccf4489e29ed0af7aee6f3",
+  "src/backend/science/ols.ts": "bb428381fd497e07371a7ed812c17bd4012b2e69ba61ce5e3e09a35cad7a7d48",
+  "src/backend/science/README.md": "3d57b34aea0d7e738a811217e9767ee72eba0c5346e4436f69f8c31e8414b3ff",
+  "src/backend/science/result.ts": "40f2773ec60cbef2a8b5ae9335b770b02cdb227e296e0e7663840a07e471a6cd",
+  "src/backend/science/series.ts": "7c352199129010205c3da94f1730f1f0cc49157ca35cbac09d8c06f6d3701a6f",
+  "src/backend/science/student.ts": "adff89d882a39d701bfb1cc7dd2a571cdd83830ec7f251c3d2379129e38870b7",
+  "src/backend/science/units.ts": "90411cb10f1e9a168f98dbdd5beb802431308f2303b21548c936e94b37972729"
+}

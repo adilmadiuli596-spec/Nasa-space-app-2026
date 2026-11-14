@@ -1,5 +1,5 @@
 import 'server-only';
-import {analyzePower} from '../power/analysis';
+import {analyzePower,analyzePowerPair} from '../power/analysis';
 import {analysisRequest} from '@/shared/schemas/analysis';
 import {scientificResult} from '../science/result';
 import {ScienceError} from '../science/errors';
@@ -30,3 +30,5 @@ export function createAnalysisService(config:NasaConfig,source=new NasaSource(co
 }
 let service:ReturnType<typeof createAnalysisService>|undefined;let signature='';
 export async function analyze(input:unknown,request:Request) {const config=configFromEnv();const next=JSON.stringify(config);if(!service||signature!==next){service=createAnalysisService(config);signature=next;}return service(input,request);}
+
+export async function analyzePair(input:unknown,request:Request){const query=analysisRequest.parse(input);if(configFromEnv().mode==='power')return analyzePowerPair(query,request.signal);return {T2M:await analyze({...query,variable:'T2M'},request),QV2M:await analyze({...query,variable:'QV2M'},request)};}

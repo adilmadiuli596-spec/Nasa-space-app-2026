@@ -1,6 +1,7 @@
 'use client';
 import {useEffect,useLayoutEffect,useMemo,useRef,useState} from 'react';
-import {connection,requestAnalysis,ApiError,names,type Catalog,type Health,type Point,type Query,type Result} from '../api';
+import {connection,requestAnalysisPair,ApiError,names,type Catalog,type Health,type Point,type Query,type AnalysisPair} from '../api';
+import {PairCache} from '../analysis/pair-cache';
 import {pointSchema} from '@/shared/schemas/coordinates';
 import type {Place} from '@/shared/schemas/geography';
 import {places} from '../location';
@@ -13,12 +14,14 @@ import {pointSummary} from '../map/point-summary';
 function message(e:unknown){if(e instanceof ApiError)return e.message+(e.retryAfterSeconds?` Повторите через ${e.retryAfterSeconds} с.`:'');if(e instanceof Error&&e.name==='TimeoutError')return 'Истекло время ожидания. Повторите запрос позже.';return e instanceof Error?e.message:'Не удалось выполнить анализ.';}
 export default function App({logoAvailable=false}:{logoAvailable?:boolean}){
  const [lat,setLat]=useState('52.27601'),[lon,setLon]=useState('76.96881'),[title,setTitle]=useState('Павлодар, Казахстан');
- const [variable,setVariable]=useState('T2M'),[start,setStart]=useState('1991'),[end,setEnd]=useState('2025'),[customPeriod,setCustomPeriod]=useState(false);
+ const [variable,setVariable]=useState<'T2M'|'QV2M'>('T2M'),[start,setStart]=useState('1991'),[end,setEnd]=useState('2025'),[customPeriod,setCustomPeriod]=useState(false);
  const [link,setLink]=useState<{health:Health;catalog:Catalog}|null>(null),[setupError,setSetupError]=useState(''),[attempt,retry]=useState(0);
- const [result,setResult]=useState<Result|null>(null),[status,setStatus]=useState(''),[busy,setBusy]=useState(false),[elapsed,setElapsed]=useState(0);
+ const [results,setResults]=useState<AnalysisPair|null>(null),[status,setStatus]=useState(''),[busy,setBusy]=useState(false),[elapsed,setElapsed]=useState(0);
  const [mobile,setMobile]=useState(()=>matchMedia('(max-width:600px)').matches),[panelChoice,setOpen]=useState<boolean|null>(null),[tab,setTab]=useState<Tab>('overview');
  const [layers,setLayers]=useState(false),[tools,setTools]=useState(false),[labels,setLabels]=useState(true),[focusKey,setFocusKey]=useState(0),[mapCommand,setMapCommand]=useState<{id:number;type:'in'|'out'|'world'}>();
  const root=useRef<HTMLElement|null>(null),header=useRef<HTMLElement|null>(null),inputRef=useRef<HTMLInputElement|null>(null),active=useRef<{controller:AbortController;started:number}|null>(null);
+ const result=results?.[variable]??null;
+ const pairCache=useRef(new PairCache());
  const summary=useMemo(()=>pointSummary(result,title),[result,title]);
  const catalog=link?.catalog,demo=catalog?.source_mode==='offline_verified_demo',open=panelChoice??!mobile;
  const ready=Boolean(link&&(demo||(catalog?.source_mode==='nasa_opendap_local'||catalog?.source_mode==='nasa_power')&&link.health.dynamic_nasa_enabled));
@@ -30,13 +33,14 @@ export default function App({logoAvailable=false}:{logoAvailable?:boolean}){
  useEffect(()=>{if(!busy)return;const timer=setInterval(()=>setElapsed(Math.floor((Date.now()-(active.current?.started||Date.now()))/1000)),1000);return()=>clearInterval(timer);},[busy]);
  useEffect(()=>{const close=(e:KeyboardEvent)=>{if(e.key==='Escape'){setLayers(false);setTools(false);}};window.addEventListener('keydown',close);return()=>window.removeEventListener('keydown',close);},[]);
  function cancel(){const job=active.current;active.current=null;job?.controller.abort();setBusy(false);}
- function change(fn:()=>void){cancel();setResult(null);setStatus('');setTab('overview');fn();}
+ function change(fn:()=>void){cancel();setResults(null);setStatus('');setTab('overview');fn();}
+ useEffect(()=>{if(!point||!start.trim()||!end.trim()||!catalog){setResults(null);return;}const q:Query={...point,variable,start_year:+start,end_year:+end};setResults(pairCache.current.get(q,catalog.source_mode)??null);},[lat,lon,start,end,catalog?.source_mode]);
  function select(p:Point,name='Точка на карте',focus=false){change(()=>{setLat(String(p.latitude));setLon(String(p.longitude));setTitle(name);if(focus)setFocusKey(k=>k+1);});}
  function found(p:Place){if(p.kind!=='city'){setStatus('Анализ территории пока недоступен. Выберите город или точку.');setOpen(true);return;}select(p,[p.name,p.detail].filter(Boolean).join(', '),true);}
- function reconnect(){cancel();setResult(null);setStatus('');retry(v=>v+1);}
+ function reconnect(){cancel();setResults(null);setStatus('');retry(v=>v+1);}
  async function analyze(e:React.FormEvent){e.preventDefault();if(active.current||!ready||!catalog)return;setOpen(true);setTools(false);setLayers(false);setTab('overview');if(!point){setStatus('Проверьте широту и долготу.');return;}const period=catalog.supported_period;if(!start.trim()||!end.trim()||!Number.isInteger(+start)||!Number.isInteger(+end)||+start<period.start_year||+end>period.end_year||+end-+start+1<period.minimum_complete_years){setStatus(`Нужно минимум ${period.minimum_complete_years} полных лет в пределах ${period.start_year}–${period.end_year}.`);return;}
-  const query:Query={...point,variable,start_year:+start,end_year:+end},job={controller:new AbortController(),started:Date.now()};active.current=job;setBusy(true);setElapsed(0);setStatus('');setResult(null);
-  try{const r=await requestAnalysis(query,AbortSignal.any([job.controller.signal,AbortSignal.timeout(290000)]),catalog.source_mode);if(active.current===job)setResult(r);}catch(e){if(active.current===job)setStatus(message(e));}finally{if(active.current===job){active.current=null;setBusy(false);}}
+  const query:Query={...point,variable,start_year:+start,end_year:+end};const cached=pairCache.current.get(query,catalog.source_mode);if(cached){setResults(cached);setStatus('');return;}const job={controller:new AbortController(),started:Date.now()};active.current=job;setBusy(true);setElapsed(0);setStatus('');setResults(null);
+  try{const r=await requestAnalysisPair(query,AbortSignal.any([job.controller.signal,AbortSignal.timeout(290000)]),catalog.source_mode);if(active.current===job){pairCache.current.set(query,catalog.source_mode,r);setResults(r);}}catch(e){if(active.current===job)setStatus(message(e));}finally{if(active.current===job){active.current=null;setBusy(false);}}
  }
  function command(type:'in'|'out'|'world'){setMapCommand(v=>({id:(v?.id||0)+1,type}));}
  const connectionText=setupError?'Нет связи с сервером':!link?'Подключение…':demo?'Демо · 2 реальные ячейки':ready?(catalog?.source_mode==='nasa_power'?'NASA POWER · публичный доступ':'NASA · локальный доступ'):catalog?.source_mode==='public_access_blocked'?'Публичный доступ NASA отключён':'NASA · нужна авторизация';
@@ -56,7 +60,7 @@ export default function App({logoAvailable=false}:{logoAvailable?:boolean}){
   
   {!open&&<button className="reopen" aria-label="Открыть панель анализа" onClick={()=>setOpen(true)}><Icon name="chart"/><span>{result?'Результат':busy?'Анализ продолжается':'Научный анализ'}</span></button>}
   {open&&!(mobile&&tools)&&<aside aria-label="Панель научного анализа" className="science-panel"><div className="panel-heading"><h1 tabIndex={-1}>Научный анализ</h1><button className="icon-button" aria-label="Закрыть панель" onClick={()=>setOpen(false)}><Icon name="close"/></button></div><div className="selection-heading"><Icon name="pin" size={25}/><div><b title={title}>{title}</b><span>{point?`${point.latitude}°, ${point.longitude}°`:'Проверьте координаты'}</span></div></div>   <form className="analysis-controls" onSubmit={analyze}>
-    <fieldset className="variable-segment"><legend className="sr-only">Показатель</legend>{(['T2M','QV2M'] as const).map(v=><label key={v}><input type="radio" name="analysis-variable" value={v} checked={variable===v} onChange={()=>change(()=>setVariable(v))}/><Icon name={v==='T2M'?'thermo':'water'} size={20}/><span><b>{v}</b><small>{v==='T2M'?'Температура':'Влажность'}</small></span></label>)}</fieldset>
+    <fieldset className="variable-segment"><legend className="sr-only">Показатель</legend>{(['T2M','QV2M'] as const).map(v=><label key={v}><input type="radio" name="analysis-variable" value={v} checked={variable===v} onChange={()=>setVariable(v)}/><Icon name={v==='T2M'?'thermo':'water'} size={20}/><span><b>{v}</b><small>{v==='T2M'?'Температура':'Влажность'}</small></span></label>)}</fieldset>
     <PeriodSelect value={customPeriod?'custom':`${start}-${end}`} label={`${start} — ${end}`} onChange={value=>{if(value==='custom'){setCustomPeriod(true);return;}const [a,b]=value.split('-');change(()=>{setStart(a);setEnd(b);setCustomPeriod(false);});}}/>
     <button className="primary" disabled={busy||!ready} aria-describedby="connection-status">{busy?<span className="spinner"/>:<Icon name="play" size={18}/>}<span>Анализ</span></button>
     {customPeriod&&<div className="custom-years"><label>С года<input aria-label="С года" type="number" required min={1991} max={2025} value={start} onChange={e=>change(()=>setStart(e.target.value))}/></label><span>—</span><label>По год<input aria-label="По год" type="number" required min={1991} max={2025} value={end} onChange={e=>change(()=>setEnd(e.target.value))}/></label></div>}

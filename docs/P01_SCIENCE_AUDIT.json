@@ -1,0 +1,138 @@
+{
+  "official_processing": "https://power.larc.nasa.gov/docs/methodology/data/processing/",
+  "interpretation": "NASA describes Annual as Mean of the Months but does not explicitly specify weights on this summary page. Actual YYYY13 values are compared with day-weighted and equal-month reconstructions; day-weighted results agree to published 0.01 precision. No claim that summary wording proves internal implementation.",
+  "method": "Independent uncentered 2x2 normal equations, double-sum Bartlett lag3 sandwich n/(n-2), Student-t tails by adaptive Simpson integral (no application statistics imports)",
+  "critical_df33": 2.034515297449337,
+  "cases": [
+    {
+      "id": "PAVLODAR",
+      "variable": "T2M",
+      "source_unit": "C",
+      "sha256": "39196060a79334de9618e9db0996bcdc5b83db866dc6b5d5b0e941880c10382a",
+      "months_checked": 420,
+      "leap_years": 9,
+      "independent": {
+        "slope": 0.09126906922661049,
+        "se": 0.13888575056161537,
+        "p": 0.5156405534102269,
+        "lower": -0.19129611488872883,
+        "upper": 0.3738342533419498
+      },
+      "application": {
+        "slope": 0.09126906922661153,
+        "se": 0.13888575056161456,
+        "p": 0.5156405534102222,
+        "lower": -0.19129611488872628,
+        "upper": 0.37383425334194936
+      },
+      "absolute_errors": {
+        "slope": 1.0408340855860843e-15,
+        "se": 8.049116928532385e-16,
+        "p": 4.6629367034256575e-15,
+        "lower": 2.55351295663786e-15,
+        "upper": 4.440892098500626e-16
+      },
+      "annual_mean_max_abs_error": 9.769962616701378e-15,
+      "nasa_YYYY13_max_abs_difference": 0.004821917808219833,
+      "equal_month_max_abs_difference": 0.1324999999999994
+    },
+    {
+      "id": "PAVLODAR",
+      "variable": "QV2M",
+      "source_unit": "g/kg",
+      "sha256": "39196060a79334de9618e9db0996bcdc5b83db866dc6b5d5b0e941880c10382a",
+      "months_checked": 420,
+      "leap_years": 9,
+      "independent": {
+        "slope": 0.1796273903827572,
+        "se": 0.054583088846837734,
+        "p": 0.0023830200607606006,
+        "lower": 0.06857726114182955,
+        "upper": 0.2906775196236849
+      },
+      "application": {
+        "slope": 0.17962739038275688,
+        "se": 0.054583088846837526,
+        "p": 0.002383020060760299,
+        "lower": 0.06857726114182959,
+        "upper": 0.29067751962368416
+      },
+      "absolute_errors": {
+        "slope": 3.3306690738754696e-16,
+        "se": 2.0816681711721685e-16,
+        "p": 3.0140820395097023e-16,
+        "lower": 4.163336342344337e-17,
+        "upper": 7.216449660063518e-16
+      },
+      "annual_mean_max_abs_error": 8.881784197001252e-16,
+      "nasa_YYYY13_max_abs_difference": 0.00493150684931587,
+      "equal_month_max_abs_difference": 0.024999999999999467
+    },
+    {
+      "id": "BERLIN",
+      "variable": "T2M",
+      "source_unit": "C",
+      "sha256": "50f57b8e7e0558b1c75c1322f4ed0f4ac458bbbc7c84e24160766dd77a4c78d4",
+      "months_checked": 420,
+      "leap_years": 9,
+      "independent": {
+        "slope": 0.5906797792400864,
+        "se": 0.09955998968672027,
+        "p": 0.0000011752900372899457,
+        "lower": 0.3881234572085558,
+        "upper": 0.793236101271617
+      },
+      "application": {
+        "slope": 0.5906797792400881,
+        "se": 0.09955998968671943,
+        "p": 0.000001175290035342713,
+        "lower": 0.38812345720855906,
+        "upper": 0.7932361012716171
+      },
+      "absolute_errors": {
+        "slope": 1.6653345369377348e-15,
+        "se": 8.326672684688674e-16,
+        "p": 1.947232607498123e-15,
+        "lower": 3.2751579226442118e-15,
+        "upper": 1.1102230246251565e-16
+      },
+      "annual_mean_max_abs_error": 1.0658141036401503e-14,
+      "nasa_YYYY13_max_abs_difference": 0.004958904109589213,
+      "equal_month_max_abs_difference": 0.07916666666666927
+    },
+    {
+      "id": "BERLIN",
+      "variable": "QV2M",
+      "source_unit": "g/kg",
+      "sha256": "50f57b8e7e0558b1c75c1322f4ed0f4ac458bbbc7c84e24160766dd77a4c78d4",
+      "months_checked": 420,
+      "leap_years": 9,
+      "independent": {
+        "slope": 0.2183923665431453,
+        "se": 0.03094326163988409,
+        "p": 4.4539147584344184e-8,
+        "lower": 0.1554378273838239,
+        "upper": 0.28134690570246673
+      },
+      "application": {
+        "slope": 0.21839236654314406,
+        "se": 0.03094326163988397,
+        "p": 4.453914722952895e-8,
+        "lower": 0.15543782738382284,
+        "upper": 0.2813469057024653
+      },
+      "absolute_errors": {
+        "slope": 1.2490009027033011e-15,
+        "se": 1.214306433183765e-16,
+        "p": 3.5481523269701977e-16,
+        "lower": 1.0547118733938987e-15,
+        "upper": 1.4432899320127035e-15
+      },
+      "annual_mean_max_abs_error": 1.7763568394002505e-15,
+      "nasa_YYYY13_max_abs_difference": 0.004958904109589213,
+      "equal_month_max_abs_difference": 0.024999999999999467
+    }
+  ],
+  "science_files_unchanged": true,
+  "passed": true
+}

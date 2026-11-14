@@ -1,5 +1,5 @@
-import {analyze} from '@/backend/services/analysis';
+import {analyze,analyzePair} from '@/backend/services/analysis';
 import {createAnalysisHandler} from '@/backend/services/http';
 export const runtime='nodejs';
 export const maxDuration=300;
-export const POST=createAnalysisHandler(analyze);
+export const POST=createAnalysisHandler(analyze,analyzePair);

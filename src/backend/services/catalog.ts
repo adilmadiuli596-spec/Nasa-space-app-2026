@@ -3,7 +3,7 @@ import {configFromEnv,PUBLIC_DYNAMIC_ACCESS_CONFIRMED} from '../nasa/config';
 import {TokenProvider} from '../nasa/auth';
 import {demoCells} from '../nasa/demo';
 export function health() {
- const config=configFromEnv();if(config.mode==='power')return {status:'ok',stage:'P0',mode:'power',nasa_network:'checked_per_request',earthdata_auth:'not_required',dynamic_nasa_enabled:true,public_dynamic_access_confirmed:true,earthdata_public_access_confirmed:false,cache:'memory',analysis:'nasa_power_monthly_point'};let auth='not_required';
+ const config=configFromEnv();if(config.mode==='power')return {status:'ok',stage:'P0.1',mode:'power',nasa_network:'checked_per_request',earthdata_auth:'not_required',dynamic_nasa_enabled:true,public_dynamic_access_confirmed:true,earthdata_public_access_confirmed:false,cache:'memory',analysis:'nasa_power_monthly_point'};let auth='not_required';
  if(config.mode==='local'){try{new TokenProvider().check();auth='configured_not_verified';}catch(error){auth=(error as {code?:string}).code||'not_configured';}}
  return {status:'ok',stage:'N3',mode:config.mode,nasa_network:'not_checked',earthdata_auth:auth,dynamic_nasa_enabled:config.mode==='local'&&auth==='configured_not_verified',public_dynamic_access_confirmed:PUBLIC_DYNAMIC_ACCESS_CONFIRMED,cache:config.cache,analysis:config.mode==='demo'?'two_cell_demonstration':config.mode==='local'?'local_authorized_adapter':'public_access_blocked'};
 }

@@ -28,3 +28,5 @@ export function powerResult(input:unknown,payload:PowerPayload){
  const parsed=resultSchema.safeParse(result);if(!parsed.success)throw new ScienceError('invalid_result','NASA POWER result failed validation',500);return parsed.data;
 }
 export async function analyzePower(input:unknown,signal:AbortSignal){const request=analysisRequest.parse(input);return powerResult(request,await loadPower(request,signal));}
+
+export async function analyzePowerPair(input:unknown,signal:AbortSignal,loader:typeof loadPower=loadPower){const request=analysisRequest.parse(input),payload=await loader(request,signal);return {T2M:powerResult({...request,variable:'T2M'},payload),QV2M:powerResult({...request,variable:'QV2M'},payload)};}

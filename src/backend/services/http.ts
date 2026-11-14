@@ -1,11 +1,12 @@
 import 'server-only';
 import {ScienceError} from '../science/errors';
 import {analysisRequest} from '@/shared/schemas/analysis';
+import type {AnalysisPair} from '@/shared/schemas/pair';
 import type {Result} from '@/shared/types/api';
 import {NasaRetryError} from '../nasa/http';
-export function createAnalysisHandler(service:(input:unknown,request:Request)=>Promise<Result>) {
+export function createAnalysisHandler(service:(input:unknown,request:Request)=>Promise<Result>,pairedService?:(input:unknown,request:Request)=>Promise<AnalysisPair>) {
  return async(request:Request)=>{
-  try {const parsed=analysisRequest.safeParse(await readJSON(request));if(!parsed.success)throw new ScienceError('invalid_request','Invalid analysis request');return Response.json(await service(parsed.data,request),{headers:{'Cache-Control':'no-store'}});}
+  try {const parsed=analysisRequest.safeParse(await readJSON(request));if(!parsed.success)throw new ScienceError('invalid_request','Invalid analysis request');const paired=request.headers.get('X-Analysis-Variables')==='T2M,QV2M';return Response.json(paired&&pairedService?{results:await pairedService(parsed.data,request)}:await service(parsed.data,request),{headers:{'Cache-Control':'no-store'}});}
   catch(error){return errorResponse(error);}
  };
 }
