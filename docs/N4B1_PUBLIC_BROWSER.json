@@ -1,0 +1,59 @@
+{
+  "checks": [
+    "Initial map has no open science, layers, timebar or unavailable switches",
+    "280px layer drawer, close button/Escape, only real modes; selection closes drawer",
+    "Independent available-month controls and official collapsible NASA legend",
+    "2D/3D retains map time and point; globe surface selection remains real",
+    "One real POWER pair; variable switches and independent menus keep results and fixed slider",
+    "Base map hides time UI, retains 3D and science; returning temperature restores its month",
+    "Desktop point, legend, slider, toolbar and science have separate usable areas",
+    "Mobile 390x844: fixed timebar, vertical rail, independent sheet, readable attribution and no page scroll"
+  ],
+  "errors": [],
+  "posts": 1,
+  "power": {
+    "ms": 1718,
+    "network_used": true,
+    "requested": {
+      "latitude": 50.83356,
+      "longitude": 83.83909,
+      "variable": "T2M",
+      "start_year": 1991,
+      "end_year": 2025
+    },
+    "sha256": "c6a9b69e2e5925dd0767a9bb641dd5fc37b16325e316c4f304652033cd68f6c3"
+  },
+  "mobile": {
+    "timebar": {
+      "x": 68,
+      "y": 620,
+      "width": 310,
+      "height": 124
+    },
+    "sheet": {
+      "x": 64,
+      "y": 299,
+      "width": 318,
+      "height": 309
+    },
+    "toolbar": {
+      "x": 12,
+      "y": 123,
+      "width": 46,
+      "height": 269
+    },
+    "legend": {
+      "x": 68,
+      "y": 756,
+      "width": 310,
+      "height": 74
+    }
+  },
+  "ok": true,
+  "desktopTimebar": {
+    "x": 88,
+    "y": 756,
+    "width": 328,
+    "height": 124
+  }
+}

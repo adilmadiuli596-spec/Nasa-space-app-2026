@@ -37,7 +37,7 @@ TypeScript PASS; boundaries PASS; production build PASS. **8 browser-групп 
 
 ## Git/Vercel и бюджет
 
-Только main / origin/main. Commit/push после успешных проверок и secret scan; точный хеш реализации и фактическая публичная проверка добавляются после публикации. Никакого force push, новых веток/проектов, переменных окружения, платных услуг или Earthdata credentials в браузере. **Расходы 0 KZT.** Ветер, локализация и другие этапы не начинались.
+Только main / origin/main. Коммит реализации 9191ffb36af10f60d7a10fd58c2a072281e849c3 отправлен обычным push origin main. Публичный Vercel обновлён до N4B.1: 8 browser-групп PASS, 0 ошибок, один реальный POWER pair 1718ms, network_used=true, оба ряда420. Отчёт N4B1_PUBLIC_BROWSER.json. Secret scan staged и истории: 0 findings. Никакого force push, новых веток/проектов, переменных окружения, платных услуг или Earthdata credentials в браузере. **Расходы 0 KZT.** Ветер, локализация и другие этапы не начинались.
 
 ## Скриншоты
 
