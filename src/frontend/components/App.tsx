@@ -68,7 +68,7 @@ export default function App({logoAvailable=false}:{logoAvailable?:boolean}){
   {(!ready||demo)&&<div className="connection-badge" role="status">{connectionText}</div>}
   
   {!open&&<button className="reopen" aria-label="Открыть панель анализа" onClick={()=>setOpen(true)}><Icon name="chart"/><span>{result?'Результат':busy?'Анализ продолжается':'Научный анализ'}</span></button>}
-  <section className="right-column" aria-label="Наука и время карты">
+  {(open||gibs.enabled)&&<section className="right-column" aria-label="Наука и время карты">
   {open&&<aside aria-label="Панель научного анализа" className="science-panel"><div className="panel-heading"><h1 tabIndex={-1}>Научный анализ</h1><button className="icon-button" aria-label="Закрыть панель" onClick={()=>setOpen(false)}><Icon name="close"/></button></div><div className="selection-heading"><Icon name="pin" size={25}/><div><b title={title}>{title}</b><span>{point?`${point.latitude}°, ${point.longitude}°`:'Проверьте координаты'}</span></div></div>   <form className="analysis-controls" onSubmit={analyze}>
     <fieldset className="variable-segment"><legend className="sr-only">Показатель</legend>{(['T2M','QV2M'] as const).map(v=><label key={v}><input type="radio" name="analysis-variable" value={v} checked={variable===v} onChange={()=>setVariable(v)}/><Icon name={v==='T2M'?'thermo':'water'} size={20}/><span><b>{v}</b><small>{v==='T2M'?'Температура':'Влажность'}</small></span></label>)}</fieldset>
     <PeriodSelect value={customPeriod?'custom':`${start}-${end}`} label={`${start} — ${end}`} onChange={value=>{if(value==='custom'){setCustomPeriod(true);return;}const [a,b]=value.split('-');change(()=>{setStart(a);setEnd(b);setCustomPeriod(false);});}}/>
@@ -82,7 +82,7 @@ export default function App({logoAvailable=false}:{logoAvailable?:boolean}){
    </div><div className="source-footer"><Icon name="layers" size={25}/><div><b>Источник: {result?.provenance.provider==='NASA POWER'||catalog?.source_mode==='nasa_power'?'NASA POWER':'NASA MERRA-2'}</b><span>Реанализ атмосферы · годовые значения</span></div></div>
   </aside>}
   <TemperatureControls gibs={gibs}/>
-  </section>
+  </section>}
  </main>;
 }
 
