@@ -1,5 +1,0 @@
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-addopts = "-ra"
-cache_dir = ".cache/pytest"
-filterwarnings = ["error"]

@@ -1,5 +1,5 @@
 # Earth Detective — N4A
-Одно Next.js App Router / React / TypeScript приложение. Node24.x; npm ci; npm run typecheck; npm test; npm run build; npm start. Только один сервер/репозиторий. NASA/science только backend; Python сохранён как независимый эталон.
+Одно Next.js App Router / React / TypeScript приложение. Node24.x; npm ci; npm run typecheck; npm test; npm run build; npm start. Только один сервер/репозиторий. NASA/science только backend; Python-код и Python-зависимости удалены по решению владельца. Научные расчёты выполняются на TypeScript; сохранённые JSON-эталоны используются в проверках.
 
 N1–N3 приняты. Актуальная работа N4A: новый header/2D UI, Photon city/coordinates search, научные tabs и настоящий point analysis N3. Старый 4A.1 — источник логики, не актуальный дизайн. Отчёт docs/MIGRATION_N4A.md, статус docs/PROGRESS.md. N4B GIBS monthly temperature/N4C global trends/3D/N5 отдельно, не выполнялись. Актуальная публикация GitHub выполняется отдельно; Vercel deploy не проверен. Бюджет0 KZT.
 

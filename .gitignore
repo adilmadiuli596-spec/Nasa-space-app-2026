@@ -24,3 +24,10 @@ reference/.data-check/granules/
 *.tmp
 *.bak
 .DS_Store
+
+# Python is no longer part of this Next.js project.
+*.py
+*.pyw
+*.pyc
+*.pyo
+*.pyd
