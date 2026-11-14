@@ -46,7 +46,7 @@ export function checkedResult(input:unknown,query:Query,mode?:string):Result {
  const years=query.end_year-query.start_year+1;
  if(result.data.monthly_series.length!==years*12||result.data.annual_series.length!==years||result.data.trend.fitted_values.length!==years)throw new ApiError('invalid_result',502);
  if(Object.entries(query).some(([k,v])=>result.data.requested[k as keyof Query]!==v))throw new Error('Ответ относится к другому запросу. Выберите точку и запустите анализ снова.');
- if(mode&&(mode==='offline_verified_demo'?result.data.provenance.mode!=='offline_verified_demo':mode==='nasa_opendap_local'?result.data.provenance.mode!=='nasa_opendap':true))throw new Error('Источник результата не совпадает с режимом подключения. Повторите подключение к серверу.');
+ if(mode&&(mode==='offline_verified_demo'?result.data.provenance.mode!=='offline_verified_demo':mode==='nasa_opendap_local'?result.data.provenance.mode!=='nasa_opendap':mode==='nasa_power'?result.data.provenance.mode!=='nasa_power':true))throw new Error('Источник результата не совпадает с режимом подключения. Повторите подключение к серверу.');
  return result.data;
 }
 export async function requestAnalysis(query:Query,signal:AbortSignal,mode?:string){return checkedResult(await api<unknown>('analysis',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(query),signal}),query,mode);}

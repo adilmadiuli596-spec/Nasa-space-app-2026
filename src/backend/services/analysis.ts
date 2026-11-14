@@ -1,4 +1,5 @@
 import 'server-only';
+import {analyzePower} from '../power/analysis';
 import {analysisRequest} from '@/shared/schemas/analysis';
 import {scientificResult} from '../science/result';
 import {ScienceError} from '../science/errors';
@@ -18,6 +19,7 @@ export function assertLocalRequest(request:Request) {
 export function createAnalysisService(config:NasaConfig,source=new NasaSource(config,new NasaHTTP(config),config.cache==='file'?new FileCache(process.cwd()):new MemoryCache(config.cacheBytes))) {
  return async (input:unknown,request:Request)=>{
   const parsed=analysisRequest.safeParse(input);if(!parsed.success)throw new ScienceError('invalid_request','Invalid analysis request');
+  if(config.mode==='power')return analyzePower(parsed.data,request.signal);
   if(config.mode==='blocked')throw new ScienceError('public_access_unconfirmed','Dynamic Earthdata access is blocked for public use. Choose explicit demo mode or local authorized operation',503);
   if(config.mode==='local')assertLocalRequest(request);
   const loaded=config.mode==='demo'?loadDemo(parsed.data):await source.load(parsed.data,request.signal);

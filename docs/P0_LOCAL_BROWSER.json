@@ -1,0 +1,101 @@
+{
+  "base": "http://127.0.0.1:3016",
+  "checks": [
+    "Production POWER mode, even when old EARTH_MODE=blocked is set",
+    "Arbitrary Almaty point: real POWER -> 420 months -> OLS/HAC trend, p-value, confidence interval",
+    "Chart and source/method labels correctly identify POWER point, not verified GES DISC cell",
+    "No browser errors, tokens or direct NASA requests"
+  ],
+  "errors": [],
+  "nasa_requests_in_browser": 0,
+  "result": {
+    "requested": {
+      "latitude": 43.2389,
+      "longitude": 76.8897,
+      "variable": "T2M",
+      "start_year": 1991,
+      "end_year": 2025
+    },
+    "provenance": {
+      "provider": "NASA POWER",
+      "network_used": true,
+      "source_id": "nasa-power-monthly-point",
+      "artifact_sha256": {
+        "power_response": "8d0f37eb7abb025c9cc5fcbd59dc7be2a18e66e336e8b8ad363599d80e2e6e3e"
+      },
+      "cache_used": false,
+      "cache_hits": 0,
+      "cache_misses": 420,
+      "catalog_cache_hit": false,
+      "dataset": "POWER_MONTHLY_POINT",
+      "version": "2.10.0",
+      "doi": null,
+      "mode": "nasa_power",
+      "granules": [],
+      "endpoint": "https://power.larc.nasa.gov/api/temporal/monthly/point",
+      "request_url": "https://power.larc.nasa.gov/api/temporal/monthly/point?parameters=T2M%2CQV2M&community=RE&latitude=43.2389&longitude=76.8897&start=1991&end=2025&format=JSON",
+      "fetched_at": "2026-11-14T17:08:38.749Z",
+      "time_standard": "LST",
+      "upstream_sources": [
+        "MERRA2"
+      ],
+      "native_source_unit": "C",
+      "coordinate_policy": "POWER returned request point, not a verified native grid-cell centre",
+      "retrieval": "direct_nasa_power_request"
+    },
+    "trend": {
+      "fitted_values": [
+        0.8722720192201424,
+        0.8998782031144652,
+        0.9274843870087881,
+        0.955090570903111,
+        0.9826967547974338,
+        1.0103029386917566,
+        1.0379091225860795,
+        1.0655153064804024,
+        1.093121490374725,
+        1.120727674269048,
+        1.1483338581633709,
+        1.1759400420576938,
+        1.2035462259520164,
+        1.2311524098463393,
+        1.2587585937406622,
+        1.2863647776349851,
+        1.3139709615293078,
+        1.3415771454236307,
+        1.3691833293179536,
+        1.3967895132122763,
+        1.4243956971065992,
+        1.452001881000922,
+        1.479608064895245,
+        1.5072142487895677,
+        1.5348204326838906,
+        1.5624266165782135,
+        1.5900328004725364,
+        1.617638984366859,
+        1.645245168261182,
+        1.6728513521555048,
+        1.7004575360498277,
+        1.7280637199441504,
+        1.7556699038384733,
+        1.7832760877327962,
+        1.810882271627119
+      ],
+      "status": "estimated",
+      "slope_per_decade": 0.2760618389432284,
+      "standard_error_per_decade": 0.10604006654496051,
+      "p_value_two_sided": 0.01372626688484846,
+      "ci95_per_decade": {
+        "lower": 0.06032170141496046,
+        "upper": 0.4918019764714963
+      },
+      "significant": true,
+      "alpha": 0.05,
+      "r_squared": 0.20588957560164067,
+      "n_years": 35,
+      "residual_degrees_of_freedom": 33,
+      "hac_maxlags": 3,
+      "multiple_testing_correction": "none"
+    }
+  }
+}

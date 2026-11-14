@@ -140,8 +140,8 @@ test('single-flight cancellation and capacity do not cancel another waiting call
  const producer=(signal:AbortSignal)=>new Promise<number>(resolve=>{finish=resolve;signal.addEventListener('abort',()=>aborted=true);});
  const first=flights.run('one',producer,a.signal);const second=flights.run('one',producer,b.signal);await Promise.resolve();a.abort();await assert.rejects(first,{code:'nasa_timeout'});assert.equal(aborted,false);await assert.rejects(flights.run('two',producer,noSignal()),{code:'analysis_busy'});finish(7);assert.equal(await second,7);
 });
-test('public dynamic mode cannot be unlocked by environment, local origin/host gate',async()=>{
- assert.equal(configFromEnv({EARTH_MODE:'local',VERCEL:'1'}).mode,'blocked');assert.equal(configFromEnv({}).mode,'blocked');
+test('Earthdata remains gated; public POWER mode and local origin/host gate',async()=>{
+ assert.equal(configFromEnv({EARTH_MODE:'local',VERCEL:'1'}).mode,'power');assert.equal(configFromEnv({}).mode,'power');assert.equal(configFromEnv({EARTH_MODE:'blocked'}).mode,'blocked');
  const blocked=createAnalysisService({...config,mode:'blocked'});await assert.rejects(blocked(request,new Request('http://localhost/api/analysis')),{code:'public_access_unconfirmed'});
  const analyze=createAnalysisService(config,sourceFor().source);
  for(const req of [new Request('https://public.example/api/analysis'),new Request('http://localhost/api/analysis',{headers:{Origin:'https://evil.invalid'}})])await assert.rejects(analyze(request,req),{code:'local_only'});

@@ -14,3 +14,5 @@ N4A.1b: единые мягкие скругления, header максимум 
 
 После публикации GitHub владелец распорядился полностью убрать Python из текущего проекта. Удалены Python-бэкенд, requirements/pyproject и Python-скрипты проверки. TypeScript frontend/backend/science и научные JSON-эталоны сохранены; исходный D:\Projects\NASA не изменён. История Git не переписывается.
 Удаление Python проверено: TypeScript PASS, 216/216 локальных тестов PASS, boundaries и production build PASS. Новые NASA-загрузки не выполнялись. В актуальном дереве Git Python-файлов не осталось; старые коммиты сохраняются без переписывания истории. Расходы 0 KZT.
+
+P0: подтверждена причина production-блокировки (default blocked + Vercel local gate + App.ready). Добавлен отдельный публичный NASA POWER Monthly Point adapter без токена. Доступ реальных 1991–2025 T2M/QV2M подтверждён для Павлодара/Берлина; произвольная третья точка Алматы прошла локальный production browser flow. 224/224 tests PASS, TypeScript/boundaries/build PASS. Ядро и старый MERRA-2 adapter сохранены по SHA-256 (кроме расширения конфигурации режимов). Ожидается проверка публичного deployment после push. Подробности P0_POWER.md; 0 KZT.

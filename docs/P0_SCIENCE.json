@@ -1,0 +1,92 @@
+{
+  "methods_unchanged": true,
+  "baseline_changes": [
+    "src/backend/nasa/config.ts"
+  ],
+  "summaries": [
+    {
+      "id": "PAVLODAR",
+      "variable": "T2M",
+      "monthly_values": 420,
+      "annual_values": 35,
+      "source_unit": "C",
+      "slope": 0.09126906922661153,
+      "p": 0.5156405534102222,
+      "ci": {
+        "lower": -0.19129611488872628,
+        "upper": 0.37383425334194936
+      },
+      "actual_point": {
+        "latitude": 52.287,
+        "longitude": 76.967,
+        "kind": "power_point",
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "hash": "b2a5ef943447034232e0097f886adc1919ab5ebbcc38b7e05458d4cb1cbb8e93"
+    },
+    {
+      "id": "PAVLODAR",
+      "variable": "QV2M",
+      "monthly_values": 420,
+      "annual_values": 35,
+      "source_unit": "g/kg",
+      "slope": 0.17962739038275688,
+      "p": 0.002383020060760299,
+      "ci": {
+        "lower": 0.06857726114182959,
+        "upper": 0.29067751962368416
+      },
+      "actual_point": {
+        "latitude": 52.287,
+        "longitude": 76.967,
+        "kind": "power_point",
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "hash": "b2a5ef943447034232e0097f886adc1919ab5ebbcc38b7e05458d4cb1cbb8e93"
+    },
+    {
+      "id": "BERLIN",
+      "variable": "T2M",
+      "monthly_values": 420,
+      "annual_values": 35,
+      "source_unit": "C",
+      "slope": 0.5906797792400881,
+      "p": 0.000001175290035342713,
+      "ci": {
+        "lower": 0.38812345720855906,
+        "upper": 0.7932361012716171
+      },
+      "actual_point": {
+        "latitude": 52.52,
+        "longitude": 13.405,
+        "kind": "power_point",
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "hash": "50f57b8e7e0558b1c75c1322f4ed0f4ac458bbbc7c84e24160766dd77a4c78d4"
+    },
+    {
+      "id": "BERLIN",
+      "variable": "QV2M",
+      "monthly_values": 420,
+      "annual_values": 35,
+      "source_unit": "g/kg",
+      "slope": 0.21839236654314406,
+      "p": 4.453914722952895e-8,
+      "ci": {
+        "lower": 0.15543782738382284,
+        "upper": 0.2813469057024653
+      },
+      "actual_point": {
+        "latitude": 52.52,
+        "longitude": 13.405,
+        "kind": "power_point",
+        "latitude_spacing": 0.5,
+        "longitude_spacing": 0.625
+      },
+      "hash": "50f57b8e7e0558b1c75c1322f4ed0f4ac458bbbc7c84e24160766dd77a4c78d4"
+    }
+  ]
+}
