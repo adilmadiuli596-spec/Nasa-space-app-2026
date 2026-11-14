@@ -4,5 +4,5 @@ import type {PointSummary} from '@/shared/types/map';
 export function pointSummary(result:Result|null,title:string):PointSummary|undefined{
  if(!result)return undefined;
  const year=result.requested.end_year,row=result.annual_series.find(r=>r.year===year);
- return {title,year,source:result.provenance.provider==='NASA POWER'?'NASA POWER':'NASA MERRA-2',variable:result.requested.variable,value:row&&Number.isFinite(row.value)?row.value:null,unit:result.requested.variable==='T2M'?'°C':'г/кг'};
+ return {title,year,period:`${result.requested.start_year}–${result.requested.end_year}`,source:result.provenance.provider==='NASA POWER'?'NASA POWER':'NASA MERRA-2',variable:result.requested.variable,value:row&&Number.isFinite(row.value)?row.value:null,unit:result.requested.variable==='T2M'?'°C':'г/кг'};
 }

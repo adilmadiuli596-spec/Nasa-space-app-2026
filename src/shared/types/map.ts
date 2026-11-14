@@ -1,7 +1,7 @@
 import type {TemperatureOverlay} from './gibs';
 import type {Point,Result} from './api';
 export type MapCommand={id:number;type:'in'|'out'|'world'};
-export type PointSummary={title:string;year:number;source?:string;variable:'T2M'|'QV2M';value:number|null;unit:'°C'|'г/кг'};
+export type PointSummary={title:string;year:number;period:string;source?:string;variable:'T2M'|'QV2M';value:number|null;unit:'°C'|'г/кг'};
 export type MapCamera={center:Point;zoom:number;bearing:number;pitch:number};
 export type PointMapProps={timeControlsVisible?:boolean;temperature?:TemperatureOverlay;initialCamera?:MapCamera;onCameraChange?:(camera:MapCamera)=>void;summary?:PointSummary;showSummary?:boolean;onOpenAnalysis?:()=>void;point:Point|null;cell?:Result['actual_cell'];pick:(point:Point)=>void;focusKey?:number;labelsVisible?:boolean;command?:MapCommand;panelOpen?:boolean};
 // Future adapters consume these descriptors; N4A does not render scientific layers.

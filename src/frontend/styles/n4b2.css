@@ -59,6 +59,31 @@ main,main.panel-open{--layout-side:380px;--map-time-reserve:0px;display:block;po
 }
 @media(min-width:601px){.map-time-dock{position:relative}.map-time-dock[data-expanded=true] .time-dock-heading{position:absolute;right:6px;top:6px;width:72px;height:36px;min-height:36px;z-index:6}.map-time-dock[data-expanded=true] .time-dock-toggle{flex:none;display:grid;place-items:center;width:32px;min-height:36px;padding:0}.map-time-dock[data-expanded=true] .time-dock-toggle>span,.map-time-dock[data-expanded=true] .time-dock-toggle>svg:first-child{display:none}.map-time-dock .map-timebar{height:70px;grid-template-rows:36px 20px 10px;gap:1px;padding:1px 2px}.timebar-date{margin-right:76px}.map-month-slider{height:20px;min-height:20px}.timebar-status{font-size:8px;line-height:10px}.temperature-ticks{height:15px;line-height:11px}.legend-source{line-height:10px}}
 
+/* N4B.3: result first, full chart on its own tab, plain language before details. */
+.overview-view .preview{display:none!important}
+.overview-view .trend-card{min-height:100px}
+.overview-view .conclusion{align-items:flex-start}
+.overview-view .conclusion p{margin:4px 0 0;line-height:1.4}
+.uncertainty-row{display:flex;justify-content:space-between;gap:8px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;font-size:11px;color:var(--muted)}
+.uncertainty-row span{min-width:0}.uncertainty-row b{display:block;margin-top:3px;color:#071D49;font-variant-numeric:tabular-nums}
+.chart-view{min-height:0}.chart-view .series-card{flex:1 1 0;min-height:260px;height:auto}.chart-view .chart{min-height:0}.chart-view .chart-note{flex:none;margin:0;padding:3px 2px;font-size:10px;color:var(--muted)}
+.chart-tooltip{display:grid;gap:4px;padding:8px 10px;border:1px solid #DCE6F5;border-radius:10px;background:#FFFFFFF5;box-shadow:0 4px 14px #071D4920;color:#071D49;font-size:11px;white-space:nowrap}.chart-tooltip b{font-size:12px}
+.method-steps{display:grid;gap:8px;margin:0;padding:0;list-style:none;counter-reset:method;}
+.method-steps li{display:grid;grid-template-columns:26px 1fr;gap:2px 8px;align-items:start;counter-increment:method;font-size:12px}
+.method-steps li:before{content:counter(method);grid-row:span 2;display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:#EAF2FF;color:#0B3D91;font-weight:700}
+.method-steps b{font-size:12px}.method-steps span{color:var(--muted);line-height:1.4}
+.technical-details{border-top:1px solid var(--line);padding-top:7px;font-size:12px}.technical-details summary{cursor:pointer;color:#0B3D91;font-weight:650;padding:6px 0}.technical-details .method-grid{margin-top:8px}
+.timebar-caption{display:flex!important;align-items:center;justify-content:space-between}
+.right-column .map-time-dock{bottom:12px}
+@media(max-width:600px){
+ .chart-view .series-card{flex:1 1 0;height:auto;min-height:260px}
+ .overview-view .trend-card{min-height:76px;padding:8px 10px}.overview-view .trend-value strong{font-size:27px}
+ .uncertainty-row{padding:7px 9px;font-size:10px}
+ .chart-tooltip{font-size:10px;padding:7px 8px}
+ .method-steps{gap:6px}.method-steps li{font-size:11px}
+ .timebar-caption{font-size:9px}
+}
+
 @media(max-width:600px){
  .panel-open .right-column{position:fixed;inset:0;left:0;right:0;top:0;bottom:0;width:auto;height:auto;max-height:none;overflow:visible;pointer-events:none}
  .panel-open .right-column>.map-time-dock{position:absolute;left:64px;right:8px;top:calc(var(--header-bottom) + 8px);width:auto;pointer-events:auto}
