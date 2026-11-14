@@ -3,7 +3,7 @@ import {useEffect,useState} from 'react';
 import type {GibsControl} from './use-gibs';
 const months=['Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'];
 export function TemperatureControls({gibs,compact,mobile,onExpand}:{gibs:GibsControl;compact:boolean;mobile:boolean;onExpand:()=>void}){
- const [legend,setLegend]=useState(!mobile),[expanded,setExpanded]=useState(!mobile);useEffect(()=>{setLegend(!mobile);setExpanded(!mobile);},[mobile]);if(!gibs.enabled)return null;
+ const [legend,setLegend]=useState(false),[expanded,setExpanded]=useState(!mobile);useEffect(()=>{setLegend(false);setExpanded(!mobile);},[mobile]);if(!gibs.enabled)return null;
  const {catalog:c,date,status,error}=gibs,label=date?months[+date.slice(5,7)-1]+' '+date.slice(0,4):'NASA GIBS',year=date.slice(0,4),month=date.slice(5,7);
  const choose=(d:string)=>{if(c?.dates.includes(d)){gibs.setDate(d);}};
  return <section className={'gibs-widget'+(compact?' gibs-compact':'')} aria-label="Температура на карте" data-gibs-status={error?'error':status}>
