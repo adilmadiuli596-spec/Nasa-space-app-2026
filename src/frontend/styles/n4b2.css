@@ -16,4 +16,38 @@ main,main.panel-open{--layout-side:380px;--map-time-reserve:0px;display:block;po
 }
 
 .science-panel .overview-view .preview{min-height:180px;height:180px;flex:none}
+/* Keep the complete analysis visible on phones while the map time dock is open. */
+@media(max-width:600px){
+ .panel-open .right-column{height:min(600px,calc(var(--app-height,100dvh) - var(--header-bottom) - 72px));max-height:calc(var(--app-height,100dvh) - var(--header-bottom) - 48px)}
+ .panel-open .right-column .science-panel{padding:8px 10px;border-radius:18px}
+ .panel-open .science-panel .panel-heading h1{font-size:18px;letter-spacing:-.3px}
+ .panel-open .science-panel .panel-heading .icon-button{width:30px;height:30px}
+ .panel-open .science-panel .selection-heading{padding:3px 0;gap:7px}
+ .panel-open .science-panel .selection-heading>svg{width:20px;height:20px}
+ .panel-open .science-panel .selection-heading>div>b{font-size:12px}
+ .panel-open .science-panel .selection-heading>div>span{font-size:9px}
+ .panel-open .science-panel .analysis-controls{gap:5px;margin:4px 0 6px}
+ .panel-open .science-panel .variable-segment label{padding:3px}
+ .panel-open .science-panel .period-select summary{min-height:38px;padding:4px 7px}
+ .panel-open .science-panel .primary{height:34px;min-height:34px}
+ .panel-open .science-panel .tabs button{padding:6px 2px;font-size:11px}
+ .panel-open .science-panel .panel-body{padding-top:6px;overflow:hidden}
+ .panel-open .science-panel .tab-content{gap:6px}
+ .panel-open .science-panel .trend-card{padding:7px 9px;gap:6px}
+ .panel-open .science-panel .metric-symbol svg{width:23px;height:23px}
+ .panel-open .science-panel .trend-value span,.panel-open .science-panel .p-metric>span{font-size:9px}
+ .panel-open .science-panel .trend-value strong{font-size:25px}
+ .panel-open .science-panel .trend-value small{font-size:9px}
+ .panel-open .science-panel .p-metric{padding-left:8px}
+ .panel-open .science-panel .p-metric b{font-size:11px}
+ .panel-open .science-panel .conclusion{padding:7px 8px;font-size:10px;line-height:1.35}
+ .panel-open .science-panel .conclusion svg{width:16px;height:16px}
+ .panel-open .science-panel .overview-view .preview{height:120px;min-height:120px;padding:7px 7px 0}
+ .panel-open .science-panel .chart-title{font-size:11px}
+ .panel-open .science-panel .chart-legend{font-size:8px}
+ .panel-open .science-panel .source-footer{padding:6px 8px;margin-top:5px;gap:6px}
+ .panel-open .science-panel .source-footer svg{width:19px;height:19px}
+ .panel-open .science-panel .source-footer b{font-size:10px}
+ .panel-open .science-panel .source-footer span{font-size:8px}
+}
 @media(min-width:601px){.map-time-dock{position:relative}.map-time-dock[data-expanded=true] .time-dock-heading{position:absolute;right:6px;top:6px;width:72px;height:36px;min-height:36px;z-index:6}.map-time-dock[data-expanded=true] .time-dock-toggle{flex:none;display:grid;place-items:center;width:32px;min-height:36px;padding:0}.map-time-dock[data-expanded=true] .time-dock-toggle>span,.map-time-dock[data-expanded=true] .time-dock-toggle>svg:first-child{display:none}.map-time-dock .map-timebar{height:70px;grid-template-rows:36px 20px 10px;gap:1px;padding:1px 2px}.timebar-date{margin-right:76px}.map-month-slider{height:20px;min-height:20px}.timebar-status{font-size:8px;line-height:10px}.temperature-ticks{height:15px;line-height:11px}.legend-source{line-height:10px}}
