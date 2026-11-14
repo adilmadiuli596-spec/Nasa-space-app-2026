@@ -9,7 +9,7 @@ import {useTemperatureLayer} from '../gibs/use-temperature-layer';
 import {Icon} from '../components/Icon';
 const STYLE='https://tiles.openfreemap.org/styles/positron';
 const canProject=(point:Point)=>Math.abs(point.latitude)<=85.0511287798066;
-export function MapView({temperature,point,cell,pick,focusKey=0,labelsVisible=true,command,panelOpen=false,summary,showSummary=true,onOpenAnalysis,initialCamera,onCameraChange}:PointMapProps){
+export function MapView({timeControlsVisible=false,temperature,point,cell,pick,focusKey=0,labelsVisible=true,command,panelOpen=false,summary,showSummary=true,onOpenAnalysis,initialCamera,onCameraChange}:PointMapProps){
  const host=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),handler=useRef(pick),selected=useRef(point);
  const layout=useRef<(()=>void)|null>(null);
  const currentLabels=useRef(labelsVisible);currentLabels.current=labelsVisible;
@@ -55,7 +55,8 @@ export function MapView({temperature,point,cell,pick,focusKey=0,labelsVisible=tr
    const small=innerWidth<=600,canvasHeight=m.getCanvas().clientHeight;
    const header=parseFloat(getComputedStyle(document.querySelector('main')!).getPropertyValue('--header-bottom'))||100;
    const width=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--panel-width'))||488;
-   const height=small&&panelOpen?document.querySelector('aside')?.getBoundingClientRect().height||0:0;
+   const reserve=parseFloat(getComputedStyle(document.querySelector('main')!).getPropertyValue('--map-time-reserve'))||0;
+   const height=small?reserve+(panelOpen?(document.querySelector('aside')?.getBoundingClientRect().height||0):0):0;
    const top=Math.min(header,canvasHeight/3),padding={top,right:!small&&panelOpen?width+30:16,bottom:Math.min(height+12,Math.max(0,canvasHeight-top-44)),left:60};
    // Finish camera/layout as one transaction: an older easeTo must not restore old padding.
    m.stop();const p=selected.current;
@@ -63,7 +64,7 @@ export function MapView({temperature,point,cell,pick,focusKey=0,labelsVisible=tr
   };
   layout.current=update;update();window.addEventListener('resize',update);
   return()=>{window.removeEventListener('resize',update);if(layout.current===update)layout.current=null;};
- },[panelOpen]);
+ },[panelOpen,timeControlsVisible]);
 
  useEffect(()=>{
   const m=map.current;if(!m||!point||!summary||!showSummary||!canProject(point)){setPopupHost(null);return;}

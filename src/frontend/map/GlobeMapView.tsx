@@ -10,7 +10,7 @@ import {SpaceBackdrop} from './globe-friend/SpaceBackdrop';
 import {useTemperatureLayer} from '../gibs/use-temperature-layer';
 import {Icon} from '../components/Icon';
 // Host adapter over the teammate EarthMap lifecycle/projection/selection implementation.
-export function GlobeMapView({temperature,point,pick,initialCamera,onCameraChange,focusKey=0,labelsVisible=true,command,panelOpen=false,summary,showSummary=true,onOpenAnalysis,space=false,onFailure}:{space?:boolean;onFailure:()=>void}&PointMapProps){
+export function GlobeMapView({timeControlsVisible=false,temperature,point,pick,initialCamera,onCameraChange,focusKey=0,labelsVisible=true,command,panelOpen=false,summary,showSummary=true,onOpenAnalysis,space=false,onFailure}:{space?:boolean;onFailure:()=>void}&PointMapProps){
  const container=useRef<HTMLDivElement>(null),latest=useRef({pick,point,onCameraChange,onFailure});latest.current={pick,point,onCameraChange,onFailure};
  const initial=useRef(initialCamera),layout=useRef<()=>void>(()=>{}),[popupHost,setPopupHost]=useState<HTMLDivElement|null>(null);
  const changed=useCallback((camera:{center:{lat:number;lng:number};zoom:number;bearing:number;pitch:number})=>{latest.current.onCameraChange?.({center:{latitude:camera.center.lat,longitude:camera.center.lng},zoom:camera.zoom,bearing:camera.bearing,pitch:camera.pitch});},[]);
@@ -29,9 +29,9 @@ export function GlobeMapView({temperature,point,pick,initialCamera,onCameraChang
  },[map,ready]);
  useEffect(()=>{if(!map||!ready)return;for(const layer of map.getStyle().layers??[])if(layer.type==='symbol')map.setLayoutProperty(layer.id,'visibility',labelsVisible?'visible':'none');},[map,ready,labelsVisible]);
  useEffect(()=>{if(!map||!ready)return;
-  const update=()=>{const small=innerWidth<=600,header=parseFloat(getComputedStyle(document.querySelector('main')!).getPropertyValue('--header-bottom'))||100,width=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--panel-width'))||472;map.stop();const p=latest.current.point;const padding=small?{top:4,bottom:4,left:10,right:10}:{top:header,right:panelOpen?width+30:16,bottom:16,left:70};if(p)map.jumpTo({center:[p.longitude,p.latitude],padding,...(small?{zoom:panelOpen?-0.4:0.6}:{})});else map.setPadding(padding);};
+  const update=()=>{const small=innerWidth<=600,header=parseFloat(getComputedStyle(document.querySelector('main')!).getPropertyValue('--header-bottom'))||100,width=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--panel-width'))||472;map.stop();const p=latest.current.point;const reserve=parseFloat(getComputedStyle(document.querySelector('main')!).getPropertyValue('--map-time-reserve'))||0;const padding=small?{top:4,bottom:panelOpen?4:Math.max(4,reserve),left:10,right:10}:{top:header,right:panelOpen?width+30:16,bottom:16,left:70};if(p)map.jumpTo({center:[p.longitude,p.latitude],padding,...(small?{zoom:panelOpen?-0.4:0.6}:{})});else map.setPadding(padding);};
   layout.current=update;update();const observer=new ResizeObserver(()=>{map.resize();update();});if(container.current)observer.observe(container.current);window.addEventListener('resize',update);return()=>{observer.disconnect();window.removeEventListener('resize',update);};
- },[map,ready,panelOpen]);
+ },[map,ready,panelOpen,timeControlsVisible]);
  useEffect(()=>{if(!map||!ready||!point)return;const el=document.createElement('div');el.className='point';el.title='Выбранная точка';el.dataset.anchor='bottom';el.dataset.latitude=String(point.latitude);el.dataset.longitude=String(point.longitude);
  el.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 32" width="30" height="40" aria-hidden="true"><path d="M12 32C10 28 0 20 0 12a12 12 0 0 1 24 0c0 8-10 16-12 20Z" fill="white"/><path d="M12 28C9 23 2 19 2 12a10 10 0 0 1 20 0c0 7-7 11-10 16Z" fill="#FC3D21"/><circle cx="12" cy="11" r="4" fill="white"/></svg>';
  const marker=new Marker({element:el,anchor:'bottom',opacityWhenCovered:0}).setLngLat([point.longitude,point.latitude]).addTo(map);return()=>{marker.remove();};
