@@ -4,7 +4,6 @@ import type { Map } from "maplibre-gl";
 import type { CameraState } from "./types/map.types";
 import { DEFAULT_VIEW } from "./lib/map-config";
 import { spaceCanvasSize, spaceVisibility } from "./lib/space-camera";
-import { isEmbeddedPreview } from "./lib/render-performance";
 import { createSpaceRenderer, type SpaceRenderer } from "./lib/space-renderer";
 import panorama from "./assets/cosmic-sky.webp";
 import s from "./earth-map.module.css";
@@ -27,7 +26,8 @@ export function SpaceBackdrop({ map, initialView, active = true }: { map: Map | 
     let initialized = false;
     let frame = 0;
     let renderer: SpaceRenderer | null = null;
-    const lightweight = isEmbeddedPreview();
+    // Reuse the teammate CSS fallback path: this visual polish needs no second WebGL context.
+    const lightweight = true;
     const motion = window.matchMedia?.("(prefers-reduced-motion: reduce)");
     const frozen = initial.current;
     const draw = () => {
@@ -101,7 +101,7 @@ export function SpaceBackdrop({ map, initialView, active = true }: { map: Map | 
     };
   }, [map]);
   return <div ref={root} className={s.spaceBackdrop} hidden={!active} aria-hidden="true" data-space-backdrop=""
-    style={{ backgroundImage: 'url("' + panorama.src + '")' }}>
+    style={{ backgroundImage: 'linear-gradient(rgba(6,17,43,.87),rgba(6,17,43,.87)),url("' + panorama.src + '")' }}>
     <canvas ref={canvas} className={s.spaceCanvas} />
   </div>;
 }
