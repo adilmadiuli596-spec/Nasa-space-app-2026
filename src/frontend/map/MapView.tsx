@@ -8,15 +8,18 @@ import {mapPadding} from './camera-layout';
 import {addMapAttribution} from './map-attribution';
 import {useTemperatureLayer} from '../gibs/use-temperature-layer';
 import {Icon} from '../components/Icon';
+import {useComparisonMarkers,fitComparisonPoints} from './comparison-markers';
 const STYLE='https://tiles.openfreemap.org/styles/positron';
 const canProject=(point:Point)=>Math.abs(point.latitude)<=85.0511287798066;
-export function MapView({timeControlsVisible=false,temperature,point,cell,pick,focusKey=0,labelsVisible=true,command,panelOpen=false,summary,showSummary=true,onOpenAnalysis,initialCamera,onCameraChange}:PointMapProps){
+export function MapView({timeControlsVisible=false,temperature,comparisonPoints,onComparisonPointSelect,point,cell,pick,focusKey=0,labelsVisible=true,command,panelOpen=false,summary,showSummary=true,onOpenAnalysis,initialCamera,onCameraChange}:PointMapProps){
  const host=useRef<HTMLDivElement>(null),map=useRef<maplibregl.Map|null>(null),handler=useRef(pick),selected=useRef(point);
  const layout=useRef<(()=>void)|null>(null);
  const currentLabels=useRef(labelsVisible);currentLabels.current=labelsVisible;
+ const comparison=useRef(comparisonPoints);comparison.current=comparisonPoints;
  handler.current=pick;selected.current=point;
  const [activeMap,setActiveMap]=useState<maplibregl.Map|null>(null);
  useTemperatureLayer(activeMap,temperature);
+ useComparisonMarkers(activeMap,comparisonPoints,'2d',onComparisonPointSelect);
  const [issue,setIssue]=useState(''),[loading,setLoading]=useState(true),[popupHost,setPopupHost]=useState<HTMLDivElement|null>(null);
  useEffect(()=>{
   if(!host.current)return;let m:maplibregl.Map;
@@ -35,27 +38,27 @@ export function MapView({timeControlsVisible=false,temperature,point,cell,pick,f
   m.on('movestart',()=>host.current?.removeAttribute('data-map-ready'));
   m.on('error',e=>{if('sourceId' in e&&String(e.sourceId).startsWith('earth-overlay-'))return;setLoading(false);setIssue('Часть подложки не загрузилась. Можно повторить загрузку или ввести координаты.');});
   m.on('idle',()=>{if(m.areTilesLoaded()&&m.isStyleLoaded()){setLoading(false);setIssue('');host.current?.setAttribute('data-map-ready','true');}});
-  const observer=new ResizeObserver(()=>{m.resize();layout.current?.();const p=selected.current;if(p&&canProject(p)&&!m.getBounds().contains([p.longitude,p.latitude]))m.jumpTo({center:[p.longitude,p.latitude]});});observer.observe(host.current);
+  const observer=new ResizeObserver(()=>{m.resize();layout.current?.();const p=selected.current;if(!comparison.current&&p&&canProject(p)&&!m.getBounds().contains([p.longitude,p.latitude]))m.jumpTo({center:[p.longitude,p.latitude]});});observer.observe(host.current);
   return()=>{clearTimeout(timer);observer.disconnect();m.remove();map.current=null;};
  },[]);
  useEffect(()=>{
-  const m=map.current;if(!m||!point||!canProject(point))return;
+  const m=map.current;if(!m||comparisonPoints||!point||!canProject(point))return;
   const el=document.createElement('div');el.className='point';el.title='Выбранная точка';
   el.innerHTML='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 32" width="30" height="40" aria-hidden="true"><path d="M12 32C10 28 0 20 0 12a12 12 0 0 1 24 0c0 8-10 16-12 20Z" fill="white"/><path d="M12 28C9 23 2 19 2 12a10 10 0 0 1 20 0c0 7-7 11-10 16Z" fill="#FC3D21"/><circle cx="12" cy="11" r="4" fill="white"/></svg>';
   el.dataset.anchor='bottom';el.dataset.latitude=String(point.latitude);el.dataset.longitude=String(point.longitude);
   const marker=new maplibregl.Marker({element:el,anchor:'bottom'}).setLngLat([point.longitude,point.latitude]).addTo(m);
   if(!m.getBounds().contains([point.longitude,point.latitude]))m.easeTo({center:[point.longitude,point.latitude],duration:400});return()=>{marker.remove();};
- },[point?.latitude,point?.longitude]);
+ },[point?.latitude,point?.longitude,Boolean(comparisonPoints)]);
  useEffect(()=>{const m=map.current,p=selected.current;if(m&&p&&canProject(p)&&focusKey)m.easeTo({center:[p.longitude,p.latitude],zoom:Math.max(6,m.getZoom()),duration:400});},[focusKey]);
 
  useEffect(()=>{const m=map.current;if(m?.isStyleLoaded())for(const layer of m.getStyle().layers||[])if(layer.type==='symbol')m.setLayoutProperty(layer.id,'visibility',labelsVisible?'visible':'none');},[labelsVisible]);
  useEffect(()=>{const m=map.current;if(!m||!command)return;if(command.type==='in')m.zoomIn();else if(command.type==='out')m.zoomOut();else m.fitBounds([[-180,-85.0511287798066],[180,85.0511287798066]],{padding:mapPadding(m),duration:400});},[command]);
  useEffect(()=>{
   const m=map.current;if(!m)return;
-  const update=()=>{const padding=mapPadding(m);m.stop();const p=selected.current;if(p&&canProject(p))m.easeTo({center:[p.longitude,p.latitude],padding,duration:window.matchMedia('(prefers-reduced-motion: reduce)').matches?0:180});else m.setPadding(padding);};
+  const update=()=>{if(comparison.current){fitComparisonPoints(m,comparison.current);return;}const padding=mapPadding(m);m.stop();const p=selected.current;if(p&&canProject(p))m.easeTo({center:[p.longitude,p.latitude],padding,duration:window.matchMedia('(prefers-reduced-motion: reduce)').matches?0:180});else m.setPadding(padding);};
   layout.current=update;update();window.addEventListener('resize',update);const observer=new ResizeObserver(update);const dock=document.querySelector('.right-column');if(dock)observer.observe(dock);
   return()=>{observer.disconnect();window.removeEventListener('resize',update);if(layout.current===update)layout.current=null;};
- },[panelOpen,timeControlsVisible]);
+ },[panelOpen,timeControlsVisible,Boolean(comparisonPoints)]);
 
  useEffect(()=>{
   const m=map.current;if(!m||!point||!summary||!showSummary||!canProject(point)){setPopupHost(null);return;}
