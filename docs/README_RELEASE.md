@@ -1,0 +1,12 @@
+# README and source-release preparation
+
+15 November 2026 — Team ASTRALISS. Documentation and licence files only.
+
+- Replaced the outdated README with an English presentation: centred original logo/title, live link, technology badges, navigation/contents, product/problem/solution/features, distinct NASA sources, scientific methods, real versions, Mermaid architecture, four fresh screenshots, quick start/tests, limitations, credits and scoped licence.
+- Logo remains public/brand/earth-detective-logo.png; GitHub raw HTTP200, identical bytes. Four captures were taken from the current public N4C.2B app with real POWER results, not reused old UI images. No logo copies, internet image downloads or app changes.
+- LICENSE is the complete unmodified official Apache2.0 text, 11,358 bytes, verified against https://www.apache.org/licenses/LICENSE-2.0.txt. NOTICE specifies scope, source/dependency/AI credits and exceptions. Added the previously missing Next.js licence copy.
+- **Outstanding rights issue:** recorded teammate permission for globe-friend covers team use, not an explicit Apache redistribution grant. Its directory is excluded from the root grant; the complete repository is not presented as cleared for unrestricted Apache redistribution. The author must clarify permission before that claim. No third-party licence was replaced; data/imagery/brand rights remain separate.
+- 38 local references and20 README anchors checked against real paths/headings. GitHub Markdown API accepted rendering (HTTP200); its API output omits heading IDs, so final GitHub page display is checked after push. Main external pages and badges HTTP200. OSM copyright returned429 to automated fetch; the same official page was verified through the web reader. Official NASA documentation was checked; invalid historical GMAO/POWER links were not used.
+- 173 tracked application/configuration/brand files retain their initial SHA-256 hashes. No scientific code, API, UI, dependencies, .env or runtime configuration changed. Build and long scientific tests deliberately not rerun for documentation.
+- Git status exposed an unrelated untracked modus-trade-feedback/ directory during this task; it is untouched and excluded from staging.
+- Commit: the documentation commit containing this report; exact hash and post-push GitHub verification are supplied in the final response. Only origin/main, no force push or new branches. Secret scan is performed before push. Costs **0 KZT**. No further development stages.
