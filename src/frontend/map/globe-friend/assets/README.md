@@ -3,10 +3,14 @@
 Created with the built-in `image_gen.imagegen` tool on 2026-11-14 for Earth Detective. This is an original AI-generated decorative environment, not Google Earth imagery, NASA observation data, or a calibrated star catalogue.
 
 - Runtime asset: [cosmic-sky.webp](cosmic-sky.webp), 1774 × 887 px, 197,862 bytes, quality 90 WebP conversion.
-- Original generated artwork: [cosmic-sky-source.png](cosmic-sky-source.png).
+- Original generation filename: cosmic-sky-source.png (historical source PNG; not included in this repository).
 - Mapping: equirectangular 360° × 180° celestial sphere, camera-driven WebGL2 pass.
 - The renderer feathers the panorama seam and adds deterministic decorative point stars.
 - No Three.js, paid API, runtime image generation or external space-image request.
+
+## Licence scope
+
+The author’s newly confirmed Apache-2.0 permission covers code only. This raster image is excluded from that grant and the root Apache code grant; no explicit image redistribution licence has been recorded. Keep this provenance and clarify image redistribution terms separately. It is not third-party NASA imagery. See [NOTICE](../../../../../NOTICE).
 
 Final generation prompt, verbatim:
 

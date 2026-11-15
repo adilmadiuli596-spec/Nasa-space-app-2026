@@ -41,5 +41,31 @@
       "source_sha256": "681645d77aa864bc965ee86442af7b3dfe99f24abb16799bafe89f8502ae64e0",
       "adapted_parts": "Projection effect, point selection and camera commands reused in GlobeMapView; donor demonstration UI not copied"
     }
+  },
+  "apache_permission": {
+    "recorded_date": "2026-11-15",
+    "license": "Apache-2.0",
+    "author": "Earth Detective team member (name not supplied)",
+    "basis": "Project owner confirmed the author permits publication and distribution of their code under Apache License 2.0; correspondence is retained privately by the owner, not independently inspected or published here.",
+    "supersedes": "Earlier team-use-only restriction for the consenting author code; historical permission/scope fields and original hashes remain unchanged.",
+    "code_files": [
+      "SpaceBackdrop.tsx",
+      "earth-map.module.css",
+      "hooks/useEarthMap.ts",
+      "lib/geo-utils.ts",
+      "lib/gibs.ts",
+      "lib/map-config.ts",
+      "lib/map-layers.ts",
+      "lib/render-performance.ts",
+      "lib/space-camera.ts",
+      "lib/space-renderer.ts",
+      "types/map.types.ts"
+    ],
+    "host_adaptations": "Includes the consenting author contributions reused in GlobeMapView.tsx as already described by files.EarthMap.tsx.adapted_parts; no third-party materials relicensed.",
+    "exclusions": [
+      "assets/cosmic-sky.webp and other non-code resources",
+      "Third-party libraries, fonts, map tiles, geographic and NASA data",
+      "Names, logos and trademarks"
+    ]
   }
 }

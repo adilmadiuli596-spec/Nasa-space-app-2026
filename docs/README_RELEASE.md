@@ -1,3 +1,5 @@
+**Historical release report.** The globe-code permission issue recorded below was subsequently resolved by the owner’s 15 November 2026 confirmation. See [current licensing report](GLOBE_LICENSE.md); the decorative image remains separately restricted.
+
 # README and source-release preparation
 
 15 November 2026 — Team ASTRALISS. Documentation and licence files only.

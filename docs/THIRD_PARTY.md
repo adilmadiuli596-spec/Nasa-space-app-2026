@@ -1,6 +1,6 @@
 # Current release notice — 15 November 2026
 
-Original project code is now Apache-2.0 within the scope of [NOTICE](../NOTICE), with the teammate globe module explicitly excluded pending licence clarification. See [RELEASE_ATTRIBUTION](RELEASE_ATTRIBUTION.md) for current dependency, data and AI credits. The historical inventories below remain evidence of earlier checks, not current submission status or a blanket relicensing of dependencies.
+Original project code is now Apache-2.0 within the scope of [NOTICE](../NOTICE), including the consenting globe author’s code as confirmed by the owner on 15 November 2026; the decorative sky image and provider resources remain outside that code grant. See [RELEASE_ATTRIBUTION](RELEASE_ATTRIBUTION.md) for current dependency, data and AI credits. The historical inventories below remain evidence of earlier checks, not current submission status or a blanket relicensing of dependencies.
 
 # Зависимости N1
 Точные версии закреплены в package.json и package-lock.json. Установленное дерево и license metadata: N1_DEPENDENCIES.json; копии найденных LICENSE/NOTICE/COPYING — docs/licenses/. Проверка npm audit — N1_AUDIT.json (0 известных уязвимостей на дату проверки; не гарантия отсутствия всех дефектов).

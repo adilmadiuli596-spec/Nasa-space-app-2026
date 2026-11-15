@@ -2,11 +2,11 @@
 
 Reviewed 15 November 2026 against package.json, package-lock.json, installed package notices and recorded provenance. No earlier root LICENSE was present. The owner authorised Apache 2.0 for original project code; no legal entity or individual identity is invented.
 
-## Scope and outstanding rights
+## Code permission and separate resource rights
 
-The complete official Apache text is in [LICENSE](../LICENSE); scope and credits are in [NOTICE](../NOTICE). The [teammate globe module](../src/frontend/map/globe-friend/ORIGIN.md) has permission for team use, not a documented Apache grant. Its entire directory is excluded pending contributor clarification. Do not describe the whole repository as cleared for Apache redistribution. Nothing inside that module was removed or relicensed.
+The complete official Apache text is in [LICENSE](../LICENSE); credits and resource exceptions are in [NOTICE](../NOTICE). On 15 November 2026 the owner confirmed the contributing author permits publication and distribution of their globe code under Apache License 2.0; the owner holds the correspondence privately. The author is identified only as an Earth Detective team member (name not supplied). The prior code exclusion is removed for the files listed in [module provenance](../src/frontend/map/globe-friend/ORIGIN.md), including that author’s contributions reused by the host adapter. This records the owner’s confirmation, not independent inspection of the private messages. Third-party code and resources are not relicensed.
 
-The [sky provenance](../src/frontend/map/globe-friend/assets/README.md) identifies OpenAI image generation, not NASA imagery. The tracked WebP is used at runtime; the historical source PNG mentioned there is not present in the repository. Branding grants no trademark rights. Source data and screenshots with provider content retain their applicable terms.
+**Remaining image scope:** cosmic-sky.webp is not covered by the author’s code permission and stays outside the Apache code grant; an explicit redistribution licence for the image has not been recorded. Do not claim blanket Apache licensing of all assets and data. The [sky provenance](../src/frontend/map/globe-friend/assets/README.md) identifies OpenAI image generation, not NASA imagery. The tracked WebP is used at runtime; the historical source PNG mentioned there is not present in the repository. Branding grants no trademark rights. Source data and screenshots with provider content retain their applicable terms.
 
 ## Direct runtime dependencies
 

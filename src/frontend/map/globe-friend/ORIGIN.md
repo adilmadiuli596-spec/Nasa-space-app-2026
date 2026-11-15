@@ -1,7 +1,32 @@
-# Team globe module
+# Team globe module — origin and licensing
 
-Origin: D:\Downloads\earth detective\earth detective\src\components\earth-map. Author: teammate of the project owner, name not supplied. On 2026-11-14 the owner confirmed: author allowed this use; they work as a team. Integration authorized by N4G. This notice records team permission, does not assign an invented MIT licence to the teammate code. Original hashes: docs/N4G_ORIGIN.json.
+Origin: D:\Downloads\earth detective\earth detective\src\components\earth-map. Contributing author: **Earth Detective team member (name not supplied)**. Initial team-use permission was confirmed by the owner on 14 November 2026; original source hashes remain in [N4G_ORIGIN.json](../../../../docs/N4G_ORIGIN.json).
 
-MapLibre GL JS 6.18.0: BSD-3-Clause (existing dependency). No new runtime dependencies. Only the existing OpenFreeMap/OSM basemap is used; EOX, OSM public raster and demo tile/font servers from the standalone app are not used. Decorative sky is original AI-generated artwork as documented in assets/README.md; not NASA imagery or calibrated star data.
+## Apache code permission
 
-useEarthMap is adapted for the host worker, compact attribution, generic basemap loading and error fallback. SpaceBackdrop uses only two scoped CSS classes. Geographic utilities, renderer and future layer helpers retain the teammate implementation. EarthMap projection/selection logic is reused by the host adapter without its demo panels. N4B is not implemented.
+On **15 November 2026**, the project owner confirmed the author explicitly permits publication and distribution of their code under **[Apache License 2.0](../../../../LICENSE)**. The owner retains the correspondence privately. This document records that owner confirmation; it does not claim independent inspection of the messages or disclose private correspondence. No individual name or legal entity is invented.
+
+The previous team-use-only code exclusion is removed for the consenting author’s original contributions in these files, together with project-owned adaptations:
+
+- [SpaceBackdrop.tsx](SpaceBackdrop.tsx)
+- [earth-map.module.css](earth-map.module.css)
+- [hooks/useEarthMap.ts](hooks/useEarthMap.ts)
+- [lib/geo-utils.ts](lib/geo-utils.ts)
+- [lib/gibs.ts](lib/gibs.ts)
+- [lib/map-config.ts](lib/map-config.ts)
+- [lib/map-layers.ts](lib/map-layers.ts)
+- [lib/render-performance.ts](lib/render-performance.ts)
+- [lib/space-camera.ts](lib/space-camera.ts)
+- [lib/space-renderer.ts](lib/space-renderer.ts)
+- [types/map.types.ts](types/map.types.ts)
+
+The permission also covers that author’s projection, point-selection and camera code reused in the host [GlobeMapView](../GlobeMapView.tsx), as recorded in the original provenance. It does not relicense third-party components merely imported or used by these files. The existing host adaptations and original hashes remain documented; no implementation changed in this licensing update.
+
+## Separate resources and attribution
+
+- MapLibre GL JS remains BSD-3-Clause; React and GeoJSON type definitions remain MIT. Their original notices are retained in [docs/licenses](../../../../docs/licenses/).
+- OpenFreeMap / OpenMapTiles / OpenStreetMap basemap content and NASA GIBS layers retain provider terms and attribution. Legacy EOX/demo providers from the standalone prototype are not active host sources.
+- **assets/cosmic-sky.webp is not code and is outside this author-code permission and Apache code grant.** Its explicit image redistribution licence has not been recorded. Retain the [AI image provenance](assets/README.md) and clarify image redistribution terms separately. It is not NASA imagery, an observation layer or a star catalogue.
+- Names, logos and other provider resources are not relicensed. See [NOTICE](../../../../NOTICE) and [release attribution](../../../../docs/RELEASE_ATTRIBUTION.md).
+
+The scope update concerns licensing only; no UI, camera, map renderer or scientific behaviour has changed.

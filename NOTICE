@@ -6,12 +6,24 @@ that its contributors are entitled to license, except where separately
 identified. This notice does not relicense third-party materials or grant
 trademark rights.
 
-EXCEPTIONS AND RIGHTS PENDING
-The directory src/frontend/map/globe-friend/ contains an adapted teammate module
-and decorative assets. Recorded permission covers use in this team project,
-not a documented Apache grant. This directory is excluded from the project's
-Apache grant pending clarification. See its ORIGIN.md and docs/N4G_ORIGIN.json.
-Do not assume the complete repository is cleared for Apache redistribution.
+GLOBE CODE CONTRIBUTION
+The original code contributed by an Earth Detective team member (name not
+supplied) in src/frontend/map/globe-friend/ is included under Apache-2.0.
+On 2026-11-15, the project owner reported that the author explicitly permits
+publication and distribution of their code under Apache License 2.0, with
+the correspondence retained privately by the owner. The previous team-use-only
+code exclusion is removed. See ORIGIN.md there and docs/N4G_ORIGIN.json for
+the code-file inventory and preserved original provenance. No author name
+is inferred and the private correspondence is not published.
+
+SEPARATE MATERIALS AND RIGHTS PENDING
+This code permission does not relicense dependencies, map content or images.
+In particular, src/frontend/map/globe-friend/assets/cosmic-sky.webp is a
+separately documented AI-generated decorative raster, not the author's code.
+It remains outside the Apache code grant; no explicit redistribution licence
+for that image is recorded. Preserve its provenance and clarify its image
+redistribution terms separately. React/GeoJSON types retain MIT and MapLibre
+retains BSD-3-Clause; geographic content retains applicable provider terms.
 
 Names and logos in public/brand/ remain project branding; no trademark rights
 in Earth Detective, ASTRALISS or any provider marks are granted by this release.

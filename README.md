@@ -205,11 +205,11 @@ This README-only release does not rerun the full scientific suite or production 
 - A/B comparison reports two separate trends. Their statistical difference, structural reanalysis uncertainty and spatial multiple testing are not assessed.
 - The browser cache is session-local. A page reload does not preserve all previous results; returning from analytics recreates the map camera around selected points.
 - The interface is currently Russian. Additional variables, bilingual controls and a separate dark UI theme remain outside this release.
-- Open-source redistribution of the teammate globe module still needs explicit licence clarification; see [License](#license).
+- The decorative sky image and third-party data retain separate terms; the author’s Apache permission covers globe code, not those resources. See [License](#license).
 
 ## Credits & Attribution
 
-**Team ASTRALISS** develops and integrates Earth Detective. The globe reuses a teammate's implementation with recorded team-use permission; no contributor names or legal entities are invented.
+**Team ASTRALISS** develops and integrates Earth Detective. The globe reuses code contributed by an Earth Detective team member (name not supplied), now included under Apache License 2.0 with the author’s permission as confirmed by the project owner on 15 November 2026. The owner retains the correspondence privately; it is not reproduced here.
 
 Data: **NASA POWER**, **NASA GMAO MERRA-2**, and **NASA GIBS / Earthdata**. Basemap: [OpenFreeMap](https://openfreemap.org/), [OpenMapTiles](https://openmaptiles.org/) and [OpenStreetMap contributors](https://www.openstreetmap.org/copyright). Manual place search: [Photon / Komoot](https://photon.komoot.io/). MapLibre renders the map; provider attribution remains available through its compact information control.
 
@@ -221,4 +221,6 @@ See [NOTICE](NOTICE), [release attribution and rights exceptions](docs/RELEASE_A
 
 Original Earth Detective code and documentation are offered under the **[Apache License 2.0](LICENSE)**, subject to the scope in [NOTICE](NOTICE). Third-party dependencies, data, imagery and trademarks retain their own terms.
 
-**Rights clarification pending:** the directory src/frontend/map/globe-friend/ is excluded from the Apache grant because its recorded permission covers team use, not an explicit Apache redistribution grant. Do not assume the entire repository is cleared for unrestricted Apache redistribution. The original author must clarify that grant before the whole project can be described that way. No third-party licence has been replaced.
+**Globe code:** the previous exclusion is removed for the consenting author’s code in src/frontend/map/globe-friend/. The [module provenance and file inventory](src/frontend/map/globe-friend/ORIGIN.md) record this grant without inventing an author name.
+
+**Separate resources:** assets/cosmic-sky.webp is an AI-generated decorative image, not code covered by that permission. Its redistribution licence remains unrecorded and it stays outside the Apache code grant. Provider imagery/data and third-party dependencies retain their own conditions. Do not treat the complete repository, including all assets and data, as uniformly Apache-licensed. No third-party licence has been replaced.
