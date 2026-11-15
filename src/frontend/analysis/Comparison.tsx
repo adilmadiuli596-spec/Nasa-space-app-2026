@@ -3,8 +3,8 @@ import type {AnalysisPair} from '../api';
 import type {NamedPoint,Slot} from './use-point-comparison';
 const ids=['A','B'] as const;
 const number=(v:number|null)=>v===null?'Не определено':v!==0&&Math.abs(v)<0.0001?v.toExponential(3).replace('.',','):v.toLocaleString('ru-RU',{maximumSignificantDigits:6});
-export function ComparisonPicker({points,active,onSelect}:{points:Record<Slot,NamedPoint|null>;active:Slot;onSelect:(slot:Slot)=>void}){
- return <div className="comparison-picker"><div className="comparison-locations">{ids.map(id=><button type="button" key={id} aria-label={'Выбирать точку '+id} aria-pressed={active===id} onClick={()=>onSelect(id)}><span className={'comparison-badge slot-'+id}>{id}</span><span><b title={points[id]?.title}>{points[id]?.title??'Выберите точку '+id}</b><small>{points[id]?points[id]!.point.latitude+'°, '+points[id]!.point.longitude+'°':'Карта или поиск сверху'}</small></span></button>)}</div><p>Выбирается точка {active} · нажмите на карту или используйте поиск.</p></div>;
+export function ComparisonPicker({points,active,onSelect,hint}:{hint?:string;points:Record<Slot,NamedPoint|null>;active:Slot;onSelect:(slot:Slot)=>void}){
+ return <div className="comparison-picker"><div className="comparison-locations">{ids.map(id=><button type="button" key={id} aria-label={'Выбирать точку '+id} aria-pressed={active===id} onClick={()=>onSelect(id)}><span className={'comparison-badge slot-'+id}>{id}</span><span><b title={points[id]?.title}>{points[id]?.title??'Выберите точку '+id}</b><small>{points[id]?points[id]!.point.latitude+'°, '+points[id]!.point.longitude+'°':'Карта или поиск сверху'}</small></span></button>)}</div><p>{hint??<>Выбирается точка {active} · нажмите на карту или используйте поиск.</>}</p></div>;
 }
 export function ComparisonResults({points,results,errors,busy,variable,start,end,cancel}:{points:Record<Slot,NamedPoint|null>;results:Record<Slot,AnalysisPair|null>;errors:Partial<Record<Slot,string>>;busy:boolean;variable:'T2M'|'QV2M';start:string;end:string;cancel:()=>void}){
  const unit=variable==='T2M'?'°C':'г/кг';
