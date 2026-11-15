@@ -26,7 +26,7 @@ The permission also covers that author’s projection, point-selection and camer
 
 - MapLibre GL JS remains BSD-3-Clause; React and GeoJSON type definitions remain MIT. Their original notices are retained in [docs/licenses](../../../../docs/licenses/).
 - OpenFreeMap / OpenMapTiles / OpenStreetMap basemap content and NASA GIBS layers retain provider terms and attribution. Legacy EOX/demo providers from the standalone prototype are not active host sources.
-- **assets/cosmic-sky.webp is not code and is outside this author-code permission and Apache code grant.** Its explicit image redistribution licence has not been recorded. Retain the [AI image provenance](assets/README.md) and clarify image redistribution terms separately. It is not NASA imagery, an observation layer or a star catalogue.
+- **assets/earth-detective-sky.webp is a new owner-supplied AI-created background, not code covered by the author’s Apache permission.** It replaces the removed cosmic-sky.webp; project use/publication were requested without asserting copyright eligibility or exclusive ownership or supplying a broader image sublicence. Retain the [current image provenance](assets/README.md). It is not NASA imagery, an observation layer or a star catalogue.
 - Names, logos and other provider resources are not relicensed. See [NOTICE](../../../../NOTICE) and [release attribution](../../../../docs/RELEASE_ATTRIBUTION.md).
 
 The scope update concerns licensing only; no UI, camera, map renderer or scientific behaviour has changed.

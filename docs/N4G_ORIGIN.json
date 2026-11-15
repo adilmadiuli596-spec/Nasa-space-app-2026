@@ -67,5 +67,17 @@
       "Third-party libraries, fonts, map tiles, geographic and NASA data",
       "Names, logos and trademarks"
     ]
+  },
+  "decorative_asset_replacement": {
+    "date": "2026-11-15",
+    "old_asset": "assets/cosmic-sky.webp",
+    "old_asset_sha256": "86f31d559d124287fd65c0340d879f952fdaa50df327a666f4812e4e7f3507e1",
+    "status": "Old asset removed from current source and imports; historical source hashes above remain unchanged.",
+    "runtime_asset": "assets/earth-detective-sky.webp",
+    "runtime_sha256": "2a6b95ca0baabad96a08c4b9dadddb645453d4da42e67d6d643308dd4754b214",
+    "source_filename": "Тёмно-синяя звёздная туманность.png",
+    "source_sha256": "f86a67bbc73684d15d43626135aae525904287e30a8e3b27b2bf7c3a569b6080",
+    "provenance": "Owner supplied an AI-created image made for Earth Detective and requested project use and publication. Tool/model unspecified. No copyright eligibility, exclusive ownership or broader image licence asserted.",
+    "code_license": "Unaffected; raster provenance is separate from the author code Apache grant."
   }
 }

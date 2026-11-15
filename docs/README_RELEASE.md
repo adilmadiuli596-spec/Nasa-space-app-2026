@@ -1,3 +1,5 @@
+**Subsequent image update:** the earlier sky referenced in this historical report has been removed. See [current background replacement report](SKY_REPLACEMENT.md) and current NOTICE for the owner-supplied replacement provenance.
+
 **Historical release report.** The globe-code permission issue recorded below was subsequently resolved by the owner’s 15 November 2026 confirmation. See [current licensing report](GLOBE_LICENSE.md); the decorative image remains separately restricted.
 
 # README and source-release preparation

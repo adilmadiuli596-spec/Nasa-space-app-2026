@@ -5,7 +5,7 @@ import type { CameraState } from "./types/map.types";
 import { DEFAULT_VIEW } from "./lib/map-config";
 import { spaceCanvasSize, spaceVisibility } from "./lib/space-camera";
 import { createSpaceRenderer, type SpaceRenderer } from "./lib/space-renderer";
-import panorama from "./assets/cosmic-sky.webp";
+import panorama from "./assets/earth-detective-sky.webp";
 import s from "./earth-map.module.css";
 
 /** Cache the sky across projection changes; embedded previews use the lightweight panorama. */

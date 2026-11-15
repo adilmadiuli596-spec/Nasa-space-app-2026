@@ -1,3 +1,5 @@
+**Subsequent image update:** the earlier sky referenced in this historical report has been removed. See [current background replacement report](SKY_REPLACEMENT.md) and current NOTICE for the owner-supplied replacement provenance.
+
 # Globe code licensing update
 
 15 November 2026. Owner confirms the globe author permits publication and distribution of their code under Apache-2.0 and retains correspondence privately. Attribution remains “Earth Detective team member (name not supplied)”. Private correspondence was not requested or published.
